@@ -1,0 +1,64 @@
+{% extends "CoreApp/vue_layout/vue-layout.html" %}
+{% load i18n %}
+{% load account %}
+
+
+{% block content %}
+<v-container fluid class="fill-height">
+  <v-row align="center" justify="center">
+    <v-col cols="12" sm="8" md="6" lg="4">
+      <v-card class="mx-auto elevation-10 rounded-lg">
+        <v-card-item class="text-center mt-8">
+          {% include "AuthApp/components/logo.html" %}
+          <v-card-title class="text-h4 font-weight-bold">
+            {% trans "Verify Your Email" %}
+          </v-card-title>
+          <v-card-subtitle>
+            {% trans "We've sent you a verification email" %}
+          </v-card-subtitle>
+        </v-card-item>
+
+        <v-card-text class="pa-4 text-center">
+          <v-icon
+            icon="mdi-email-check"
+            size="64"
+            color="info"
+            class="mb-4"
+          ></v-icon>
+          
+          <p class="text-body-1 mb-4">
+            {% trans "Please check your email and click on the verification link to complete your registration." %}
+          </p>
+          
+          <p class="text-body-2 mb-4">
+            {% trans "If you don't receive an email within a few minutes, please check your spam folder." %}
+          </p>
+
+          <v-btn
+            color="primary"
+            href="{% url 'account_login' %}"
+            class="mb-4"
+          >
+            {% trans "Return to Login" %}
+          </v-btn>
+        </v-card-text>
+      </v-card>
+
+      {% include "AuthApp/components/footer.html" %}
+    </v-col>
+  </v-row>
+</v-container>
+{% endblock content %}
+
+{% block page_js %}
+<script>
+    const app = createApp({
+        delimiters: ["[[", "]]"],
+        data() {
+            return {};
+        }
+    });
+
+    app.use(vuetify).mount("#app");
+</script>
+{% endblock page_js %} 

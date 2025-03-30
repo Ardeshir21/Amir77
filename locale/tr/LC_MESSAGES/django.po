@@ -1,0 +1,557 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-03-24 08:58+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+#: Amir77/settings.py:188
+msgid "Turkish"
+msgstr ""
+
+#: Amir77/settings.py:189
+msgid "English"
+msgstr ""
+
+#: apps/AuthApp/admin.py:20
+msgid "Permissions"
+msgstr ""
+
+#: apps/AuthApp/admin.py:22
+msgid "Important dates"
+msgstr ""
+
+#: apps/AuthApp/forms.py:17
+msgid "E-mail address"
+msgstr ""
+
+#: apps/AuthApp/forms.py:23
+msgid "E-mail"
+msgstr ""
+
+#: apps/AuthApp/templates/AuthApp/account_inactive.html:15
+msgid "Account Inactive"
+msgstr ""
+
+#: apps/AuthApp/templates/AuthApp/account_inactive.html:18
+msgid "This account is currently inactive"
+msgstr ""
+
+#: apps/AuthApp/templates/AuthApp/account_inactive.html:31
+msgid "Please contact the administrator to activate your account."
+msgstr ""
+
+#: apps/AuthApp/templates/AuthApp/account_inactive.html:39
+#: apps/AuthApp/templates/AuthApp/password_reset_done.html:38
+#: apps/AuthApp/templates/AuthApp/verification_sent.html:42
+msgid "Return to Login"
+msgstr ""
+
+#: apps/AuthApp/templates/AuthApp/components/footer.html:4
+msgid "All rights reserved"
+msgstr ""
+
+#: apps/AuthApp/templates/AuthApp/email.html:15
+msgid "Email Addresses"
+msgstr ""
+
+#: apps/AuthApp/templates/AuthApp/email.html:18
+msgid "Manage your email addresses"
+msgstr ""
+
+#: apps/AuthApp/templates/AuthApp/email.html:52
+msgid "Verified"
+msgstr ""
+
+#: apps/AuthApp/templates/AuthApp/email.html:60
+msgid "Unverified"
+msgstr ""
+
+#: apps/AuthApp/templates/AuthApp/email.html:69
+msgid "Primary"
+msgstr ""
+
+#: apps/AuthApp/templates/AuthApp/email.html:85
+msgid "Make Primary"
+msgstr ""
+
+#: apps/AuthApp/templates/AuthApp/email.html:95
+msgid "Re-send Verification"
+msgstr ""
+
+#: apps/AuthApp/templates/AuthApp/email.html:105
+msgid "Remove"
+msgstr ""
+
+#: apps/AuthApp/templates/AuthApp/email.html:122
+msgid "Add Email Address"
+msgstr ""
+
+#: apps/AuthApp/templates/AuthApp/email.html:141
+msgid "Add Email"
+msgstr ""
+
+#: apps/AuthApp/templates/AuthApp/email.html:149
+msgid ""
+"Your primary email address will be used for account-related notifications "
+"and can be used to reset your password."
+msgstr ""
+
+#: apps/AuthApp/templates/AuthApp/email.html:198
+#: apps/AuthApp/templates/AuthApp/login.html:177
+#: apps/AuthApp/templates/AuthApp/password_reset.html:111
+#: apps/AuthApp/templates/AuthApp/signup.html:144
+msgid "Email is required"
+msgstr ""
+
+#: apps/AuthApp/templates/AuthApp/email.html:199
+#: apps/AuthApp/templates/AuthApp/signup.html:145
+msgid "Please enter a valid email address"
+msgstr ""
+
+#: apps/AuthApp/templates/AuthApp/email.html:200
+#: apps/AuthApp/templates/AuthApp/signup.html:146
+msgid "Email must be 254 characters or less"
+msgstr ""
+
+#: apps/AuthApp/templates/AuthApp/email_confirm.html:16
+#: apps/AuthApp/templates/AuthApp/email_confirm.html:51
+msgid "Confirm Email"
+msgstr ""
+
+#: apps/AuthApp/templates/AuthApp/email_confirm.html:18
+msgid "Invalid Link"
+msgstr ""
+
+#: apps/AuthApp/templates/AuthApp/email_confirm.html:23
+msgid "Please confirm your email address"
+msgstr ""
+
+#: apps/AuthApp/templates/AuthApp/email_confirm.html:25
+msgid "This confirmation link is invalid or has expired."
+msgstr ""
+
+#: apps/AuthApp/templates/AuthApp/email_confirm.html:40
+msgid "Please confirm that"
+msgstr ""
+
+#: apps/AuthApp/templates/AuthApp/email_confirm.html:40
+msgid "is your email address."
+msgstr ""
+
+#: apps/AuthApp/templates/AuthApp/email_confirm.html:71
+msgid "Manage Email Addresses"
+msgstr ""
+
+#: apps/AuthApp/templates/AuthApp/login.html:16
+msgid "Welcome Back"
+msgstr ""
+
+#: apps/AuthApp/templates/AuthApp/login.html:19
+msgid "Sign in to continue to your account"
+msgstr ""
+
+#: apps/AuthApp/templates/AuthApp/login.html:83
+msgid "Forgot Password?"
+msgstr ""
+
+#: apps/AuthApp/templates/AuthApp/login.html:95
+#: apps/AuthApp/templates/AuthApp/password_reset_from_key_done.html:35
+msgid "Sign In"
+msgstr ""
+
+#: apps/AuthApp/templates/AuthApp/login.html:101
+msgid "or continue with"
+msgstr ""
+
+#: apps/AuthApp/templates/AuthApp/login.html:113
+msgid "Continue with Google"
+msgstr ""
+
+#: apps/AuthApp/templates/AuthApp/login.html:119
+msgid "Don't have an account?"
+msgstr ""
+
+#: apps/AuthApp/templates/AuthApp/login.html:126
+msgid "Sign up"
+msgstr ""
+
+#: apps/AuthApp/templates/AuthApp/login.html:178
+#: apps/AuthApp/templates/AuthApp/password_reset.html:112
+msgid "Email must be valid"
+msgstr ""
+
+#: apps/AuthApp/templates/AuthApp/login.html:181
+#: apps/AuthApp/templates/AuthApp/password_reset_from_key.html:110
+#: apps/AuthApp/templates/AuthApp/password_set.html:96
+#: apps/AuthApp/templates/AuthApp/reauthenticate.html:75
+#: apps/AuthApp/templates/AuthApp/signup.html:149
+msgid "Password is required"
+msgstr ""
+
+#: apps/AuthApp/templates/AuthApp/logout.html:15
+#: apps/AuthApp/templates/AuthApp/logout.html:42
+msgid "Sign Out"
+msgstr ""
+
+#: apps/AuthApp/templates/AuthApp/logout.html:18
+msgid "Are you sure you want to sign out?"
+msgstr ""
+
+#: apps/AuthApp/templates/AuthApp/logout.html:53
+msgid "Cancel"
+msgstr ""
+
+#: apps/AuthApp/templates/AuthApp/password_change.html:15
+#: apps/AuthApp/templates/AuthApp/password_change.html:86
+#: apps/AuthApp/templates/AuthApp/password_reset_from_key.html:77
+msgid "Change Password"
+msgstr ""
+
+#: apps/AuthApp/templates/AuthApp/password_change.html:18
+msgid "Change your current password"
+msgstr ""
+
+#: apps/AuthApp/templates/AuthApp/password_change.html:32
+msgid "Current Password"
+msgstr ""
+
+#: apps/AuthApp/templates/AuthApp/password_change.html:48
+#: apps/AuthApp/templates/AuthApp/password_set.html:32
+msgid "New Password"
+msgstr ""
+
+#: apps/AuthApp/templates/AuthApp/password_change.html:65
+msgid "Confirm New Password"
+msgstr ""
+
+#: apps/AuthApp/templates/AuthApp/password_change.html:141
+msgid "Current password is required"
+msgstr ""
+
+#: apps/AuthApp/templates/AuthApp/password_change.html:144
+msgid "New password is required"
+msgstr ""
+
+#: apps/AuthApp/templates/AuthApp/password_change.html:145
+#: apps/AuthApp/templates/AuthApp/password_reset_from_key.html:111
+#: apps/AuthApp/templates/AuthApp/password_set.html:97
+#: apps/AuthApp/templates/AuthApp/signup.html:150
+msgid "Password must be at least 8 characters"
+msgstr ""
+
+#: apps/AuthApp/templates/AuthApp/password_change.html:146
+#: apps/AuthApp/templates/AuthApp/password_reset_from_key.html:112
+#: apps/AuthApp/templates/AuthApp/password_set.html:98
+#: apps/AuthApp/templates/AuthApp/signup.html:151
+msgid "Password must contain at least one uppercase letter"
+msgstr ""
+
+#: apps/AuthApp/templates/AuthApp/password_change.html:147
+#: apps/AuthApp/templates/AuthApp/password_reset_from_key.html:113
+#: apps/AuthApp/templates/AuthApp/password_set.html:99
+#: apps/AuthApp/templates/AuthApp/signup.html:152
+msgid "Password must contain at least one lowercase letter"
+msgstr ""
+
+#: apps/AuthApp/templates/AuthApp/password_change.html:148
+#: apps/AuthApp/templates/AuthApp/password_reset_from_key.html:114
+#: apps/AuthApp/templates/AuthApp/password_set.html:100
+#: apps/AuthApp/templates/AuthApp/signup.html:153
+msgid "Password must contain at least one number"
+msgstr ""
+
+#: apps/AuthApp/templates/AuthApp/password_change.html:151
+#: apps/AuthApp/templates/AuthApp/password_reset_from_key.html:117
+#: apps/AuthApp/templates/AuthApp/password_set.html:103
+msgid "Password confirmation is required"
+msgstr ""
+
+#: apps/AuthApp/templates/AuthApp/password_change.html:152
+#: apps/AuthApp/templates/AuthApp/password_reset_from_key.html:118
+#: apps/AuthApp/templates/AuthApp/password_set.html:104
+msgid "Passwords must match"
+msgstr ""
+
+#: apps/AuthApp/templates/AuthApp/password_reset.html:15
+#: apps/AuthApp/templates/AuthApp/password_reset.html:51
+msgid "Reset Password"
+msgstr ""
+
+#: apps/AuthApp/templates/AuthApp/password_reset.html:18
+msgid "Enter your email to receive reset instructions"
+msgstr ""
+
+#: apps/AuthApp/templates/AuthApp/password_reset.html:61
+msgid "Back to Login"
+msgstr ""
+
+#: apps/AuthApp/templates/AuthApp/password_reset_done.html:14
+msgid "Check Your Email"
+msgstr ""
+
+#: apps/AuthApp/templates/AuthApp/password_reset_done.html:17
+msgid "We've sent you instructions to reset your password"
+msgstr ""
+
+#: apps/AuthApp/templates/AuthApp/password_reset_done.html:30
+#: apps/AuthApp/templates/AuthApp/verification_sent.html:34
+msgid ""
+"If you don't receive an email within a few minutes, please check your spam "
+"folder."
+msgstr ""
+
+#: apps/AuthApp/templates/AuthApp/password_reset_from_key.html:15
+msgid "Bad Token"
+msgstr ""
+
+#: apps/AuthApp/templates/AuthApp/password_reset_from_key.html:17
+msgid "Set New Password"
+msgstr ""
+
+#: apps/AuthApp/templates/AuthApp/password_reset_from_key.html:22
+msgid "This password reset link is invalid or has expired."
+msgstr ""
+
+#: apps/AuthApp/templates/AuthApp/password_reset_from_key.html:24
+msgid "Enter your new password below"
+msgstr ""
+
+#: apps/AuthApp/templates/AuthApp/password_reset_from_key.html:89
+msgid "Request New Reset Link"
+msgstr ""
+
+#: apps/AuthApp/templates/AuthApp/password_reset_from_key_done.html:14
+msgid "Password Changed Successfully"
+msgstr ""
+
+#: apps/AuthApp/templates/AuthApp/password_reset_from_key_done.html:17
+msgid ""
+"Your password has been changed. You can now login with your new password."
+msgstr ""
+
+#: apps/AuthApp/templates/AuthApp/password_set.html:14
+#: apps/AuthApp/templates/AuthApp/password_set.html:70
+msgid "Set Password"
+msgstr ""
+
+#: apps/AuthApp/templates/AuthApp/password_set.html:17
+msgid "Please set a password for your account"
+msgstr ""
+
+#: apps/AuthApp/templates/AuthApp/password_set.html:49
+msgid "Confirm Password"
+msgstr ""
+
+#: apps/AuthApp/templates/AuthApp/reauthenticate.html:14
+msgid "Reauthenticate"
+msgstr ""
+
+#: apps/AuthApp/templates/AuthApp/reauthenticate.html:17
+msgid "Please confirm your password to continue"
+msgstr ""
+
+#: apps/AuthApp/templates/AuthApp/reauthenticate.html:31
+msgid "Password"
+msgstr ""
+
+#: apps/AuthApp/templates/AuthApp/reauthenticate.html:52
+msgid "Confirm"
+msgstr ""
+
+#: apps/AuthApp/templates/AuthApp/signup.html:15
+msgid "Create Account"
+msgstr ""
+
+#: apps/AuthApp/templates/AuthApp/signup.html:18
+msgid "Sign up to get started"
+msgstr ""
+
+#: apps/AuthApp/templates/AuthApp/signup.html:80
+msgid "Sign Up"
+msgstr ""
+
+#: apps/AuthApp/templates/AuthApp/signup.html:85
+msgid "Already have an account?"
+msgstr ""
+
+#: apps/AuthApp/templates/AuthApp/signup.html:92
+msgid "Sign in"
+msgstr ""
+
+#: apps/AuthApp/templates/AuthApp/verification_sent.html:14
+msgid "Verify Your Email"
+msgstr ""
+
+#: apps/AuthApp/templates/AuthApp/verification_sent.html:17
+msgid "We've sent you a verification email"
+msgstr ""
+
+#: apps/AuthApp/templates/AuthApp/verification_sent.html:30
+msgid ""
+"Please check your email and click on the verification link to complete your "
+"registration."
+msgstr ""
+
+#: templates/account/email/account_already_exists_message.txt:4
+#, python-format
+msgid ""
+"You are receiving this e-mail because you or someone else tried to signup "
+"for an\n"
+"account using e-mail address:\n"
+"\n"
+"%(email)s\n"
+"\n"
+"However, an account using that e-mail address already exists.  In case you "
+"have\n"
+"forgotten about this, please use the password forgotten procedure to "
+"recover\n"
+"your account:\n"
+"\n"
+"%(password_reset_url)s"
+msgstr ""
+
+#: templates/account/email/account_already_exists_subject.txt:3
+msgid "Account Already Exists"
+msgstr ""
+
+#: templates/account/email/base_message.txt:1
+#, python-format
+msgid "Hello from %(site_name)s!"
+msgstr ""
+
+#: templates/account/email/base_message.txt:5
+#, python-format
+msgid ""
+"Thank you for using %(site_name)s!\n"
+"%(site_domain)s"
+msgstr ""
+
+#: templates/account/email/email_confirmation_message.txt:5
+#, python-format
+msgid ""
+"You're receiving this e-mail because user %(user_display)s has given your e-"
+"mail address to register an account on %(site_domain)s.\n"
+"\n"
+"To confirm this is correct, go to %(activate_url)s"
+msgstr ""
+
+#: templates/account/email/email_confirmation_subject.txt:3
+msgid "Please Confirm Your E-mail Address"
+msgstr ""
+
+#: templates/account/email/password_reset_key_message.txt:4
+msgid ""
+"You're receiving this e-mail because you or someone else has requested a "
+"password for your user account.\n"
+"It can be safely ignored if you did not request a password reset. Click the "
+"link below to reset your password."
+msgstr ""
+
+#: templates/account/email/password_reset_key_message.txt:9
+#, python-format
+msgid "In case you forgot, your username is %(username)s."
+msgstr ""
+
+#: templates/account/email/password_reset_key_subject.txt:3
+#: templates/account/email/unknown_account_subject.txt:3
+msgid "Password Reset E-mail"
+msgstr ""
+
+#: templates/account/email/unknown_account_message.txt:4
+#, python-format
+msgid ""
+"You are receiving this e-mail because you or someone else has requested a\n"
+"password for your user account. However, we do not have any record of a "
+"user\n"
+"with email %(email)s in our database.\n"
+"\n"
+"This mail can be safely ignored if you did not request a password reset.\n"
+"\n"
+"If it was you, you can sign up for an account using the link below."
+msgstr ""
+
+#: templates/account/messages/cannot_delete_primary_email.txt:2
+#, python-format
+msgid "You cannot remove your primary e-mail address (%(email)s)."
+msgstr ""
+
+#: templates/account/messages/email_confirmation_sent.txt:2
+#, python-format
+msgid "Confirmation e-mail sent to %(email)s."
+msgstr ""
+
+#: templates/account/messages/email_confirmed.txt:2
+#, python-format
+msgid "You have confirmed %(email)s."
+msgstr ""
+
+#: templates/account/messages/email_deleted.txt:2
+#, python-format
+msgid "Removed e-mail address %(email)s."
+msgstr ""
+
+#: templates/account/messages/logged_in.txt:4
+#, python-format
+msgid "Successfully signed in as %(name)s."
+msgstr ""
+
+#: templates/account/messages/logged_out.txt:2
+msgid "You have signed out."
+msgstr ""
+
+#: templates/account/messages/password_changed.txt:2
+msgid "Password successfully changed."
+msgstr ""
+
+#: templates/account/messages/password_set.txt:2
+msgid "Password successfully set."
+msgstr ""
+
+#: templates/account/messages/primary_email_set.txt:2
+msgid "Primary e-mail address set."
+msgstr ""
+
+#: templates/account/messages/unverified_primary_email.txt:2
+msgid "Your primary e-mail address must be verified."
+msgstr ""
+
+#: templates/socialaccount/messages/account_connected.txt:2
+msgid "The social account has been connected."
+msgstr ""
+
+#: templates/socialaccount/messages/account_connected_other.txt:2
+msgid "The social account is already connected to a different account."
+msgstr ""
+
+#: templates/socialaccount/messages/account_disconnected.txt:2
+msgid "The social account has been disconnected."
+msgstr ""
+
+#: apps/HomeApp/templates/HomeApp/architect4/components/header-topbar.html:14
+msgid "Home"
+msgstr "Ana Sayfa"
+
+#: apps/HomeApp/templates/HomeApp/architect4/components/header-topbar.html:16
+msgid "About us"
+msgstr "Hakkımızda"
+
+#: apps/HomeApp/templates/HomeApp/architect4/components/header-topbar.html:18
+msgid "Services"
+msgstr "Hizmetler"
+
+#: apps/HomeApp/templates/HomeApp/architect4/components/header-topbar.html:20
+msgid "Contact"
+msgstr "İletişim"

@@ -1,0 +1,198 @@
+{% extends 'CoreApp/architect4/architect4-layout.html' %}
+{% load static %}
+
+{% block page_title %}
+    <title>Services - Amir 77 Insaat</title>
+{% endblock %}
+
+{% block page_css %}
+    <link rel='stylesheet' href='{% static "HomeApp/css/custom.css" %}'>
+{% endblock %}
+
+{% block body_attributes %}
+class="page-template-default page color-custom style-default button-stroke layout-full-width no-content-padding header-transparent minimalist-header-no sticky-header sticky-tb-color ab-hide subheader-both-center menu-line-below-80-1 menuo-right menuo-no-borders mobile-tb-hide mobile-side-slide mobile-mini-mr-ll tablet-sticky mobile-header-mini mobile-sticky be-reg-2105"
+{% endblock %}
+
+{% block header %}
+<header id="Header">
+    {% include 'HomeApp/architect4/components/header-topbar.html' %}
+</header>
+<div id="Subheader" style="padding:200px 0 140px">
+    <div class="container">
+        <div class="column one">
+            <h1 class="title">Our Services</h1>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block content %}
+<div id="Content">
+    <div class="content_wrapper clearfix">
+        <div class="sections_group">
+            <div class="entry-content">
+                <!-- Architectural Design Section -->
+                <div class="section mcb-section equal-height-wrap" style="padding-top:120px; padding-bottom:70px;">
+                    <div class="section_wrapper mcb-section-inner">
+                        <div class="wrap mcb-wrap one-second valign-middle clearfix" style="padding:0 5% 0 0">
+                            <div class="mcb-wrap-inner">
+                                <div class="column mcb-column one column_column">
+                                    <div class="column_attr clearfix">
+                                        <h2>Architectural Design</h2>
+                                        <hr class="no_line" style="margin: 0 auto 15px;">
+                                        <p class="big">
+                                            We specialize in creating innovative and sustainable architectural designs that blend functionality with aesthetic excellence. Our team of expert architects brings your vision to life with meticulous attention to detail.
+                                        </p>
+                                        <p class="big">
+                                            From concept to completion, we ensure each project reflects our commitment to quality, innovation, and client satisfaction.
+                                        </p>
+                                        <hr class="no_line" style="margin: 0 auto 15px;">
+                                        <ul class="list_check">
+                                            <li>Custom Residential Design</li>
+                                            <li>Commercial Architecture</li>
+                                            <li>Sustainable Building Design</li>
+                                            <li>3D Visualization</li>
+                                        </ul>
+                                        <hr class="no_line" style="margin: 0 auto 15px;">
+                                        <a class="button button_size_2 button_theme button_js" href="#">
+                                            <span class="button_label">View Projects</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="wrap mcb-wrap one-second valign-middle clearfix">
+                            <div class="mcb-wrap-inner">
+                                <div class="column mcb-column one column_image">
+                                    <div class="image_frame image_item no_link scale-with-grid aligncenter no_border">
+                                        <div class="image_wrapper">
+                                            <img class="scale-with-grid" src="{% static 'HomeApp/img/home_architect4_pic26.jpg' %}" alt="Architectural Design">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Interior Design Section -->
+                <div class="section mcb-section equal-height-wrap" style="padding-top:0px; padding-bottom:70px;">
+                    <div class="section_wrapper mcb-section-inner">
+                        <div class="wrap mcb-wrap one-second valign-middle clearfix">
+                            <div class="mcb-wrap-inner">
+                                <div class="column mcb-column one column_image">
+                                    <div class="image_frame image_item no_link scale-with-grid aligncenter no_border">
+                                        <div class="image_wrapper">
+                                            <img class="scale-with-grid" src="{% static 'HomeApp/img/home_architect4_pic27.jpg' %}" alt="Interior Design">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="wrap mcb-wrap one-second valign-middle clearfix" style="padding:0 0 0 5%">
+                            <div class="mcb-wrap-inner">
+                                <div class="column mcb-column one column_column">
+                                    <div class="column_attr clearfix">
+                                        <h2>Interior Design</h2>
+                                        <hr class="no_line" style="margin: 0 auto 15px;">
+                                        <p class="big">
+                                            Transform your space with our comprehensive interior design services. We create harmonious, functional, and aesthetically pleasing interiors that reflect your style and meet your needs.
+                                        </p>
+                                        <p class="big">
+                                            Our designers work closely with you to select the perfect materials, colors, and furnishings that bring your vision to life.
+                                        </p>
+                                        <hr class="no_line" style="margin: 0 auto 15px;">
+                                        <ul class="list_check">
+                                            <li>Space Planning</li>
+                                            <li>Material Selection</li>
+                                            <li>Custom Furniture Design</li>
+                                            <li>Lighting Design</li>
+                                        </ul>
+                                        <hr class="no_line" style="margin: 0 auto 15px;">
+                                        <a class="button button_size_2 button_theme button_js" href="#">
+                                            <span class="button_label">View Projects</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Construction Management Section -->
+                <div class="section mcb-section equal-height-wrap" style="padding-top:0px; padding-bottom:70px;">
+                    <div class="section_wrapper mcb-section-inner">
+                        <div class="wrap mcb-wrap one-second valign-middle clearfix" style="padding:0 5% 0 0">
+                            <div class="mcb-wrap-inner">
+                                <div class="column mcb-column one column_column">
+                                    <div class="column_attr clearfix">
+                                        <h2>Construction Management</h2>
+                                        <hr class="no_line" style="margin: 0 auto 15px;">
+                                        <p class="big">
+                                            Our construction management services ensure your project is completed on time, within budget, and to the highest quality standards. We oversee every aspect of the construction process.
+                                        </p>
+                                        <p class="big">
+                                            From project planning to final inspection, our experienced team manages all aspects of construction with precision and expertise.
+                                        </p>
+                                        <hr class="no_line" style="margin: 0 auto 15px;">
+                                        <ul class="list_check">
+                                            <li>Project Planning</li>
+                                            <li>Cost Management</li>
+                                            <li>Quality Control</li>
+                                            <li>Timeline Management</li>
+                                        </ul>
+                                        <hr class="no_line" style="margin: 0 auto 15px;">
+                                        <a class="button button_size_2 button_theme button_js" href="{% url 'HomeApp:contact' %}">
+                                            <span class="button_label">Contact Us</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="wrap mcb-wrap one-second valign-middle clearfix">
+                            <div class="mcb-wrap-inner">
+                                <div class="column mcb-column one column_image">
+                                    <div class="image_frame image_item no_link scale-with-grid aligncenter no_border">
+                                        <div class="image_wrapper">
+                                            <img class="scale-with-grid" src="{% static 'HomeApp/img/home_architect4_pic28.jpg' %}" alt="Construction Management">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Call to Action Section -->
+                <div class="section mcb-section" style="padding-top:100px; padding-bottom:60px; background-color:#f5f5f5;">
+                    <div class="section_wrapper mcb-section-inner">
+                        <div class="wrap mcb-wrap one valign-top clearfix">
+                            <div class="mcb-wrap-inner">
+                                <div class="column mcb-column one column_column">
+                                    <div class="column_attr clearfix align_center">
+                                        <h2>Ready to Start Your Project?</h2>
+                                        <hr class="no_line" style="margin: 0 auto 15px;">
+                                        <p class="big">
+                                            Contact us today to discuss your project requirements and how we can help bring your vision to life.
+                                        </p>
+                                        <hr class="no_line" style="margin: 0 auto 15px;">
+                                        <a class="button button_size_2 button_theme button_js" href="{% url 'HomeApp:contact' %}">
+                                            <span class="button_label">Get in Touch</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block footer %}
+{% include 'HomeApp/architect4/components/footer.html' %}
+{% endblock %}
+
+

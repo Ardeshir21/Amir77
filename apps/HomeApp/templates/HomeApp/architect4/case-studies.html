@@ -1,0 +1,267 @@
+{% extends 'CoreApp/architect4/architect4-layout.html' %}
+{% load static %}
+
+{% block page_title %}
+    <title>Case Studies - Amir 77 Insaat</title>
+{% endblock %}
+
+{% block page_css %}
+    <link rel='stylesheet' href='{% static "HomeApp/css/custom.css" %}'>
+    <style>
+        .image_frame {
+            margin-bottom: 0 !important;
+        }
+    
+    .image_frame .image_wrapper {
+        position: relative;
+        overflow: hidden;
+    }
+    
+    .image_frame .image_wrapper img {
+        transition: transform 0.3s ease;
+    }
+    
+    .image_frame:not(.hover-disable):hover .image_wrapper img {
+        transform: scale(1.05);
+    }
+    
+    .column_attr h4 {
+        margin-bottom: 10px;
+    }
+    
+    .column_attr p {
+        margin-bottom: 15px;
+    }
+    
+    .button_theme {
+        margin-top: 10px;
+    }
+</style>
+{% endblock %}
+
+{% block body_attributes %}
+class="page-template-default page color-custom style-default button-stroke layout-full-width no-content-padding header-transparent minimalist-header-no sticky-header sticky-tb-color ab-hide subheader-both-center menu-line-below-80-1 menuo-right menuo-no-borders mobile-tb-hide mobile-side-slide mobile-mini-mr-ll tablet-sticky mobile-header-mini mobile-sticky be-reg-2105"
+{% endblock %}
+
+{% block header %}
+<header id="Header">
+    {% include 'HomeApp/architect4/components/header-topbar.html' %}
+</header>
+<div id="Subheader" style="padding:200px 0 140px">
+    <div class="container">
+        <div class="column one">
+            <h1 class="title">Case Studies</h1>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block content %}
+<div id="Content">
+    <div class="content_wrapper clearfix">
+        <div class="sections_group">
+            <div class="entry-content">
+                <!-- Header Section -->
+                <div class="section mcb-section" style="padding-top:120px; padding-bottom:60px;">
+                    <div class="section_wrapper mcb-section-inner">
+                        <div class="wrap mcb-wrap one valign-top clearfix">
+                            <div class="mcb-wrap-inner">
+                                <div class="column mcb-column one column_column">
+                                    <div class="column_attr clearfix align_center">
+                                        <h2>Our Case Studies</h2>
+                                        <hr class="no_line" style="margin: 0 auto 15px;">
+                                        <p class="big">
+                                            Explore our portfolio of successful architectural projects and discover how we transform visions into reality.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Featured Case Study -->
+                <div class="section mcb-section" style="padding-top:0px; padding-bottom:70px;">
+                    <div class="section_wrapper mcb-section-inner">
+                        <div class="wrap mcb-wrap one valign-top clearfix">
+                            <div class="mcb-wrap-inner">
+                                <div class="column mcb-column one column_image">
+                                    <div class="image_frame image_item no_link scale-with-grid aligncenter no_border">
+                                        <div class="image_wrapper">
+                                            <img class="scale-with-grid" src="{% static 'HomeApp/img/home_architect4_pic22.jpg' %}" alt="Luxury Villa Project">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="column mcb-column one column_column">
+                                    <div class="column_attr clearfix align_center" style="padding:40px 10% 0;">
+                                        <h3>Luxury Villa Project</h3>
+                                        <p class="big">
+                                            A stunning modern villa that combines luxury living with sustainable design principles.
+                                        </p>
+                                        <hr class="no_line" style="margin: 0 auto 15px;">
+                                        <a class="button button_size_2 button_theme button_js" href="#">
+                                            <span class="button_label">View Project</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Case Studies Grid -->
+                <div class="section mcb-section" style="padding-top:0px; padding-bottom:70px;">
+                    <div class="section_wrapper mcb-section-inner">
+                        <!-- Project 1 -->
+                        <div class="wrap mcb-wrap one-third valign-top clearfix">
+                            <div class="mcb-wrap-inner">
+                                <div class="column mcb-column one column_image">
+                                    <div class="image_frame image_item no_link scale-with-grid aligncenter no_border hover-disable">
+                                        <div class="image_wrapper">
+                                            <img class="scale-with-grid" src="{% static 'HomeApp/img/home_architect4_pic23.jpg' %}" alt="Modern Office Complex">
+                                        </div>
+                                    </div>
+                                    <div class="column_attr clearfix align_center" style="padding:20px 0 0;">
+                                        <h4>Modern Office Complex</h4>
+                                        <p>Contemporary workspace design with focus on collaboration and productivity.</p>
+                                        <a class="button button_size_2 button_theme button_js" href="#">
+                                            <span class="button_label">Learn More</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Project 2 -->
+                        <div class="wrap mcb-wrap one-third valign-top clearfix">
+                            <div class="mcb-wrap-inner">
+                                <div class="column mcb-column one column_image">
+                                    <div class="image_frame image_item no_link scale-with-grid aligncenter no_border hover-disable">
+                                        <div class="image_wrapper">
+                                            <img class="scale-with-grid" src="{% static 'HomeApp/img/home_architect4_pic25.jpg' %}" alt="Residential Complex">
+                                        </div>
+                                    </div>
+                                    <div class="column_attr clearfix align_center" style="padding:20px 0 0;">
+                                        <h4>Residential Complex</h4>
+                                        <p>Multi-unit residential development with community-focused amenities.</p>
+                                        <a class="button button_size_2 button_theme button_js" href="#">
+                                            <span class="button_label">Learn More</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Project 3 -->
+                        <div class="wrap mcb-wrap one-third valign-top clearfix">
+                            <div class="mcb-wrap-inner">
+                                <div class="column mcb-column one column_image">
+                                    <div class="image_frame image_item no_link scale-with-grid aligncenter no_border hover-disable">
+                                        <div class="image_wrapper">
+                                            <img class="scale-with-grid" src="{% static 'HomeApp/img/home_architect4_pic26.jpg' %}" alt="Cultural Center">
+                                        </div>
+                                    </div>
+                                    <div class="column_attr clearfix align_center" style="padding:20px 0 0;">
+                                        <h4>Cultural Center</h4>
+                                        <p>A modern cultural hub designed to celebrate art and community engagement.</p>
+                                        <a class="button button_size_2 button_theme button_js" href="#">
+                                            <span class="button_label">Learn More</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Project 4 -->
+                        <div class="wrap mcb-wrap one-third valign-top clearfix">
+                            <div class="mcb-wrap-inner">
+                                <div class="column mcb-column one column_image">
+                                    <div class="image_frame image_item no_link scale-with-grid aligncenter no_border hover-disable">
+                                        <div class="image_wrapper">
+                                            <img class="scale-with-grid" src="{% static 'HomeApp/img/home_architect4_pic27.jpg' %}" alt="Sustainable Housing">
+                                        </div>
+                                    </div>
+                                    <div class="column_attr clearfix align_center" style="padding:20px 0 0;">
+                                        <h4>Sustainable Housing</h4>
+                                        <p>Eco-friendly residential project with innovative energy solutions.</p>
+                                        <a class="button button_size_2 button_theme button_js" href="#">
+                                            <span class="button_label">Learn More</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Project 5 -->
+                        <div class="wrap mcb-wrap one-third valign-top clearfix">
+                            <div class="mcb-wrap-inner">
+                                <div class="column mcb-column one column_image">
+                                    <div class="image_frame image_item no_link scale-with-grid aligncenter no_border hover-disable">
+                                        <div class="image_wrapper">
+                                            <img class="scale-with-grid" src="{% static 'HomeApp/img/home_architect4_pic28.jpg' %}" alt="Commercial Plaza">
+                                        </div>
+                                    </div>
+                                    <div class="column_attr clearfix align_center" style="padding:20px 0 0;">
+                                        <h4>Commercial Plaza</h4>
+                                        <p>Mixed-use development combining retail and office spaces.</p>
+                                        <a class="button button_size_2 button_theme button_js" href="#">
+                                            <span class="button_label">Learn More</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Project 6 -->
+                        <div class="wrap mcb-wrap one-third valign-top clearfix">
+                            <div class="mcb-wrap-inner">
+                                <div class="column mcb-column one column_image">
+                                    <div class="image_frame image_item no_link scale-with-grid aligncenter no_border hover-disable">
+                                        <div class="image_wrapper">
+                                            <img class="scale-with-grid" src="{% static 'HomeApp/img/home_architect4_pic29.jpg' %}" alt="Luxury Hotel">
+                                        </div>
+                                    </div>
+                                    <div class="column_attr clearfix align_center" style="padding:20px 0 0;">
+                                        <h4>Luxury Hotel</h4>
+                                        <p>Five-star hotel featuring elegant design and premium amenities.</p>
+                                        <a class="button button_size_2 button_theme button_js" href="#">
+                                            <span class="button_label">Learn More</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Call to Action Section -->
+                <div class="section mcb-section" style="padding-top:60px; padding-bottom:60px; background-color:#f5f5f5;">
+                    <div class="section_wrapper mcb-section-inner">
+                        <div class="wrap mcb-wrap one valign-top clearfix">
+                            <div class="mcb-wrap-inner">
+                                <div class="column mcb-column one column_column">
+                                    <div class="column_attr clearfix align_center">
+                                        <h3>Ready to Start Your Project?</h3>
+                                        <hr class="no_line" style="margin: 0 auto 15px;">
+                                        <p class="big">
+                                            Let's discuss how we can bring your architectural vision to life.
+                                        </p>
+                                        <hr class="no_line" style="margin: 0 auto 15px;">
+                                        <a class="button button_size_2 button_theme button_js" href="{% url 'HomeApp:contact' %}">
+                                            <span class="button_label">Contact Us</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block footer %}
+{% include 'HomeApp/architect4/components/footer.html' %}
+{% endblock %}

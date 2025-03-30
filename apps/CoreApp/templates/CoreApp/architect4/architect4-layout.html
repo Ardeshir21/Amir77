@@ -1,0 +1,125 @@
+{% extends 'CoreApp/master.html' %}
+{% load static %}
+
+{% block html_attributes %}
+ class="no-js"
+{% endblock %}
+
+{% block header_css %}
+    <!-- Basic Page Needs -->
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Mobile Specific Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <!-- Favicons -->
+    <link rel="shortcut icon" href="{% static 'CoreApp/architect4/images/favicon.ico' %}">
+
+    <!-- FONTS -->
+    <link rel='stylesheet' href="http://fonts.googleapis.com/css?family=Roboto:100,300,400,400italic,700">
+    <link rel='stylesheet' href="http://fonts.googleapis.com/css?family=Patua+One:100,300,400,400italic,700">
+    <link rel='stylesheet' href="http://fonts.googleapis.com/css?family=Lato:400,400italic,700,700italic,900">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Maitree:300,400,400italic,500,700,700italic&#038" type="text/css" media="all">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:300,400,400italic,500,700,700italic&#038;ver=5.0.3" type="text/css" media="all">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Barlow+Condensed:300,400,400italic,500,700,700italic&#038;ver=5.0.3" type="text/css" media="all">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400italic,500,700,700italic&#038;ver=5.0.3" type="text/css" media="all">
+
+    <!-- CSS -->
+    <link rel='stylesheet' href='{% static "CoreApp/architect4/css/global.css" %}'>
+    <link rel='stylesheet' href='{% static "CoreApp/architect4/css/structure.css" %}'>
+    <link rel='stylesheet' href='{% static "CoreApp/architect4/css/architect4.css" %}'>
+    {% if APP_LAYOUT_DIRECTION == 'rtl' %}
+    <link rel='stylesheet' href='{% static "CoreApp/architect4/css/rtl.css" %}' media="all">
+    {% endif %}
+    <!-- Revolution Slider -->
+    <link rel="stylesheet" href="{% static 'CoreApp/architect4/plugins/rs-plugin-5.3.1/css/settings.css' %}">
+    <!-- Add Feather Icons -->
+    <script src="https://unpkg.com/feather-icons"></script>
+{% endblock header_css %}
+
+{% block layout %}
+    {% include 'CoreApp/components/messages.html' %}
+    <div id="Wrapper">
+        <div id="Header_wrapper" class="bg-parallax" data-enllax-ratio="0.3">
+            {% block header %}
+                <!-- Header will be included here -->
+            {% endblock %}
+        </div>
+        
+        <div id="Content">
+            {% block content %}
+                <!-- Main content will be included here -->
+            {% endblock %}
+        </div>
+        
+        <footer id="Footer" class="clearfix">
+            {% block footer %}
+                <!-- Footer will be included here -->
+            {% endblock %}
+        </footer>
+        
+        <div id="Side_slide" class="right dark" data-width="250">
+            <div class="close-wrapper">
+                <a href="#" class="close"><i data-feather="x"></i></a>
+            </div>
+            <div class="menu_wrapper"></div>
+        </div>
+        <div id="body_overlay"></div>
+    </div>
+{% endblock layout %}
+
+{% block vendor_js %}
+    <!-- JS -->
+    <script src="{% static 'CoreApp/architect4/js/jquery-2.1.4.min.js' %}"></script>
+    <script src="{% static 'CoreApp/architect4/js/mfn.menu.js' %}"></script>
+    <script src="{% static 'CoreApp/architect4/js/jquery.plugins.js' %}"></script>
+    <script src="{% static 'CoreApp/architect4/js/jquery.jplayer.min.js' %}"></script>
+    <script src="{% static 'CoreApp/architect4/js/animations/animations.js' %}"></script>
+    <script src="{% static 'CoreApp/architect4/js/translate3d.js' %}"></script>
+    <script src="{% static 'CoreApp/architect4/js/scripts.js' %}"></script>
+
+    <!-- Revolution Slider JS -->
+    <script src="{% static 'CoreApp/architect4/plugins/rs-plugin-5.3.1/js/jquery.themepunch.tools.min.js' %}"></script>
+    <script src="{% static 'CoreApp/architect4/plugins/rs-plugin-5.3.1/js/jquery.themepunch.revolution.min.js' %}"></script>
+    <script src="{% static 'CoreApp/architect4/plugins/rs-plugin-5.3.1/js/extensions/revolution.extension.video.min.js' %}"></script>
+    <script src="{% static 'CoreApp/architect4/plugins/rs-plugin-5.3.1/js/extensions/revolution.extension.slideanims.min.js' %}"></script>
+    <script src="{% static 'CoreApp/architect4/plugins/rs-plugin-5.3.1/js/extensions/revolution.extension.actions.min.js' %}"></script>
+    <script src="{% static 'CoreApp/architect4/plugins/rs-plugin-5.3.1/js/extensions/revolution.extension.layeranimation.min.js' %}"></script>
+    <script src="{% static 'CoreApp/architect4/plugins/rs-plugin-5.3.1/js/extensions/revolution.extension.kenburn.min.js' %}"></script>
+    <script src="{% static 'CoreApp/architect4/plugins/rs-plugin-5.3.1/js/extensions/revolution.extension.navigation.min.js' %}"></script>
+    <script src="{% static 'CoreApp/architect4/plugins/rs-plugin-5.3.1/js/extensions/revolution.extension.migration.min.js' %}"></script>
+    <script src="{% static 'CoreApp/architect4/plugins/rs-plugin-5.3.1/js/extensions/revolution.extension.parallax.min.js' %}"></script>
+
+    <!-- Initialize Feather Icons -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            feather.replace();
+            // Re-run feather.replace() after any dynamic content updates
+            if (typeof MutationObserver !== 'undefined') {
+                const observer = new MutationObserver(function() {
+                    feather.replace();
+                });
+                observer.observe(document.body, { childList: true, subtree: true });
+            }
+
+            // Add active menu highlighting
+            const currentPath = window.location.pathname;
+            const menuItems = document.querySelectorAll('#menu-main-menu li');
+            
+            menuItems.forEach(item => {
+                const link = item.querySelector('a');
+                if (link) {
+                    // Remove existing current-menu-item class
+                    item.classList.remove('current-menu-item');
+                    
+                    // Add class if URLs match
+                    if (link.getAttribute('href') === currentPath) {
+                        item.classList.add('current-menu-item');
+                    }
+                }
+            });
+        });
+    </script>
+{% endblock vendor_js %}

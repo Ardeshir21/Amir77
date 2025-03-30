@@ -1,0 +1,148 @@
+{% extends 'CoreApp/architect4/architect4-layout.html' %}
+{% load static %}
+
+{% block page_title %}
+    <title>Portfolio Item - Amir 77 Insaat</title>
+{% endblock %}
+
+{% block page_css %}
+    <link rel='stylesheet' href='{% static "HomeApp/css/custom.css" %}'>
+{% endblock %}
+
+{% block body_attributes %}
+class="page-template-default page color-custom style-default button-stroke layout-full-width no-content-padding header-transparent minimalist-header-no sticky-header sticky-tb-color ab-hide subheader-both-center menu-line-below-80-1 menuo-right menuo-no-borders mobile-tb-hide mobile-side-slide mobile-mini-mr-ll tablet-sticky mobile-header-mini mobile-sticky be-reg-2105"
+{% endblock %}
+
+{% block header %}
+<header id="Header">
+    {% include 'HomeApp/architect4/components/header-topbar.html' %}
+</header>
+<div id="Subheader" style="padding:200px 0 140px">
+    <div class="container">
+        <div class="column one">
+            <h1 class="title">Portfolio Details</h1>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block content %}
+<div id="Content" class="no-padding">
+    <div class="content_wrapper clearfix">
+        <div class="sections_group">
+            <div class="section mcb-section" style="padding-top:100px; padding-bottom:50px;">
+                <div class="section_wrapper mcb-section-inner">
+                    <div class="wrap mcb-wrap one valign-top clearfix">
+                        <div class="mcb-wrap-inner">
+                            <!-- Project Title -->
+                            <div class="column mcb-column two-third column_column">
+                                <div class="column_attr clearfix" style="padding:0 5% 0 0;">
+                                    <div class="mfn_heading heading_lines align_left">
+                                        <h2 class="title" style="color:#000;"><span class="line line_l" style="background:#000;"></span>Modern Villa Project<span class="line line_r" style="background:#000;"></span></h2>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <!-- Project Details -->
+                            <div class="column mcb-column one-third column_column">
+                                <div class="column_attr clearfix" style="padding:10px 0 0;">
+                                    <h6>PROJECT DETAILS</h6>
+                                    <ul class="list_check">
+                                        <li>Location: Istanbul, Turkey</li>
+                                        <li>Area: 450 m²</li>
+                                        <li>Year: 2023</li>
+                                        <li>Status: Completed</li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="column mcb-column one column_divider">
+                                <hr class="no_line">
+                            </div>
+
+                            <!-- Project Description -->
+                            <div class="column mcb-column two-third column_column">
+                                <div class="column_attr clearfix" style="padding:0 5% 0 0;">
+                                    <h6>Project Overview</h6>
+                                    <p>
+                                        This modern villa project showcases the perfect blend of contemporary architecture and functional design. The project features open living spaces, large windows for natural light, and sustainable building materials.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="column mcb-column one-third column_column">
+                                <div class="column_attr clearfix">
+                                    <h6>Key Features</h6>
+                                    <ul class="list_check">
+                                        <li>Smart home integration</li>
+                                        <li>Energy-efficient design</li>
+                                        <li>Custom interior finishes</li>
+                                        <li>Landscaped gardens</li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <!-- Project Images -->
+                            <div class="column mcb-column one column_divider">
+                                <hr class="no_line" style="margin: 0 auto 20px;">
+                            </div>
+
+                            <div class="column mcb-column one column_image">
+                                <div class="image_frame image_item no_link scale-with-grid aligncenter no_border">
+                                    <div class="image_wrapper">
+                                        <img class="scale-with-grid" src="{% static 'HomeApp/img/home_architect4_pic22.jpg' %}" alt="Project Overview">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="column mcb-column one-second column_image">
+                                <div class="image_frame image_item no_link scale-with-grid aligncenter no_border">
+                                    <div class="image_wrapper">
+                                        <img class="scale-with-grid" src="{% static 'HomeApp/img/home_architect4_pic25.jpg' %}" alt="Interior View">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="column mcb-column one-second column_image">
+                                <div class="image_frame image_item no_link scale-with-grid aligncenter no_border">
+                                    <div class="image_wrapper">
+                                        <img class="scale-with-grid" src="{% static 'HomeApp/img/home_architect4_pic23.jpg' %}" alt="Exterior View">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Additional Information -->
+                            <div class="column mcb-column one column_divider">
+                                <hr class="no_line">
+                            </div>
+
+                            <div class="column mcb-column one column_column">
+                                <div class="column_attr clearfix" style="padding:20px 0;">
+                                    <h6>Construction Process</h6>
+                                    <p>
+                                        The construction process was completed in three phases, utilizing the latest building technologies and sustainable practices. Our team of experts ensured that every detail was executed to perfection, from the foundation to the final touches.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <!-- Navigation -->
+                            <div class="column mcb-column one column_column">
+                                <div class="column_attr clearfix align_center" style="padding:20px 0;">
+                                    <a href="{% url 'HomeApp:home' %}" class="button button_size_2 button_theme button_js">
+                                        <span class="button_label">Back to Projects</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block footer %}
+{% include 'HomeApp/architect4/components/footer.html' %}
+{% endblock %}
+

@@ -1,0 +1,291 @@
+{% extends 'CoreApp/architect4/architect4-layout.html' %}
+{% load static %}
+
+{% block page_title %}
+    <title>Contact Us - Amir 77 Insaat</title>
+{% endblock %}
+
+{% block page_css %}
+    <link rel='stylesheet' href='{% static "HomeApp/css/custom.css" %}'>
+    <style>
+        .contact-icon,
+        .section-icon {
+            width: 20px;
+            height: 20px;
+            vertical-align: middle;
+            margin-right: 10px;
+            stroke-width: 1.5;
+        }
+    
+        .form-icon {
+            width: 16px;
+            height: 16px;
+            position: absolute;
+            left: 10px;
+            top: 13px;
+            color: #666;
+            stroke-width: 1.5;
+        }
+    
+        input + .form-icon {
+            top: 50%;
+            transform: translateY(-50%);
+        }
+    
+        textarea + .form-icon {
+            top: 15px;
+        }
+        
+        .button-icon {
+            width: 16px;
+            height: 16px;
+            vertical-align: middle;
+            margin-right: 5px;
+            stroke-width: 1.5;
+        }
+        
+        .input-wrapper {
+            position: relative;
+        }
+        
+        .contact-form input[type="text"],
+        .contact-form input[type="email"],
+        .contact-form textarea {
+            width: 100%;
+            padding: 10px 10px 10px 35px;
+            margin-bottom: 20px;
+            border: 1px solid #ddd;
+            background-color: #f9f9f9;
+        }
+    
+        .contact-form textarea {
+            height: 150px;
+        }
+    
+        .contact-details p,
+        .opening-hours p {
+            margin-bottom: 20px;
+        }
+    
+        .map-container {
+            border: 1px solid #ddd;
+        }
+    
+        .button_js {
+            display: inline-flex;
+            align-items: center;
+        }
+    </style>
+{% endblock %}
+
+{% block body_attributes %}
+class="page-template-default page color-custom style-default button-stroke layout-full-width no-content-padding header-transparent minimalist-header-no sticky-header sticky-tb-color ab-hide subheader-both-center menu-line-below-80-1 menuo-right menuo-no-borders mobile-tb-hide mobile-side-slide mobile-mini-mr-ll tablet-sticky mobile-header-mini mobile-sticky be-reg-2105"
+{% endblock %}
+
+{% block header %}
+<header id="Header">
+    {% include 'HomeApp/architect4/components/header-topbar.html' %}
+</header>
+<div id="Subheader" style="padding:200px 0 140px">
+    <div class="container">
+        <div class="column one">
+            <h1 class="title">Contact Us</h1>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block content %}
+<div id="Content">
+    <div class="content_wrapper clearfix">
+        <div class="sections_group">
+            <div class="entry-content">
+                <!-- Contact Header Section -->
+                <div class="section mcb-section" style="padding-top:120px; padding-bottom:60px;">
+                    <div class="section_wrapper mcb-section-inner">
+                        <div class="wrap mcb-wrap one valign-top clearfix">
+                            <div class="mcb-wrap-inner">
+                                <div class="column mcb-column one column_column">
+                                    <div class="column_attr clearfix align_center">
+                                        <h2>Get in Touch</h2>
+                                        <hr class="no_line" style="margin: 0 auto 15px;">
+                                        <p class="big">
+                                            We're here to help bring your architectural vision to life. Contact us to discuss your project or schedule a consultation.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Contact Information and Form Section -->
+                <div class="section mcb-section" style="padding-top:0px; padding-bottom:70px;">
+                    <div class="section_wrapper mcb-section-inner">
+                        <div class="wrap mcb-wrap one-third valign-top clearfix">
+                            <div class="mcb-wrap-inner">
+                                <!-- Contact Information -->
+                                <div class="column mcb-column one column_column">
+                                    <div class="column_attr clearfix">
+                                        <h4>Contact Information</h4>
+                                        <hr class="no_line" style="margin: 0 auto 15px;">
+                                        <div class="contact-details">
+                                            <p>
+                                                <i data-feather="map-pin" class="contact-icon"></i>
+                                                <strong>Address:</strong><br>
+                                                Amir 77 Insaat<br>
+                                                Istanbul, Turkey
+                                            </p>
+                                            <p>
+                                                <i data-feather="phone" class="contact-icon"></i>
+                                                <strong>Phone:</strong><br>
+                                                +90 (XXX) XXX-XXXX
+                                            </p>
+                                            <p>
+                                                <i data-feather="mail" class="contact-icon"></i>
+                                                <strong>Email:</strong><br>
+                                                info@amir77insaat.com
+                                            </p>
+                                        </div>
+                                        
+                                        <hr class="no_line" style="margin: 0 auto 20px;">
+                                        
+                                        <h4>
+                                            <i data-feather="clock" class="contact-icon"></i>
+                                            Business Hours
+                                        </h4>
+                                        <hr class="no_line" style="margin: 0 auto 15px;">
+                                        <div class="opening-hours">
+                                            <p>
+                                                <strong>Monday - Friday:</strong><br>
+                                                9:00 AM - 6:00 PM
+                                            </p>
+                                            <p>
+                                                <strong>Saturday:</strong><br>
+                                                10:00 AM - 4:00 PM
+                                            </p>
+                                            <p>
+                                                <strong>Sunday:</strong><br>
+                                                Closed
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Contact Form -->
+                        <div class="wrap mcb-wrap two-third valign-top clearfix">
+                            <div class="mcb-wrap-inner">
+                                <div class="column mcb-column one column_column">
+                                    <div class="column_attr clearfix">
+                                        <h4>Send Us a Message</h4>
+                                        <hr class="no_line" style="margin: 0 auto 15px;">
+                                        <div class="contact-form">
+                                            <form id="contactform">
+                                                <div class="column one-second">
+                                                    <div class="input-wrapper">
+                                                        <i data-feather="user" class="form-icon"></i>
+                                                        <input type="text" name="name" id="name" placeholder="Your Name" required>
+                                                    </div>
+                                                </div>
+                                                <div class="column one-second">
+                                                    <div class="input-wrapper">
+                                                        <i data-feather="at-sign" class="form-icon"></i>
+                                                        <input type="email" name="email" id="email" placeholder="Your Email" required>
+                                                    </div>
+                                                </div>
+                                                <div class="column one">
+                                                    <div class="input-wrapper">
+                                                        <i data-feather="edit-3" class="form-icon"></i>
+                                                        <input type="text" name="subject" id="subject" placeholder="Subject">
+                                                    </div>
+                                                </div>
+                                                <div class="column one">
+                                                    <div class="input-wrapper">
+                                                        <i data-feather="message-square" class="form-icon"></i>
+                                                        <textarea name="message" id="message" placeholder="Your Message" rows="6" required></textarea>
+                                                    </div>
+                                                </div>
+                                                <div class="column one">
+                                                    <button type="submit" class="button button_size_2 button_theme button_js">
+                                                        <i data-feather="send" class="button-icon"></i>
+                                                        <span class="button_label">Send Message</span>
+                                                    </button>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Map Section -->
+                <div class="section mcb-section" style="padding-top:0px; padding-bottom:70px;">
+                    <div class="section_wrapper mcb-section-inner">
+                        <div class="wrap mcb-wrap one valign-top clearfix">
+                            <div class="mcb-wrap-inner">
+                                <div class="column mcb-column one column_column">
+                                    <div class="column_attr clearfix">
+                                        <h4>
+                                            <i data-feather="map" class="contact-icon"></i>
+                                            Our Location
+                                        </h4>
+                                        <hr class="no_line" style="margin: 0 auto 15px;">
+                                        <div class="map-container" style="height: 400px; background-color: #f5f5f5;">
+                                            <!-- Replace this div with actual map implementation -->
+                                            <iframe 
+                                                width="100%" 
+                                                height="100%" 
+                                                frameborder="0" 
+                                                style="border:0" 
+                                                src="https://www.google.com/maps/embed/v1/place?key=YOUR_API_KEY&q=Istanbul,Turkey" 
+                                                allowfullscreen>
+                                            </iframe>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Call to Action Section -->
+                <div class="section mcb-section" style="padding-top:60px; padding-bottom:60px; background-color:#f5f5f5;">
+                    <div class="section_wrapper mcb-section-inner">
+                        <div class="wrap mcb-wrap one valign-top clearfix">
+                            <div class="mcb-wrap-inner">
+                                <div class="column mcb-column one column_column">
+                                    <div class="column_attr clearfix align_center">
+                                        <h3>
+                                            <i data-feather="image" class="section-icon"></i>
+                                            Looking for Inspiration?
+                                        </h3>
+                                        <hr class="no_line" style="margin: 0 auto 15px;">
+                                        <p class="big">
+                                            Browse our portfolio to see our latest architectural projects and designs.
+                                        </p>
+                                        <hr class="no_line" style="margin: 0 auto 15px;">
+                                        <a class="button button_size_2 button_theme button_js" href="#">
+                                            <i data-feather="grid" class="button-icon"></i>
+                                            <span class="button_label">View Portfolio</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block footer %}
+{% include 'HomeApp/architect4/components/footer.html' %}
+{% endblock %}
+
+
