@@ -24,7 +24,9 @@ services:
     restart: always
     volumes:
       - static_volume:/app/static # Bind mount the current directory to the container for development
-      - media_volume:/app/media #
+      - media_volume:/app/media 
+      - /etc/letsencrypt/live/amir77-insaat.com/fullchain.pem:/etc/nginx/ssl/fullchain.pem
+      - /etc/letsencrypt/live/amir77-insaat.com/privkey.pem:/etc/nginx/ssl/privkey.pem
     env_file:
       - .env
     ports:
