@@ -186,9 +186,8 @@ LANGUAGE_CODE = 'tr'  # Turkish as default
 
 LANGUAGES = [
     ('tr', _('Turkish')),
-    ('en', _('English')),
-    ('fa', _('Persian')),
-]
+    ('en', _('English'))
+    ]
 
 TIME_ZONE = "UTC"
 

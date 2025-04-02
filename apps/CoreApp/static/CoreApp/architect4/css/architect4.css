@@ -873,7 +873,7 @@
 				}
 				#Top_bar.is-sticky #logo img.logo-sticky {
 					display: inline;
-					max-height: 35px;
+					max-height: 60px;
 				}
 				#Top_bar.is-sticky .menu_wrapper {
 					clear: none
@@ -2126,9 +2126,8 @@
 				}
 			}
 			#Top_bar #logo, .header-fixed #Top_bar #logo, .header-plain #Top_bar #logo, .header-transparent #Top_bar #logo {
-				height: 60px;
+				height: 120px;
 				line-height: 60px;
-				padding: 40px 0;
 			}
 			.logo-overflow #Top_bar:not(.is-sticky) .logo {
 				height: 140px;
