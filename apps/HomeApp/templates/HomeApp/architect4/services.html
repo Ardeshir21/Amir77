@@ -16,60 +16,136 @@
         }
         
         .service-card {
-            padding: 30px;
+            padding: 35px;
             background: #fff;
-            border: 1px solid #eee;
-            transition: all 0.3s ease;
+            border: none;
+            border-radius: 10px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+            transition: all 0.4s ease;
             height: 100%;
+            margin-top: 20px;
         }
         
         .service-card:hover {
-            box-shadow: 0 5px 20px rgba(0,0,0,0.1);
-            transform: translateY(-5px);
+            box-shadow: 0 15px 40px rgba(0,0,0,0.1);
+            transform: translateY(-8px);
         }
         
         .service-card h4 {
-            margin-bottom: 15px;
+            margin-bottom: 20px;
+            color: #2c605a;
+            font-weight: 600;
+            font-size: 1.25rem;
         }
         
         .service-card ul {
             list-style: none;
             padding-left: 0;
-            margin-bottom: 20px;
+            margin-bottom: 25px;
         }
         
         .service-card ul li {
-            padding: 8px 0;
-            border-bottom: 1px solid #f5f5f5;
+            padding: 10px 0;
+            border-bottom: 1px solid rgba(0,0,0,0.05);
+            transition: all 0.3s ease;
+            position: relative;
+            padding-left: 25px;
         }
         
         .service-card ul li:last-child {
             border-bottom: none;
         }
         
-        .service-image {
+        .service-card ul li:hover {
+            padding-left: 30px;
+            color: #2c605a;
+        }
+        
+        .mcb-section {
+            position: relative;
+            overflow: hidden;
+            padding: 90px 0 !important;
+        }
+        
+        .mcb-section:before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: inherit;
+            opacity: 0.5;
+        }
+        
+        .mcb-section .image_wrapper {
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 15px 40px rgba(0,0,0,0.1);
+            transition: all 0.4s ease;
+        }
+        
+        .mcb-section .image_wrapper:hover {
+            transform: scale(1.02);
+            box-shadow: 0 20px 50px rgba(0,0,0,0.15);
+        }
+        
+        .mcb-section img {
+            transition: all 0.4s ease;
+        }
+        
+        .mcb-section img:hover {
+            transform: scale(1.05);
+        }
+        
+        .column_attr h3 {
+            color: #2c605a;
+            font-size: 2.2rem;
+            margin-bottom: 25px;
+            font-weight: 600;
+            position: relative;
+            padding-bottom: 15px;
+        }
+        
+        .column_attr h3:after {
+            content: "";
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 60px;
+            height: 3px;
+            background: #2c605a;
+        }
+        
+        .column_attr p.big {
+            font-size: 1.1rem;
+            line-height: 1.8;
+            color: #666;
             margin-bottom: 30px;
         }
         
-        .service-image img {
-            width: 100%;
-            height: auto;
+        /* Alternating sections styling */
+        .mcb-section:nth-child(even) {
+            background-color: #f8f9fa;
         }
         
-        .process-step {
-            text-align: center;
-            padding: 20px;
-        }
-        
-        .process-number {
-            width: 40px;
-            height: 40px;
-            line-height: 40px;
-            border-radius: 50%;
-            background: #2c605a;
-            color: #fff;
-            margin: 0 auto 15px;
-            font-weight: bold;
+        /* Responsive adjustments */
+        @media (max-width: 768px) {
+            .mcb-section {
+                padding: 60px 0 !important;
+            }
+            
+            .column_attr h3 {
+                font-size: 1.8rem;
+            }
+            
+            .service-card {
+                margin-top: 30px;
+            }
+            
+            .wrap.mcb-wrap {
+                padding: 0 15px !important;
+            }
         }
     </style>
 {% endblock %}
@@ -118,7 +194,7 @@ class="page-template-default page color-custom style-default button-stroke layou
                 <!-- Beton Dökme Section -->
                 <div class="section mcb-section" style="padding-top:0px; padding-bottom:70px;">
                     <div class="section_wrapper mcb-section-inner">
-                        <div class="wrap mcb-wrap one-second valign-top clearfix">
+                        <div class="wrap mcb-wrap one-second valign-top clearfix" style="padding:20px;">
                             <div class="mcb-wrap-inner">
                                 <div class="column mcb-column one column_image">
                                     <div class="image_frame image_item no_link scale-with-grid aligncenter no_border">
@@ -129,7 +205,7 @@ class="page-template-default page color-custom style-default button-stroke layou
                                 </div>
                             </div>
                         </div>
-                        <div class="wrap mcb-wrap one-second valign-top clearfix" style="padding:0 0 0 5%">
+                        <div class="wrap mcb-wrap one-second valign-top clearfix" style="padding:20px;">
                             <div class="mcb-wrap-inner">
                                 <div class="column mcb-column one column_column">
                                     <div class="column_attr clearfix">
