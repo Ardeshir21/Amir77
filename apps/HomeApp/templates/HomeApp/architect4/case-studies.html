@@ -1,8 +1,9 @@
 {% extends 'CoreApp/architect4/architect4-layout.html' %}
 {% load static %}
+{% load i18n %}
 
 {% block page_title %}
-    <title>Case Studies - Amir 77 Insaat</title>
+    <title>{% trans "Projelerimiz - Amir 77 İnşaat" %}</title>
 {% endblock %}
 
 {% block page_css %}
@@ -50,7 +51,7 @@ class="page-template-default page color-custom style-default button-stroke layou
 <div id="Subheader" style="padding:200px 0 140px">
     <div class="container">
         <div class="column one">
-            <h1 class="title">Case Studies</h1>
+            <h1 class="title">{% trans "Projelerimiz" %}</h1>
         </div>
     </div>
 </div>
@@ -68,10 +69,10 @@ class="page-template-default page color-custom style-default button-stroke layou
                             <div class="mcb-wrap-inner">
                                 <div class="column mcb-column one column_column">
                                     <div class="column_attr clearfix align_center">
-                                        <h2>Our Case Studies</h2>
+                                        <h2>{% trans "Tamamlanan ve Devam Eden Projelerimiz" %}</h2>
                                         <hr class="no_line" style="margin: 0 auto 15px;">
                                         <p class="big">
-                                            Explore our portfolio of successful architectural projects and discover how we transform visions into reality.
+                                            {% trans "Kaliteli işçilik ve güvenilir hizmet anlayışımızla hayata geçirdiğimiz projelerimizi inceleyebilirsiniz." %}
                                         </p>
                                     </div>
                                 </div>
@@ -80,7 +81,7 @@ class="page-template-default page color-custom style-default button-stroke layou
                     </div>
                 </div>
 
-                <!-- Featured Case Study -->
+                <!-- Featured Project -->
                 <div class="section mcb-section" style="padding-top:0px; padding-bottom:70px;">
                     <div class="section_wrapper mcb-section-inner">
                         <div class="wrap mcb-wrap one valign-top clearfix">
@@ -88,19 +89,19 @@ class="page-template-default page color-custom style-default button-stroke layou
                                 <div class="column mcb-column one column_image">
                                     <div class="image_frame image_item no_link scale-with-grid aligncenter no_border">
                                         <div class="image_wrapper">
-                                            <img class="scale-with-grid" src="{% static 'HomeApp/img/home_architect4_pic22.jpg' %}" alt="Luxury Villa Project">
+                                            <img class="scale-with-grid" src="{% static 'HomeApp/img/home_architect4_pic22.jpg' %}" alt="{% trans 'Konut Projesi' %}">
                                         </div>
                                     </div>
                                 </div>
                                 <div class="column mcb-column one column_column">
                                     <div class="column_attr clearfix align_center" style="padding:40px 10% 0;">
-                                        <h3>Luxury Villa Project</h3>
+                                        <h3>{% trans "Modern Konut Projesi" %}</h3>
                                         <p class="big">
-                                            A stunning modern villa that combines luxury living with sustainable design principles.
+                                            {% trans "Diyarbakır'da tamamladığımız modern konut projesi, kaliteli malzeme ve işçilik ile inşa edilmiştir." %}
                                         </p>
                                         <hr class="no_line" style="margin: 0 auto 15px;">
                                         <a class="button button_size_2 button_theme button_js" href="#">
-                                            <span class="button_label">View Project</span>
+                                            <span class="button_label">{% trans "Detaylar" %}</span>
                                         </a>
                                     </div>
                                 </div>
@@ -109,7 +110,7 @@ class="page-template-default page color-custom style-default button-stroke layou
                     </div>
                 </div>
 
-                <!-- Case Studies Grid -->
+                <!-- Projects Grid -->
                 <div class="section mcb-section" style="padding-top:0px; padding-bottom:70px;">
                     <div class="section_wrapper mcb-section-inner">
                         <!-- Project 1 -->
@@ -118,14 +119,14 @@ class="page-template-default page color-custom style-default button-stroke layou
                                 <div class="column mcb-column one column_image">
                                     <div class="image_frame image_item no_link scale-with-grid aligncenter no_border hover-disable">
                                         <div class="image_wrapper">
-                                            <img class="scale-with-grid" src="{% static 'HomeApp/img/home_architect4_pic23.jpg' %}" alt="Modern Office Complex">
+                                            <img class="scale-with-grid" src="{% static 'HomeApp/img/home_architect4_pic23.jpg' %}" alt="{% trans 'Beton Dökme İşleri' %}">
                                         </div>
                                     </div>
                                     <div class="column_attr clearfix align_center" style="padding:20px 0 0;">
-                                        <h4>Modern Office Complex</h4>
-                                        <p>Contemporary workspace design with focus on collaboration and productivity.</p>
+                                        <h4>{% trans "Beton Dökme İşleri" %}</h4>
+                                        <p>{% trans "Modern ekipmanlarla, dayanıklı ve kaliteli beton dökme hizmeti sunuyoruz." %}</p>
                                         <a class="button button_size_2 button_theme button_js" href="#">
-                                            <span class="button_label">Learn More</span>
+                                            <span class="button_label">{% trans "Detaylar" %}</span>
                                         </a>
                                     </div>
                                 </div>
@@ -138,14 +139,14 @@ class="page-template-default page color-custom style-default button-stroke layou
                                 <div class="column mcb-column one column_image">
                                     <div class="image_frame image_item no_link scale-with-grid aligncenter no_border hover-disable">
                                         <div class="image_wrapper">
-                                            <img class="scale-with-grid" src="{% static 'HomeApp/img/home_architect4_pic25.jpg' %}" alt="Residential Complex">
+                                            <img class="scale-with-grid" src="{% static 'HomeApp/img/home_architect4_pic25.jpg' %}" alt="{% trans 'Kalıpçılık İşleri' %}">
                                         </div>
                                     </div>
                                     <div class="column_attr clearfix align_center" style="padding:20px 0 0;">
-                                        <h4>Residential Complex</h4>
-                                        <p>Multi-unit residential development with community-focused amenities.</p>
+                                        <h4>{% trans "Kalıpçılık İşleri" %}</h4>
+                                        <p>{% trans "İnşaat projeleriniz için çelik, ahşap ve plastik kalıp sistemleri kullanıyoruz." %}</p>
                                         <a class="button button_size_2 button_theme button_js" href="#">
-                                            <span class="button_label">Learn More</span>
+                                            <span class="button_label">{% trans "Detaylar" %}</span>
                                         </a>
                                     </div>
                                 </div>
@@ -158,14 +159,14 @@ class="page-template-default page color-custom style-default button-stroke layou
                                 <div class="column mcb-column one column_image">
                                     <div class="image_frame image_item no_link scale-with-grid aligncenter no_border hover-disable">
                                         <div class="image_wrapper">
-                                            <img class="scale-with-grid" src="{% static 'HomeApp/img/home_architect4_pic26.jpg' %}" alt="Cultural Center">
+                                            <img class="scale-with-grid" src="{% static 'HomeApp/img/home_architect4_pic26.jpg' %}" alt="{% trans 'Demir Donatı İşleri' %}">
                                         </div>
                                     </div>
                                     <div class="column_attr clearfix align_center" style="padding:20px 0 0;">
-                                        <h4>Cultural Center</h4>
-                                        <p>A modern cultural hub designed to celebrate art and community engagement.</p>
+                                        <h4>{% trans "Demir Donatı İşleri" %}</h4>
+                                        <p>{% trans "Yapılarınız için sağlam ve dayanıklı demir donatı uygulamaları yapıyoruz." %}</p>
                                         <a class="button button_size_2 button_theme button_js" href="#">
-                                            <span class="button_label">Learn More</span>
+                                            <span class="button_label">{% trans "Detaylar" %}</span>
                                         </a>
                                     </div>
                                 </div>
@@ -178,14 +179,14 @@ class="page-template-default page color-custom style-default button-stroke layou
                                 <div class="column mcb-column one column_image">
                                     <div class="image_frame image_item no_link scale-with-grid aligncenter no_border hover-disable">
                                         <div class="image_wrapper">
-                                            <img class="scale-with-grid" src="{% static 'HomeApp/img/home_architect4_pic27.jpg' %}" alt="Sustainable Housing">
+                                            <img class="scale-with-grid" src="{% static 'HomeApp/img/home_architect4_pic27.jpg' %}" alt="{% trans 'Duvar Örme İşleri' %}">
                                         </div>
                                     </div>
                                     <div class="column_attr clearfix align_center" style="padding:20px 0 0;">
-                                        <h4>Sustainable Housing</h4>
-                                        <p>Eco-friendly residential project with innovative energy solutions.</p>
+                                        <h4>{% trans "Duvar Örme İşleri" %}</h4>
+                                        <p>{% trans "Kaliteli malzeme ve uzman ekibimizle sağlam duvar çözümleri sunuyoruz." %}</p>
                                         <a class="button button_size_2 button_theme button_js" href="#">
-                                            <span class="button_label">Learn More</span>
+                                            <span class="button_label">{% trans "Detaylar" %}</span>
                                         </a>
                                     </div>
                                 </div>
@@ -198,34 +199,14 @@ class="page-template-default page color-custom style-default button-stroke layou
                                 <div class="column mcb-column one column_image">
                                     <div class="image_frame image_item no_link scale-with-grid aligncenter no_border hover-disable">
                                         <div class="image_wrapper">
-                                            <img class="scale-with-grid" src="{% static 'HomeApp/img/home_architect4_pic28.jpg' %}" alt="Commercial Plaza">
+                                            <img class="scale-with-grid" src="{% static 'HomeApp/img/home_architect4_pic28.jpg' %}" alt="{% trans 'Tavan İşleri' %}">
                                         </div>
                                     </div>
                                     <div class="column_attr clearfix align_center" style="padding:20px 0 0;">
-                                        <h4>Commercial Plaza</h4>
-                                        <p>Mixed-use development combining retail and office spaces.</p>
+                                        <h4>{% trans "Tavan İşleri" %}</h4>
+                                        <p>{% trans "Güvenli ve dayanıklı tavan sistemleri uyguluyoruz." %}</p>
                                         <a class="button button_size_2 button_theme button_js" href="#">
-                                            <span class="button_label">Learn More</span>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- Project 6 -->
-                        <div class="wrap mcb-wrap one-third valign-top clearfix">
-                            <div class="mcb-wrap-inner">
-                                <div class="column mcb-column one column_image">
-                                    <div class="image_frame image_item no_link scale-with-grid aligncenter no_border hover-disable">
-                                        <div class="image_wrapper">
-                                            <img class="scale-with-grid" src="{% static 'HomeApp/img/home_architect4_pic29.jpg' %}" alt="Luxury Hotel">
-                                        </div>
-                                    </div>
-                                    <div class="column_attr clearfix align_center" style="padding:20px 0 0;">
-                                        <h4>Luxury Hotel</h4>
-                                        <p>Five-star hotel featuring elegant design and premium amenities.</p>
-                                        <a class="button button_size_2 button_theme button_js" href="#">
-                                            <span class="button_label">Learn More</span>
+                                            <span class="button_label">{% trans "Detaylar" %}</span>
                                         </a>
                                     </div>
                                 </div>
@@ -241,14 +222,14 @@ class="page-template-default page color-custom style-default button-stroke layou
                             <div class="mcb-wrap-inner">
                                 <div class="column mcb-column one column_column">
                                     <div class="column_attr clearfix align_center">
-                                        <h3>Ready to Start Your Project?</h3>
+                                        <h3>{% trans "Projeniz İçin Hazır mısınız?" %}</h3>
                                         <hr class="no_line" style="margin: 0 auto 15px;">
                                         <p class="big">
-                                            Let's discuss how we can bring your architectural vision to life.
+                                            {% trans "Projenizi bizimle paylaşın, size en uygun çözümleri sunalım." %}
                                         </p>
                                         <hr class="no_line" style="margin: 0 auto 15px;">
                                         <a class="button button_size_2 button_theme button_js" href="{% url 'HomeApp:contact' %}">
-                                            <span class="button_label">Contact Us</span>
+                                            <span class="button_label">{% trans "İletişime Geçin" %}</span>
                                         </a>
                                     </div>
                                 </div>

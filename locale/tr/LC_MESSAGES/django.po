@@ -1,197 +1,197 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
-#, fuzzy
+# Turkish translations for Amir 77 İnşaat website.
+# Copyright (C) 2024 Amir 77 İnşaat
+# This file is distributed under the same license as the Amir77 package.
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-03-24 08:58+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"POT-Creation-Date: 2025-04-09 06:00+0000\n"
+"PO-Revision-Date: 2024-03-24 09:00+0300\n"
+"Last-Translator: \n"
+"Language-Team: Turkish\n"
+"Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
 #: Amir77/settings.py:188
 msgid "Turkish"
-msgstr ""
+msgstr "Türkçe"
 
 #: Amir77/settings.py:189
 msgid "English"
-msgstr ""
+msgstr "İngilizce"
 
 #: apps/AuthApp/admin.py:20
 msgid "Permissions"
-msgstr ""
+msgstr "İzinler"
 
 #: apps/AuthApp/admin.py:22
 msgid "Important dates"
-msgstr ""
+msgstr "Önemli tarihler"
 
 #: apps/AuthApp/forms.py:17
 msgid "E-mail address"
-msgstr ""
+msgstr "E-posta adresi"
 
 #: apps/AuthApp/forms.py:23
 msgid "E-mail"
-msgstr ""
+msgstr "E-posta"
 
 #: apps/AuthApp/templates/AuthApp/account_inactive.html:15
 msgid "Account Inactive"
-msgstr ""
+msgstr "Hesap Aktif Değil"
 
 #: apps/AuthApp/templates/AuthApp/account_inactive.html:18
 msgid "This account is currently inactive"
-msgstr ""
+msgstr "Bu hesap şu anda aktif değil"
 
 #: apps/AuthApp/templates/AuthApp/account_inactive.html:31
 msgid "Please contact the administrator to activate your account."
-msgstr ""
+msgstr "Hesabınızı aktifleştirmek için lütfen yönetici ile iletişime geçin."
 
 #: apps/AuthApp/templates/AuthApp/account_inactive.html:39
 #: apps/AuthApp/templates/AuthApp/password_reset_done.html:38
 #: apps/AuthApp/templates/AuthApp/verification_sent.html:42
 msgid "Return to Login"
-msgstr ""
+msgstr "Girişe Dön"
 
 #: apps/AuthApp/templates/AuthApp/components/footer.html:4
 msgid "All rights reserved"
-msgstr ""
+msgstr "Tüm hakları saklıdır"
 
 #: apps/AuthApp/templates/AuthApp/email.html:15
 msgid "Email Addresses"
-msgstr ""
+msgstr "E-posta Adresleri"
 
 #: apps/AuthApp/templates/AuthApp/email.html:18
 msgid "Manage your email addresses"
-msgstr ""
+msgstr "E-posta adreslerinizi yönetin"
 
 #: apps/AuthApp/templates/AuthApp/email.html:52
 msgid "Verified"
-msgstr ""
+msgstr "Doğrulanmış"
 
 #: apps/AuthApp/templates/AuthApp/email.html:60
 msgid "Unverified"
-msgstr ""
+msgstr "Doğrulanmamış"
 
 #: apps/AuthApp/templates/AuthApp/email.html:69
 msgid "Primary"
-msgstr ""
+msgstr "Birincil"
 
 #: apps/AuthApp/templates/AuthApp/email.html:85
 msgid "Make Primary"
-msgstr ""
+msgstr "Birincil Yap"
 
 #: apps/AuthApp/templates/AuthApp/email.html:95
 msgid "Re-send Verification"
-msgstr ""
+msgstr "Doğrulamayı Yeniden Gönder"
 
 #: apps/AuthApp/templates/AuthApp/email.html:105
 msgid "Remove"
-msgstr ""
+msgstr "Kaldır"
 
 #: apps/AuthApp/templates/AuthApp/email.html:122
 msgid "Add Email Address"
-msgstr ""
+msgstr "E-posta Adresi Ekle"
 
 #: apps/AuthApp/templates/AuthApp/email.html:141
 msgid "Add Email"
-msgstr ""
+msgstr "E-posta Ekle"
 
 #: apps/AuthApp/templates/AuthApp/email.html:149
 msgid ""
 "Your primary email address will be used for account-related notifications "
 "and can be used to reset your password."
 msgstr ""
+"Birincil e-posta adresiniz hesapla ilgili bildirimler için kullanılacak ve "
+"şifrenizi sıfırlamak için kullanılabilir."
 
 #: apps/AuthApp/templates/AuthApp/email.html:198
 #: apps/AuthApp/templates/AuthApp/login.html:177
 #: apps/AuthApp/templates/AuthApp/password_reset.html:111
 #: apps/AuthApp/templates/AuthApp/signup.html:144
 msgid "Email is required"
-msgstr ""
+msgstr "E-posta gereklidir"
 
 #: apps/AuthApp/templates/AuthApp/email.html:199
 #: apps/AuthApp/templates/AuthApp/signup.html:145
 msgid "Please enter a valid email address"
-msgstr ""
+msgstr "Lütfen geçerli bir e-posta adresi girin"
 
 #: apps/AuthApp/templates/AuthApp/email.html:200
 #: apps/AuthApp/templates/AuthApp/signup.html:146
 msgid "Email must be 254 characters or less"
-msgstr ""
+msgstr "E-posta 254 karakterden az olmalıdır"
 
 #: apps/AuthApp/templates/AuthApp/email_confirm.html:16
 #: apps/AuthApp/templates/AuthApp/email_confirm.html:51
 msgid "Confirm Email"
-msgstr ""
+msgstr "E-postayı Onayla"
 
 #: apps/AuthApp/templates/AuthApp/email_confirm.html:18
 msgid "Invalid Link"
-msgstr ""
+msgstr "Geçersiz Bağlantı"
 
 #: apps/AuthApp/templates/AuthApp/email_confirm.html:23
 msgid "Please confirm your email address"
-msgstr ""
+msgstr "Lütfen e-posta adresinizi onaylayın"
 
 #: apps/AuthApp/templates/AuthApp/email_confirm.html:25
 msgid "This confirmation link is invalid or has expired."
-msgstr ""
+msgstr "Bu onay bağlantısı geçersiz veya süresi dolmuş."
 
 #: apps/AuthApp/templates/AuthApp/email_confirm.html:40
 msgid "Please confirm that"
-msgstr ""
+msgstr "Lütfen onaylayın"
 
 #: apps/AuthApp/templates/AuthApp/email_confirm.html:40
 msgid "is your email address."
-msgstr ""
+msgstr "e-posta adresinizdir."
 
 #: apps/AuthApp/templates/AuthApp/email_confirm.html:71
 msgid "Manage Email Addresses"
-msgstr ""
+msgstr "E-posta Adreslerini Yönet"
 
 #: apps/AuthApp/templates/AuthApp/login.html:16
 msgid "Welcome Back"
-msgstr ""
+msgstr "Tekrar Hoşgeldiniz"
 
 #: apps/AuthApp/templates/AuthApp/login.html:19
 msgid "Sign in to continue to your account"
-msgstr ""
+msgstr "Hesabınıza devam etmek için giriş yapın"
 
 #: apps/AuthApp/templates/AuthApp/login.html:83
 msgid "Forgot Password?"
-msgstr ""
+msgstr "Şifremi Unuttum?"
 
 #: apps/AuthApp/templates/AuthApp/login.html:95
 #: apps/AuthApp/templates/AuthApp/password_reset_from_key_done.html:35
 msgid "Sign In"
-msgstr ""
+msgstr "Giriş Yap"
 
 #: apps/AuthApp/templates/AuthApp/login.html:101
 msgid "or continue with"
-msgstr ""
+msgstr "veya şununla devam et"
 
 #: apps/AuthApp/templates/AuthApp/login.html:113
 msgid "Continue with Google"
-msgstr ""
+msgstr "Google ile Devam Et"
 
 #: apps/AuthApp/templates/AuthApp/login.html:119
 msgid "Don't have an account?"
-msgstr ""
+msgstr "Hesabınız yok mu?"
 
 #: apps/AuthApp/templates/AuthApp/login.html:126
 msgid "Sign up"
-msgstr ""
+msgstr "Kayıt Ol"
 
 #: apps/AuthApp/templates/AuthApp/login.html:178
 #: apps/AuthApp/templates/AuthApp/password_reset.html:112
 msgid "Email must be valid"
-msgstr ""
+msgstr "E-posta geçerli olmalıdır"
 
 #: apps/AuthApp/templates/AuthApp/login.html:181
 #: apps/AuthApp/templates/AuthApp/password_reset_from_key.html:110
@@ -199,112 +199,114 @@ msgstr ""
 #: apps/AuthApp/templates/AuthApp/reauthenticate.html:75
 #: apps/AuthApp/templates/AuthApp/signup.html:149
 msgid "Password is required"
-msgstr ""
+msgstr "Şifre gereklidir"
 
 #: apps/AuthApp/templates/AuthApp/logout.html:15
 #: apps/AuthApp/templates/AuthApp/logout.html:42
 msgid "Sign Out"
-msgstr ""
+msgstr "Çıkış Yap"
 
 #: apps/AuthApp/templates/AuthApp/logout.html:18
 msgid "Are you sure you want to sign out?"
-msgstr ""
+msgstr "Çıkış yapmak istediğinizden emin misiniz?"
 
 #: apps/AuthApp/templates/AuthApp/logout.html:53
 msgid "Cancel"
-msgstr ""
+msgstr "İptal"
 
 #: apps/AuthApp/templates/AuthApp/password_change.html:15
 #: apps/AuthApp/templates/AuthApp/password_change.html:86
 #: apps/AuthApp/templates/AuthApp/password_reset_from_key.html:77
 msgid "Change Password"
-msgstr ""
+msgstr "Şifre Değiştir"
 
 #: apps/AuthApp/templates/AuthApp/password_change.html:18
 msgid "Change your current password"
-msgstr ""
+msgstr "Mevcut şifrenizi değiştirin"
 
 #: apps/AuthApp/templates/AuthApp/password_change.html:32
 msgid "Current Password"
-msgstr ""
+msgstr "Mevcut Şifre"
 
 #: apps/AuthApp/templates/AuthApp/password_change.html:48
 #: apps/AuthApp/templates/AuthApp/password_set.html:32
 msgid "New Password"
-msgstr ""
+msgstr "Yeni Şifre"
 
 #: apps/AuthApp/templates/AuthApp/password_change.html:65
 msgid "Confirm New Password"
-msgstr ""
+msgstr "Yeni Şifreyi Onayla"
 
 #: apps/AuthApp/templates/AuthApp/password_change.html:141
 msgid "Current password is required"
-msgstr ""
+msgstr "Mevcut şifre gereklidir"
 
 #: apps/AuthApp/templates/AuthApp/password_change.html:144
 msgid "New password is required"
-msgstr ""
+msgstr "Yeni şifre gereklidir"
 
 #: apps/AuthApp/templates/AuthApp/password_change.html:145
 #: apps/AuthApp/templates/AuthApp/password_reset_from_key.html:111
 #: apps/AuthApp/templates/AuthApp/password_set.html:97
 #: apps/AuthApp/templates/AuthApp/signup.html:150
 msgid "Password must be at least 8 characters"
-msgstr ""
+msgstr "Şifre en az 8 karakter olmalıdır"
 
 #: apps/AuthApp/templates/AuthApp/password_change.html:146
 #: apps/AuthApp/templates/AuthApp/password_reset_from_key.html:112
 #: apps/AuthApp/templates/AuthApp/password_set.html:98
 #: apps/AuthApp/templates/AuthApp/signup.html:151
 msgid "Password must contain at least one uppercase letter"
-msgstr ""
+msgstr "Şifre en az bir büyük harf içermelidir"
 
 #: apps/AuthApp/templates/AuthApp/password_change.html:147
 #: apps/AuthApp/templates/AuthApp/password_reset_from_key.html:113
 #: apps/AuthApp/templates/AuthApp/password_set.html:99
 #: apps/AuthApp/templates/AuthApp/signup.html:152
 msgid "Password must contain at least one lowercase letter"
-msgstr ""
+msgstr "Şifre en az bir küçük harf içermelidir"
 
 #: apps/AuthApp/templates/AuthApp/password_change.html:148
 #: apps/AuthApp/templates/AuthApp/password_reset_from_key.html:114
 #: apps/AuthApp/templates/AuthApp/password_set.html:100
 #: apps/AuthApp/templates/AuthApp/signup.html:153
 msgid "Password must contain at least one number"
-msgstr ""
+msgstr "Şifre en az bir rakam içermelidir"
 
 #: apps/AuthApp/templates/AuthApp/password_change.html:151
 #: apps/AuthApp/templates/AuthApp/password_reset_from_key.html:117
 #: apps/AuthApp/templates/AuthApp/password_set.html:103
 msgid "Password confirmation is required"
-msgstr ""
+msgstr "Şifre onayı gereklidir"
 
 #: apps/AuthApp/templates/AuthApp/password_change.html:152
 #: apps/AuthApp/templates/AuthApp/password_reset_from_key.html:118
 #: apps/AuthApp/templates/AuthApp/password_set.html:104
 msgid "Passwords must match"
-msgstr ""
+msgstr "Şifreler eşleşmelidir"
 
 #: apps/AuthApp/templates/AuthApp/password_reset.html:15
 #: apps/AuthApp/templates/AuthApp/password_reset.html:51
 msgid "Reset Password"
-msgstr ""
+msgstr "Şifreyi Sıfırla"
 
 #: apps/AuthApp/templates/AuthApp/password_reset.html:18
 msgid "Enter your email to receive reset instructions"
-msgstr ""
+msgstr "Sıfırlama talimatlarını almak için e-postanızı girin"
 
 #: apps/AuthApp/templates/AuthApp/password_reset.html:61
+#, fuzzy
+#| msgid "Return to Login"
 msgid "Back to Login"
-msgstr ""
+msgstr "Girişe Dön"
 
 #: apps/AuthApp/templates/AuthApp/password_reset_done.html:14
 msgid "Check Your Email"
-msgstr ""
+msgstr "E-postanızı Kontrol Edin"
 
 #: apps/AuthApp/templates/AuthApp/password_reset_done.html:17
 msgid "We've sent you instructions to reset your password"
-msgstr ""
+msgstr "Şifrenizi sıfırlamak için talimatları gönderdik"
 
 #: apps/AuthApp/templates/AuthApp/password_reset_done.html:30
 #: apps/AuthApp/templates/AuthApp/verification_sent.html:34
@@ -312,98 +314,997 @@ msgid ""
 "If you don't receive an email within a few minutes, please check your spam "
 "folder."
 msgstr ""
+"Birkaç dakika içinde e-posta almazsanız, lütfen spam klasörünüzü kontrol "
+"edin."
 
 #: apps/AuthApp/templates/AuthApp/password_reset_from_key.html:15
 msgid "Bad Token"
-msgstr ""
+msgstr "Geçersiz Token"
 
 #: apps/AuthApp/templates/AuthApp/password_reset_from_key.html:17
 msgid "Set New Password"
-msgstr ""
+msgstr "Yeni Şifre Belirle"
 
 #: apps/AuthApp/templates/AuthApp/password_reset_from_key.html:22
 msgid "This password reset link is invalid or has expired."
-msgstr ""
+msgstr "Bu şifre sıfırlama bağlantısı geçersiz veya süresi dolmuş."
 
 #: apps/AuthApp/templates/AuthApp/password_reset_from_key.html:24
 msgid "Enter your new password below"
-msgstr ""
+msgstr "Yeni şifrenizi aşağıya girin"
 
 #: apps/AuthApp/templates/AuthApp/password_reset_from_key.html:89
 msgid "Request New Reset Link"
-msgstr ""
+msgstr "Yeni Sıfırlama Bağlantısı İste"
 
 #: apps/AuthApp/templates/AuthApp/password_reset_from_key_done.html:14
 msgid "Password Changed Successfully"
-msgstr ""
+msgstr "Şifre Başarıyla Değiştirildi"
 
 #: apps/AuthApp/templates/AuthApp/password_reset_from_key_done.html:17
 msgid ""
 "Your password has been changed. You can now login with your new password."
-msgstr ""
+msgstr "Şifreniz değiştirildi. Artık yeni şifrenizle giriş yapabilirsiniz."
 
 #: apps/AuthApp/templates/AuthApp/password_set.html:14
 #: apps/AuthApp/templates/AuthApp/password_set.html:70
 msgid "Set Password"
-msgstr ""
+msgstr "Şifre Belirle"
 
 #: apps/AuthApp/templates/AuthApp/password_set.html:17
 msgid "Please set a password for your account"
-msgstr ""
+msgstr "Lütfen hesabınız için bir şifre belirleyin"
 
 #: apps/AuthApp/templates/AuthApp/password_set.html:49
 msgid "Confirm Password"
-msgstr ""
+msgstr "Şifreyi Onayla"
 
 #: apps/AuthApp/templates/AuthApp/reauthenticate.html:14
 msgid "Reauthenticate"
-msgstr ""
+msgstr "Yeniden Kimlik Doğrulama"
 
 #: apps/AuthApp/templates/AuthApp/reauthenticate.html:17
 msgid "Please confirm your password to continue"
-msgstr ""
+msgstr "Devam etmek için lütfen şifrenizi onaylayın"
 
 #: apps/AuthApp/templates/AuthApp/reauthenticate.html:31
 msgid "Password"
-msgstr ""
+msgstr "Şifre"
 
 #: apps/AuthApp/templates/AuthApp/reauthenticate.html:52
 msgid "Confirm"
-msgstr ""
+msgstr "Onayla"
 
 #: apps/AuthApp/templates/AuthApp/signup.html:15
 msgid "Create Account"
-msgstr ""
+msgstr "Hesap Oluştur"
 
 #: apps/AuthApp/templates/AuthApp/signup.html:18
 msgid "Sign up to get started"
-msgstr ""
+msgstr "Başlamak için kayıt olun"
 
 #: apps/AuthApp/templates/AuthApp/signup.html:80
 msgid "Sign Up"
-msgstr ""
+msgstr "Kayıt Ol"
 
 #: apps/AuthApp/templates/AuthApp/signup.html:85
 msgid "Already have an account?"
-msgstr ""
+msgstr "Zaten hesabınız var mı?"
 
 #: apps/AuthApp/templates/AuthApp/signup.html:92
 msgid "Sign in"
-msgstr ""
+msgstr "Giriş Yap"
 
 #: apps/AuthApp/templates/AuthApp/verification_sent.html:14
 msgid "Verify Your Email"
-msgstr ""
+msgstr "E-postanızı Doğrulayın"
 
 #: apps/AuthApp/templates/AuthApp/verification_sent.html:17
 msgid "We've sent you a verification email"
-msgstr ""
+msgstr "Size bir doğrulama e-postası gönderdik"
 
 #: apps/AuthApp/templates/AuthApp/verification_sent.html:30
 msgid ""
 "Please check your email and click on the verification link to complete your "
 "registration."
 msgstr ""
+"Lütfen e-postanızı kontrol edin ve kaydınızı tamamlamak için doğrulama "
+"bağlantısına tıklayın."
+
+# Contact page translations
+#: apps/HomeApp/templates/HomeApp/architect4/about.html:6
+#, fuzzy
+#| msgid "İletişim - Amir 77 İnşaat"
+msgid "Hakkımızda - Amir 77 İnşaat"
+msgstr "İletişim - Amir 77 İnşaat"
+
+# Contact page translations
+#: apps/HomeApp/templates/HomeApp/architect4/about.html:24
+msgid "Hakkımızda"
+msgstr "Hakkımızda"
+
+#: apps/HomeApp/templates/HomeApp/architect4/about.html:40
+msgid "15 Yıllık Deneyim, Sarsılmaz Güven"
+msgstr "15 Yıllık Deneyim, Sarsılmaz Güven"
+
+#: apps/HomeApp/templates/HomeApp/architect4/about.html:63
+#, fuzzy
+#| msgid ""
+#| "Amir 77 İnşaat Ticaret Sanayi Limited Şirketi, 4 Temmuz 2021 tarihinde "
+#| "kurulmuş olup, inşaat sektöründe 15 yılı aşkın deneyime sahiptir. Uzman "
+#| "ekibimizle beton dökme, kalıp, demir, duvar örme ve tavan işleri gibi "
+#| "birçok alanda hizmet sunmaktayız."
+msgid ""
+"Amir 77 İnşaat Ticaret Sanayi Limited Şirketi, 04.07.2021 yılında kurulmuş "
+"olup, 15 yılı aşkın sektör deneyimine sahiptir. İnşaat sektöründe uzman "
+"ekibimizle, beton dökme, kalıpçılık, demir donatı, duvar örme ve tavan "
+"işleri gibi birçok alanda hizmet sunmaktayız."
+msgstr ""
+"Amir 77 İnşaat Ticaret Sanayi Limited Şirketi, 4 Temmuz 2021 tarihinde "
+"kurulmuş olup, inşaat sektöründe 15 yılı aşkın deneyime sahiptir. Uzman "
+"ekibimizle beton dökme, kalıp, demir, duvar örme ve tavan işleri gibi birçok "
+"alanda hizmet sunmaktayız."
+
+#: apps/HomeApp/templates/HomeApp/architect4/about.html:84
+#, fuzzy
+#| msgid ""
+#| "Amir 77 İnşaat olarak, projelerinizi en iyi şekilde tamamlamak, kalite "
+#| "standartlarına uygun, dayanıklı ve estetik yapılar inşa etmek için "
+#| "çalışıyoruz."
+msgid ""
+"Amacımız, projelerinizi en iyi şekilde tamamlamak, kalite standartlarına "
+"uygun, dayanıklı ve estetik yapılar inşa etmektir."
+msgstr ""
+"Amir 77 İnşaat olarak, projelerinizi en iyi şekilde tamamlamak, kalite "
+"standartlarına uygun, dayanıklı ve estetik yapılar inşa etmek için "
+"çalışıyoruz."
+
+#: apps/HomeApp/templates/HomeApp/architect4/about.html:87
+#, fuzzy
+#| msgid ""
+#| "Güçlü referanslarımız ve yılların deneyimiyle, inşaat projeleriniz için "
+#| "en iyi çözümleri sunuyoruz."
+msgid ""
+"Güçlü referanslarımız ve yılların tecrübesi ile inşaat projelerinize en iyi "
+"çözümleri sunuyoruz."
+msgstr ""
+"Güçlü referanslarımız ve yılların deneyimiyle, inşaat projeleriniz için en "
+"iyi çözümleri sunuyoruz."
+
+#: apps/HomeApp/templates/HomeApp/architect4/about.html:113
+msgid "Profesyonel Ekip, Kaliteli Hizmet"
+msgstr "Profesyonel Ekip, Kaliteli Hizmet"
+
+#: apps/HomeApp/templates/HomeApp/architect4/about.html:116
+#, fuzzy
+#| msgid ""
+#| "İnşaat sektöründeki deneyim ve uzmanlığımızla, her proje için özel "
+#| "çözümler üretiyoruz. Modern ekipmanlarımız ve kaliteli malzemelerimizle "
+#| "müşterilerimizin beklentilerini en üst düzeyde karşılıyoruz."
+msgid ""
+"İnşaat sektöründeki deneyimimiz ve uzman kadromuzla, her projeye özel "
+"çözümler üretiyoruz. Modern ekipmanlarımız ve kaliteli malzemelerimizle, "
+"müşterilerimizin beklentilerini en üst düzeyde karşılıyoruz."
+msgstr ""
+"İnşaat sektöründeki deneyim ve uzmanlığımızla, her proje için özel çözümler "
+"üretiyoruz. Modern ekipmanlarımız ve kaliteli malzemelerimizle "
+"müşterilerimizin beklentilerini en üst düzeyde karşılıyoruz."
+
+#: apps/HomeApp/templates/HomeApp/architect4/about.html:137
+msgid "Kaliteli"
+msgstr "Kaliteli"
+
+#: apps/HomeApp/templates/HomeApp/architect4/about.html:137
+msgid "Hizmet"
+msgstr "Hizmet"
+
+#: apps/HomeApp/templates/HomeApp/architect4/about.html:139
+msgid "Modern ekipmanlar ve uzman kadromuzla kaliteli hizmet sunuyoruz."
+msgstr "Modern ekipmanlar ve uzman kadromuzla kaliteli hizmet sunuyoruz."
+
+#: apps/HomeApp/templates/HomeApp/architect4/about.html:155
+msgid "Güvenilir ve Profesyonel Çözümler"
+msgstr "Güvenilir ve Profesyonel Çözümler"
+
+#: apps/HomeApp/templates/HomeApp/architect4/about.html:161
+msgid ""
+"Beton dökme, kalıpçılık, demir donatı, duvar örme ve tavan işleri "
+"konularında uzmanlaşmış ekibimizle, inşaat projelerinize en uygun çözümleri "
+"sunuyoruz. Her projede kalite standartlarına uygun malzemeler kullanıyor, "
+"işçilik ve güvenlik konularında taviz vermiyoruz."
+msgstr ""
+"Beton dökme, kalıpçılık, demir donatı, duvar örme ve tavan işleri "
+"konularında uzmanlaşmış ekibimizle, inşaat projelerinize en uygun çözümleri "
+"sunuyoruz. Her projede kalite standartlarına uygun malzemeler kullanıyor, "
+"işçilik ve güvenlik konularında taviz vermiyoruz."
+
+#: apps/HomeApp/templates/HomeApp/architect4/about.html:164
+msgid ""
+"Müşteri memnuniyetini ön planda tutarak, projelerinizi zamanında ve "
+"bütçenize uygun şekilde tamamlıyoruz. Amir 77 İnşaat olarak, sektördeki "
+"güvenilir konumumuzu korumak için sürekli kendimizi geliştiriyor ve "
+"yenilikleri takip ediyoruz."
+msgstr ""
+"Müşteri memnuniyetini ön planda tutarak, projelerinizi zamanında ve "
+"bütçenize uygun şekilde tamamlıyoruz. Amir 77 İnşaat olarak, sektördeki "
+"güvenilir konumumuzu korumak için sürekli kendimizi geliştiriyor ve "
+"yenilikleri takip ediyoruz."
+
+#: apps/HomeApp/templates/HomeApp/architect4/about.html:179
+#: apps/HomeApp/templates/HomeApp/architect4/case-studies.html:225
+#: apps/HomeApp/templates/HomeApp/architect4/services.html:365
+msgid "Projeniz İçin Hazır mısınız?"
+msgstr "Projeniz İçin Hazır mısınız?"
+
+#: apps/HomeApp/templates/HomeApp/architect4/about.html:182
+#: apps/HomeApp/templates/HomeApp/architect4/case-studies.html:228
+msgid "Projenizi bizimle paylaşın, size en uygun çözümleri sunalım."
+msgstr "Projenizi bizimle paylaşın, size en uygun çözümleri sunalım."
+
+# Common translations
+#: apps/HomeApp/templates/HomeApp/architect4/about.html:186
+#: apps/HomeApp/templates/HomeApp/architect4/case-studies.html:232
+#: apps/HomeApp/templates/HomeApp/architect4/services.html:372
+msgid "İletişime Geçin"
+msgstr "İletişime Geçin"
+
+# Case studies page translations
+#: apps/HomeApp/templates/HomeApp/architect4/case-studies.html:6
+msgid "Projelerimiz - Amir 77 İnşaat"
+msgstr "Projelerimiz - Amir 77 İnşaat"
+
+#: apps/HomeApp/templates/HomeApp/architect4/case-studies.html:54
+msgid "Projelerimiz"
+msgstr "Projelerimiz"
+
+#: apps/HomeApp/templates/HomeApp/architect4/case-studies.html:72
+msgid "Tamamlanan ve Devam Eden Projelerimiz"
+msgstr "Tamamlanan ve Devam Eden Projelerimiz"
+
+#: apps/HomeApp/templates/HomeApp/architect4/case-studies.html:75
+msgid ""
+"Kaliteli işçilik ve güvenilir hizmet anlayışımızla hayata geçirdiğimiz "
+"projelerimizi inceleyebilirsiniz."
+msgstr ""
+"Kaliteli işçilik ve güvenilir hizmet anlayışımızla hayata geçirdiğimiz "
+"projelerimizi inceleyebilirsiniz."
+
+#: apps/HomeApp/templates/HomeApp/architect4/case-studies.html:92
+msgid "Konut Projesi"
+msgstr "Konut Projesi"
+
+#: apps/HomeApp/templates/HomeApp/architect4/case-studies.html:98
+msgid "Modern Konut Projesi"
+msgstr "Modern Konut Projesi"
+
+#: apps/HomeApp/templates/HomeApp/architect4/case-studies.html:100
+msgid ""
+"Diyarbakır'da tamamladığımız modern konut projesi, kaliteli malzeme ve "
+"işçilik ile inşa edilmiştir."
+msgstr ""
+"Diyarbakır'da tamamladığımız modern konut projesi, kaliteli malzeme ve "
+"işçilik ile inşa edilmiştir."
+
+#: apps/HomeApp/templates/HomeApp/architect4/case-studies.html:104
+#: apps/HomeApp/templates/HomeApp/architect4/case-studies.html:129
+#: apps/HomeApp/templates/HomeApp/architect4/case-studies.html:149
+#: apps/HomeApp/templates/HomeApp/architect4/case-studies.html:169
+#: apps/HomeApp/templates/HomeApp/architect4/case-studies.html:189
+#: apps/HomeApp/templates/HomeApp/architect4/case-studies.html:209
+msgid "Detaylar"
+msgstr "Detaylar"
+
+#: apps/HomeApp/templates/HomeApp/architect4/case-studies.html:122
+#: apps/HomeApp/templates/HomeApp/architect4/case-studies.html:126
+msgid "Beton Dökme İşleri"
+msgstr "Beton Dökme İşleri"
+
+#: apps/HomeApp/templates/HomeApp/architect4/case-studies.html:127
+msgid ""
+"Modern ekipmanlarla, dayanıklı ve kaliteli beton dökme hizmeti sunuyoruz."
+msgstr ""
+"Modern ekipmanlarla, dayanıklı ve kaliteli beton dökme hizmeti sunuyoruz."
+
+#: apps/HomeApp/templates/HomeApp/architect4/case-studies.html:142
+#: apps/HomeApp/templates/HomeApp/architect4/case-studies.html:146
+msgid "Kalıpçılık İşleri"
+msgstr "Kalıpçılık İşleri"
+
+#: apps/HomeApp/templates/HomeApp/architect4/case-studies.html:147
+msgid ""
+"İnşaat projeleriniz için çelik, ahşap ve plastik kalıp sistemleri "
+"kullanıyoruz."
+msgstr ""
+"İnşaat projeleriniz için çelik, ahşap ve plastik kalıp sistemleri "
+"kullanıyoruz."
+
+#: apps/HomeApp/templates/HomeApp/architect4/case-studies.html:162
+#: apps/HomeApp/templates/HomeApp/architect4/case-studies.html:166
+#: apps/HomeApp/templates/HomeApp/architect4/services.html:236
+msgid "Demir Donatı İşleri"
+msgstr "Demir Donatı İşleri"
+
+#: apps/HomeApp/templates/HomeApp/architect4/case-studies.html:167
+msgid ""
+"Yapılarınız için sağlam ve dayanıklı demir donatı uygulamaları yapıyoruz."
+msgstr ""
+"Yapılarınız için sağlam ve dayanıklı demir donatı uygulamaları yapıyoruz."
+
+#: apps/HomeApp/templates/HomeApp/architect4/case-studies.html:182
+#: apps/HomeApp/templates/HomeApp/architect4/case-studies.html:186
+msgid "Duvar Örme İşleri"
+msgstr "Duvar Örme İşleri"
+
+#: apps/HomeApp/templates/HomeApp/architect4/case-studies.html:187
+msgid "Kaliteli malzeme ve uzman ekibimizle sağlam duvar çözümleri sunuyoruz."
+msgstr "Kaliteli malzeme ve uzman ekibimizle sağlam duvar çözümleri sunuyoruz."
+
+#: apps/HomeApp/templates/HomeApp/architect4/case-studies.html:202
+#: apps/HomeApp/templates/HomeApp/architect4/case-studies.html:206
+msgid "Tavan İşleri"
+msgstr "Tavan İşleri"
+
+#: apps/HomeApp/templates/HomeApp/architect4/case-studies.html:207
+msgid "Güvenli ve dayanıklı tavan sistemleri uyguluyoruz."
+msgstr "Güvenli ve dayanıklı tavan sistemleri uyguluyoruz."
+
+#: apps/HomeApp/templates/HomeApp/architect4/components/footer.html:8
+msgid "Address"
+msgstr "Adres"
+
+#: apps/HomeApp/templates/HomeApp/architect4/components/footer.html:11
+msgid "Amir 77 İnşaat Ticaret Sanayi Limited Şirketi"
+msgstr "Amir 77 İnşaat Ticaret Sanayi Limited Şirketi"
+
+#: apps/HomeApp/templates/HomeApp/architect4/components/footer.html:12
+msgid "Mustafa Kemal Paşamah. Giresun Cad."
+msgstr "Mustafa Kemal Paşamah. Giresun Cad."
+
+#: apps/HomeApp/templates/HomeApp/architect4/components/footer.html:13
+msgid "No: 3/015"
+msgstr "No: 3/015"
+
+#: apps/HomeApp/templates/HomeApp/architect4/components/footer.html:14
+msgid "Merkez/Yalova"
+msgstr "Merkez/Yalova"
+
+#: apps/HomeApp/templates/HomeApp/architect4/components/footer.html:17
+msgid "Tax Number"
+msgstr "Vergi Numarası"
+
+#: apps/HomeApp/templates/HomeApp/architect4/components/footer.html:24
+msgid "Contact Information"
+msgstr "İletişim Bilgileri"
+
+#: apps/HomeApp/templates/HomeApp/architect4/components/footer.html:33
+msgid "Accounting"
+msgstr "Muhasebe"
+
+#: apps/HomeApp/templates/HomeApp/architect4/components/footer.html:45
+msgid "Our Services"
+msgstr "Hizmetlerimiz"
+
+#: apps/HomeApp/templates/HomeApp/architect4/components/footer.html:49
+msgid "Concrete Pouring"
+msgstr "Beton Dökme"
+
+#: apps/HomeApp/templates/HomeApp/architect4/components/footer.html:52
+msgid "Formwork"
+msgstr "Kalıpçılık"
+
+#: apps/HomeApp/templates/HomeApp/architect4/components/footer.html:55
+msgid "Iron Reinforcement"
+msgstr "Demir Donatı"
+
+#: apps/HomeApp/templates/HomeApp/architect4/components/footer.html:58
+msgid "Wall Construction"
+msgstr "Duvar Örme"
+
+#: apps/HomeApp/templates/HomeApp/architect4/components/footer.html:61
+msgid "Ceiling Works"
+msgstr "Tavan İşleri"
+
+#: apps/HomeApp/templates/HomeApp/architect4/components/footer.html:72
+msgid "Amir 77 İnşaat Logo"
+msgstr "Amir 77 İnşaat Logo"
+
+#: apps/HomeApp/templates/HomeApp/architect4/components/footer.html:77
+msgid "Follow Us"
+msgstr "Bizi Takip Edin"
+
+#: apps/HomeApp/templates/HomeApp/architect4/components/footer.html:97
+msgid "Copyright"
+msgstr "Telif Hakkı"
+
+#: apps/HomeApp/templates/HomeApp/architect4/components/footer.html:97
+msgid "Amir 77 İnşaat"
+msgstr "Amir 77 İnşaat"
+
+#: apps/HomeApp/templates/HomeApp/architect4/components/footer.html:97
+msgid "All Rights Reserved"
+msgstr "Tüm Hakları Saklıdır"
+
+#: apps/HomeApp/templates/HomeApp/architect4/components/header-topbar.html:14
+msgid "Home"
+msgstr "Ana Sayfa"
+
+#: apps/HomeApp/templates/HomeApp/architect4/components/header-topbar.html:16
+msgid "About us"
+msgstr "Hakkımızda"
+
+#: apps/HomeApp/templates/HomeApp/architect4/components/header-topbar.html:18
+msgid "Services"
+msgstr "Hizmetler"
+
+#: apps/HomeApp/templates/HomeApp/architect4/components/header-topbar.html:20
+msgid "Contact"
+msgstr "İletişim"
+
+# Contact page translations
+#: apps/HomeApp/templates/HomeApp/architect4/contact.html:6
+msgid "İletişim - Amir 77 İnşaat"
+msgstr "İletişim - Amir 77 İnşaat"
+
+#: apps/HomeApp/templates/HomeApp/architect4/contact.html:93
+msgid "İletişim"
+msgstr "İletişim"
+
+#: apps/HomeApp/templates/HomeApp/architect4/contact.html:111
+msgid "Bizimle İletişime Geçin"
+msgstr "Bizimle İletişime Geçin"
+
+#: apps/HomeApp/templates/HomeApp/architect4/contact.html:114
+msgid ""
+"İnşaat projeleriniz için bizimle iletişime geçebilir ve detaylı bilgi "
+"alabilirsiniz."
+msgstr ""
+"İnşaat projeleriniz için bizimle iletişime geçebilir ve detaylı bilgi "
+"alabilirsiniz."
+
+#: apps/HomeApp/templates/HomeApp/architect4/contact.html:131
+msgid "İletişim Bilgileri"
+msgstr "İletişim Bilgileri"
+
+#: apps/HomeApp/templates/HomeApp/architect4/contact.html:136
+msgid "Adres"
+msgstr "Adres"
+
+#: apps/HomeApp/templates/HomeApp/architect4/contact.html:142
+msgid "Telefon"
+msgstr "Telefon"
+
+#: apps/HomeApp/templates/HomeApp/architect4/contact.html:144
+msgid "Muhasebe"
+msgstr "Muhasebe"
+
+#: apps/HomeApp/templates/HomeApp/architect4/contact.html:148
+msgid "E-posta"
+msgstr "E-posta"
+
+#: apps/HomeApp/templates/HomeApp/architect4/contact.html:153
+msgid "Vergi No"
+msgstr "Vergi No"
+
+#: apps/HomeApp/templates/HomeApp/architect4/contact.html:162
+msgid "Çalışma Saatleri"
+msgstr "Çalışma Saatleri"
+
+#: apps/HomeApp/templates/HomeApp/architect4/contact.html:167
+msgid "Pazartesi - Cuma"
+msgstr "Pazartesi - Cuma"
+
+#: apps/HomeApp/templates/HomeApp/architect4/contact.html:171
+msgid "Cumartesi"
+msgstr "Cumartesi"
+
+#: apps/HomeApp/templates/HomeApp/architect4/contact.html:175
+msgid "Pazar"
+msgstr "Pazar"
+
+#: apps/HomeApp/templates/HomeApp/architect4/contact.html:176
+msgid "Kapalı"
+msgstr "Kapalı"
+
+#: apps/HomeApp/templates/HomeApp/architect4/contact.html:189
+msgid "Mesaj Gönderin"
+msgstr "Mesaj Gönderin"
+
+#: apps/HomeApp/templates/HomeApp/architect4/contact.html:196
+msgid "Adınız Soyadınız"
+msgstr "Adınız Soyadınız"
+
+#: apps/HomeApp/templates/HomeApp/architect4/contact.html:202
+msgid "E-posta Adresiniz"
+msgstr "E-posta Adresiniz"
+
+#: apps/HomeApp/templates/HomeApp/architect4/contact.html:208
+msgid "Telefon Numaranız"
+msgstr "Telefon Numaranız"
+
+#: apps/HomeApp/templates/HomeApp/architect4/contact.html:214
+msgid "Proje Konumu"
+msgstr "Proje Konumu"
+
+#: apps/HomeApp/templates/HomeApp/architect4/contact.html:220
+msgid "Mesajınız"
+msgstr "Mesajınız"
+
+#: apps/HomeApp/templates/HomeApp/architect4/contact.html:226
+msgid "Mesaj Gönder"
+msgstr "Mesaj Gönder"
+
+# Homepage translations
+#: apps/HomeApp/templates/HomeApp/architect4/index.html:7
+msgid "Amir 77 İnşaat – Güvenilir ve Kaliteli İnşaat Hizmetleri"
+msgstr "Amir 77 İnşaat – Güvenilir ve Kaliteli İnşaat Hizmetleri"
+
+#: apps/HomeApp/templates/HomeApp/architect4/index.html:31
+msgid "Güvenilir ve Kaliteli"
+msgstr "Güvenilir ve Kaliteli"
+
+#: apps/HomeApp/templates/HomeApp/architect4/index.html:32
+msgid "İnşaat Hizmetleri"
+msgstr "İnşaat Hizmetleri"
+
+#: apps/HomeApp/templates/HomeApp/architect4/index.html:36
+msgid "Beton dökme, kalıpçılık, demir donatı,"
+msgstr "Beton dökme, kalıpçılık, demir donatı,"
+
+#: apps/HomeApp/templates/HomeApp/architect4/index.html:37
+msgid "duvar örme ve tavan işleri konularında"
+msgstr "duvar örme ve tavan işleri konularında"
+
+#: apps/HomeApp/templates/HomeApp/architect4/index.html:38
+msgid "uzman ekibimizle hizmetinizdeyiz."
+msgstr "uzman ekibimizle hizmetinizdeyiz."
+
+#: apps/HomeApp/templates/HomeApp/architect4/index.html:63
+msgid "Kalite sadece standardımız değil, şirketimize yerleşmiş bir"
+msgstr "Kalite sadece standardımız değil, şirketimize yerleşmiş bir"
+
+#: apps/HomeApp/templates/HomeApp/architect4/index.html:63
+msgid "tutum"
+msgstr "tutum"
+
+#: apps/HomeApp/templates/HomeApp/architect4/index.html:83
+msgid ""
+"15 yılı aşkın sektör deneyimi ile güveninize layık olmaya devam ediyoruz."
+msgstr ""
+"15 yılı aşkın sektör deneyimi ile güveninize layık olmaya devam ediyoruz."
+
+#: apps/HomeApp/templates/HomeApp/architect4/index.html:94
+msgid "Daha Fazla"
+msgstr "Daha Fazla"
+
+#: apps/HomeApp/templates/HomeApp/architect4/index.html:122
+msgid ""
+"Amir 77 İnşaat olarak, projelerinizi en iyi şekilde tamamlamak, kalite "
+"standartlarına uygun, dayanıklı ve estetik yapılar inşa etmek için "
+"çalışıyoruz."
+msgstr ""
+"Amir 77 İnşaat olarak, projelerinizi en iyi şekilde tamamlamak, kalite "
+"standartlarına uygun, dayanıklı ve estetik yapılar inşa etmek için "
+"çalışıyoruz."
+
+#: apps/HomeApp/templates/HomeApp/architect4/index.html:125
+msgid ""
+"İnşaat sektöründe uzman ekibimizle, beton dökme, kalıpçılık, demir donatı, "
+"duvar örme ve tavan işleri gibi birçok alanda profesyonel hizmet "
+"sunmaktayız. Güçlü referanslarımız ve yılların tecrübesi ile inşaat "
+"projelerinize en iyi çözümleri sunuyoruz."
+msgstr ""
+"İnşaat sektöründe uzman ekibimizle, beton dökme, kalıpçılık, demir donatı, "
+"duvar örme ve tavan işleri gibi birçok alanda profesyonel hizmet "
+"sunmaktayız. Güçlü referanslarımız ve yılların tecrübesi ile inşaat "
+"projelerinize en iyi çözümleri sunuyoruz."
+
+#: apps/HomeApp/templates/HomeApp/architect4/index.html:132
+msgid "Yıllık"
+msgstr "Yıllık"
+
+#: apps/HomeApp/templates/HomeApp/architect4/index.html:133
+msgid "Deneyim"
+msgstr "Deneyim"
+
+#: apps/HomeApp/templates/HomeApp/architect4/index.html:140
+msgid "Başarılı"
+msgstr "Başarılı"
+
+#: apps/HomeApp/templates/HomeApp/architect4/index.html:141
+msgid "Proje"
+msgstr "Proje"
+
+#: apps/HomeApp/templates/HomeApp/architect4/index.html:148
+msgid "Mutlu"
+msgstr "Mutlu"
+
+#: apps/HomeApp/templates/HomeApp/architect4/index.html:149
+msgid "Müşteri"
+msgstr "Müşteri"
+
+#: apps/HomeApp/templates/HomeApp/architect4/index.html:163
+msgid "Seçkin Projelerimiz"
+msgstr "Seçkin Projelerimiz"
+
+#: apps/HomeApp/templates/HomeApp/architect4/index.html:375
+msgid "Profesyonel İnşaat Hizmetlerimiz"
+msgstr "Profesyonel İnşaat Hizmetlerimiz"
+
+#: apps/HomeApp/templates/HomeApp/architect4/index.html:392
+msgid "Beton ve Kalıp"
+msgstr "Beton ve Kalıp"
+
+#: apps/HomeApp/templates/HomeApp/architect4/index.html:393
+msgid "İşleri"
+msgstr "İşleri"
+
+#: apps/HomeApp/templates/HomeApp/architect4/index.html:396
+msgid ""
+"Profesyonel ekibimizle beton döküm ve kalıp işlerini en yüksek kalite "
+"standartlarında gerçekleştiriyoruz. Modern teknikler ve güvenilir çözümler "
+"sunuyoruz."
+msgstr ""
+"Profesyonel ekibimizle beton döküm ve kalıp işlerini en yüksek kalite "
+"standartlarında gerçekleştiriyoruz. Modern teknikler ve güvenilir çözümler "
+"sunuyoruz."
+
+#: apps/HomeApp/templates/HomeApp/architect4/index.html:411
+#: apps/HomeApp/templates/HomeApp/architect4/services.html:226
+msgid "Demir Donatı"
+msgstr "Demir Donatı"
+
+#: apps/HomeApp/templates/HomeApp/architect4/index.html:412
+msgid "Sistemleri"
+msgstr "Sistemleri"
+
+#: apps/HomeApp/templates/HomeApp/architect4/index.html:415
+msgid ""
+"Yapıların güvenliği için kritik öneme sahip demir donatı işlerini uzman "
+"kadromuzla titizlikle uyguluyoruz. Dayanıklı ve güvenli yapılar inşa "
+"ediyoruz."
+msgstr ""
+"Yapıların güvenliği için kritik öneme sahip demir donatı işlerini uzman "
+"kadromuzla titizlikle uyguluyoruz. Dayanıklı ve güvenli yapılar inşa "
+"ediyoruz."
+
+#: apps/HomeApp/templates/HomeApp/architect4/index.html:430
+msgid "Duvar ve Tavan"
+msgstr "Duvar ve Tavan"
+
+#: apps/HomeApp/templates/HomeApp/architect4/index.html:431
+msgid "Uygulamaları"
+msgstr "Uygulamaları"
+
+#: apps/HomeApp/templates/HomeApp/architect4/index.html:434
+msgid ""
+"Duvar örme ve tavan işlerinde deneyimli ekibimizle kusursuz sonuçlar elde "
+"ediyoruz. Modern teknikler ve kaliteli malzemeler kullanarak projelerinizi "
+"tamamlıyoruz."
+msgstr ""
+"Duvar örme ve tavan işlerinde deneyimli ekibimizle kusursuz sonuçlar elde "
+"ediyoruz. Modern teknikler ve kaliteli malzemeler kullanarak projelerinizi "
+"tamamlıyoruz."
+
+#: apps/HomeApp/templates/HomeApp/architect4/index.html:448
+msgid "İnşaat Sektöründe Güvenilir Çözüm Ortağınız"
+msgstr "İnşaat Sektöründe Güvenilir Çözüm Ortağınız"
+
+#: apps/HomeApp/templates/HomeApp/architect4/index.html:450
+msgid ""
+"15 yıllık tecrübemiz, uzman kadromuz ve modern çözümlerimizle projelerinizi "
+"en yüksek kalite standartlarında hayata geçiriyoruz."
+msgstr ""
+"15 yıllık tecrübemiz, uzman kadromuz ve modern çözümlerimizle projelerinizi "
+"en yüksek kalite standartlarında hayata geçiriyoruz."
+
+# Services page translations
+#: apps/HomeApp/templates/HomeApp/architect4/services.html:6
+msgid "Hizmetlerimiz - Amir 77 İnşaat"
+msgstr "Hizmetlerimiz - Amir 77 İnşaat"
+
+#: apps/HomeApp/templates/HomeApp/architect4/services.html:88
+msgid "Hizmetlerimiz"
+msgstr "Hizmetlerimiz"
+
+#: apps/HomeApp/templates/HomeApp/architect4/services.html:106
+msgid "İnşaat Süreçleri ve Hizmetlerimiz"
+msgstr "İnşaat Süreçleri ve Hizmetlerimiz"
+
+#: apps/HomeApp/templates/HomeApp/architect4/services.html:109
+msgid ""
+"Şirketimiz, inşaat projelerinde beton dökme, kalıpçılık, demir donatı "
+"işleri, duvar örme ve çatı uygulamaları gibi temel yapı işlerini en kaliteli "
+"ve güvenli şekilde gerçekleştirmektedir."
+msgstr ""
+"Şirketimiz, inşaat projelerinde beton dökme, kalıpçılık, demir donatı "
+"işleri, duvar örme ve çatı uygulamaları gibi temel yapı işlerini en kaliteli "
+"ve güvenli şekilde gerçekleştirmektedir."
+
+#: apps/HomeApp/templates/HomeApp/architect4/services.html:126
+#: apps/HomeApp/templates/HomeApp/architect4/services.html:136
+msgid "Beton Dökme"
+msgstr "Beton Dökme"
+
+#: apps/HomeApp/templates/HomeApp/architect4/services.html:137
+msgid ""
+"Beton, bir yapının temelini oluşturan en önemli unsurlardan biridir. "
+"Kaliteli beton dökümü, yapıların sağlam ve dayanıklı olmasını sağlar."
+msgstr ""
+"Beton, bir yapının temelini oluşturan en önemli unsurlardan biridir. "
+"Kaliteli beton dökümü, yapıların sağlam ve dayanıklı olmasını sağlar."
+
+#: apps/HomeApp/templates/HomeApp/architect4/services.html:140
+msgid "Zemin Hazırlığı"
+msgstr "Zemin Hazırlığı"
+
+#: apps/HomeApp/templates/HomeApp/architect4/services.html:142
+msgid "İnşaat sahasının temizlenmesi ve düzeltilmesi"
+msgstr "İnşaat sahasının temizlenmesi ve düzeltilmesi"
+
+#: apps/HomeApp/templates/HomeApp/architect4/services.html:143
+msgid "Temel kazısının yapılması"
+msgstr "Temel kazısının yapılması"
+
+#: apps/HomeApp/templates/HomeApp/architect4/services.html:144
+msgid "Zemin sıkıştırma ve drenaj işlemlerinin uygulanması"
+msgstr "Zemin sıkıştırma ve drenaj işlemlerinin uygulanması"
+
+#: apps/HomeApp/templates/HomeApp/architect4/services.html:147
+msgid "Kalıp ve Demir Donatı Hazırlığı"
+msgstr "Kalıp ve Demir Donatı Hazırlığı"
+
+#: apps/HomeApp/templates/HomeApp/architect4/services.html:149
+msgid "Kalıp sistemlerinin yerleştirilmesi"
+msgstr "Kalıp sistemlerinin yerleştirilmesi"
+
+#: apps/HomeApp/templates/HomeApp/architect4/services.html:150
+msgid "Demir donatıların yerleştirilmesi ve bağlanması"
+msgstr "Demir donatıların yerleştirilmesi ve bağlanması"
+
+#: apps/HomeApp/templates/HomeApp/architect4/services.html:151
+msgid "Beton dökümü için kalıp kontrolü yapılması"
+msgstr "Beton dökümü için kalıp kontrolü yapılması"
+
+#: apps/HomeApp/templates/HomeApp/architect4/services.html:154
+msgid "Beton Dökümü"
+msgstr "Beton Dökümü"
+
+#: apps/HomeApp/templates/HomeApp/architect4/services.html:156
+msgid "Kaliteli betonun şantiyeye getirilmesi"
+msgstr "Kaliteli betonun şantiyeye getirilmesi"
+
+#: apps/HomeApp/templates/HomeApp/architect4/services.html:157
+msgid "Betonun vibratör ile sıkıştırılması ve homojen dağılımı sağlanması"
+msgstr "Betonun vibratör ile sıkıştırılması ve homojen dağılımı sağlanması"
+
+#: apps/HomeApp/templates/HomeApp/architect4/services.html:158
+msgid "Beton yüzeyinin düzeltilmesi ve kürlenmeye bırakılması"
+msgstr "Beton yüzeyinin düzeltilmesi ve kürlenmeye bırakılması"
+
+#: apps/HomeApp/templates/HomeApp/architect4/services.html:175
+#: apps/HomeApp/templates/HomeApp/architect4/services.html:209
+msgid "Kalıpçılık"
+msgstr "Kalıpçılık"
+
+#: apps/HomeApp/templates/HomeApp/architect4/services.html:176
+msgid ""
+"Kalıp sistemleri, betonarme yapıların şekillendirilmesi için kullanılan "
+"geçici yapı elemanlarıdır."
+msgstr ""
+"Kalıp sistemleri, betonarme yapıların şekillendirilmesi için kullanılan "
+"geçici yapı elemanlarıdır."
+
+#: apps/HomeApp/templates/HomeApp/architect4/services.html:179
+msgid "Kalıp Çeşitleri"
+msgstr "Kalıp Çeşitleri"
+
+#: apps/HomeApp/templates/HomeApp/architect4/services.html:181
+msgid "Ahşap Kalıp: Küçük projelerde kullanılır, uygun maliyetlidir."
+msgstr "Ahşap Kalıp: Küçük projelerde kullanılır, uygun maliyetlidir."
+
+#: apps/HomeApp/templates/HomeApp/architect4/services.html:182
+msgid ""
+"Çelik Kalıp: Büyük ve dayanıklı yapılar için uygundur, tekrar kullanılabilir."
+msgstr ""
+"Çelik Kalıp: Büyük ve dayanıklı yapılar için uygundur, tekrar kullanılabilir."
+
+#: apps/HomeApp/templates/HomeApp/architect4/services.html:183
+msgid ""
+"Plastik Kalıp: Hafif ve kolay taşınabilir, küçük yapı projeleri için "
+"idealdir."
+msgstr ""
+"Plastik Kalıp: Hafif ve kolay taşınabilir, küçük yapı projeleri için "
+"idealdir."
+
+#: apps/HomeApp/templates/HomeApp/architect4/services.html:186
+msgid "Kalıp Yerleştirme Süreci"
+msgstr "Kalıp Yerleştirme Süreci"
+
+#: apps/HomeApp/templates/HomeApp/architect4/services.html:188
+msgid "Kalıpların ölçülendirilmesi ve kesilmesi"
+msgstr "Kalıpların ölçülendirilmesi ve kesilmesi"
+
+#: apps/HomeApp/templates/HomeApp/architect4/services.html:189
+msgid "Kalıpların taşıyıcı elemanlarla desteklenmesi"
+msgstr "Kalıpların taşıyıcı elemanlarla desteklenmesi"
+
+#: apps/HomeApp/templates/HomeApp/architect4/services.html:190
+msgid "Kalıp bağlantılarının güvenliğinin sağlanması"
+msgstr "Kalıp bağlantılarının güvenliğinin sağlanması"
+
+#: apps/HomeApp/templates/HomeApp/architect4/services.html:193
+msgid "Kalıp Sökme Süreci"
+msgstr "Kalıp Sökme Süreci"
+
+#: apps/HomeApp/templates/HomeApp/architect4/services.html:195
+msgid "Perde ve kolonlar 12-24 saat sonra sökülür"
+msgstr "Perde ve kolonlar 12-24 saat sonra sökülür"
+
+#: apps/HomeApp/templates/HomeApp/architect4/services.html:196
+msgid "Tabliyeler 7-10 gün sonra sökülür"
+msgstr "Tabliyeler 7-10 gün sonra sökülür"
+
+#: apps/HomeApp/templates/HomeApp/architect4/services.html:197
+msgid "Kalıpların hasar almadan depolanması ve yeniden kullanılması"
+msgstr "Kalıpların hasar almadan depolanması ve yeniden kullanılması"
+
+#: apps/HomeApp/templates/HomeApp/architect4/services.html:237
+msgid ""
+"Demir donatı, betonarme yapıların dayanıklılığını artırmak için kullanılan "
+"çelik çubuklardır. Doğru yerleştirme ile yapıların sağlamlığı artırılır."
+msgstr ""
+"Demir donatı, betonarme yapıların dayanıklılığını artırmak için kullanılan "
+"çelik çubuklardır. Doğru yerleştirme ile yapıların sağlamlığı artırılır."
+
+#: apps/HomeApp/templates/HomeApp/architect4/services.html:240
+msgid "Demir Kesme ve Bükme"
+msgstr "Demir Kesme ve Bükme"
+
+#: apps/HomeApp/templates/HomeApp/architect4/services.html:242
+msgid "Proje ölçülerine göre demir çubukların kesilmesi"
+msgstr "Proje ölçülerine göre demir çubukların kesilmesi"
+
+#: apps/HomeApp/templates/HomeApp/architect4/services.html:243
+msgid "Demirlerin uygun açılarda bükülmesi"
+msgstr "Demirlerin uygun açılarda bükülmesi"
+
+#: apps/HomeApp/templates/HomeApp/architect4/services.html:246
+msgid "Donatı Yerleştirme"
+msgstr "Donatı Yerleştirme"
+
+#: apps/HomeApp/templates/HomeApp/architect4/services.html:248
+msgid "Kesilen ve bükülen demirlerin plana uygun olarak yerleştirilmesi"
+msgstr "Kesilen ve bükülen demirlerin plana uygun olarak yerleştirilmesi"
+
+#: apps/HomeApp/templates/HomeApp/architect4/services.html:249
+msgid "Çelik tellerle bağlama işlemi yapılması"
+msgstr "Çelik tellerle bağlama işlemi yapılması"
+
+#: apps/HomeApp/templates/HomeApp/architect4/services.html:252
+msgid "Kontrol ve Güçlendirme"
+msgstr "Kontrol ve Güçlendirme"
+
+#: apps/HomeApp/templates/HomeApp/architect4/services.html:254
+msgid "Donatı düzeninin kontrol edilmesi"
+msgstr "Donatı düzeninin kontrol edilmesi"
+
+#: apps/HomeApp/templates/HomeApp/architect4/services.html:255
+msgid "Beton dökümünden önce son güvenlik kontrollerinin yapılması"
+msgstr "Beton dökümünden önce son güvenlik kontrollerinin yapılması"
+
+#: apps/HomeApp/templates/HomeApp/architect4/services.html:272
+#: apps/HomeApp/templates/HomeApp/architect4/services.html:306
+msgid "Duvar Örme"
+msgstr "Duvar Örme"
+
+#: apps/HomeApp/templates/HomeApp/architect4/services.html:273
+msgid ""
+"Duvar örme işlemi, yapıların iç ve dış bölmelerini oluşturan önemli bir "
+"aşamadır."
+msgstr ""
+"Duvar örme işlemi, yapıların iç ve dış bölmelerini oluşturan önemli bir "
+"aşamadır."
+
+#: apps/HomeApp/templates/HomeApp/architect4/services.html:276
+msgid "Malzeme Seçimi"
+msgstr "Malzeme Seçimi"
+
+#: apps/HomeApp/templates/HomeApp/architect4/services.html:278
+msgid "Tuğla: Geleneksel ve dayanıklı bir malzeme"
+msgstr "Tuğla: Geleneksel ve dayanıklı bir malzeme"
+
+#: apps/HomeApp/templates/HomeApp/architect4/services.html:279
+msgid "Gazbeton (Ytong): Hafif ve izolasyon sağlayan modern bir malzeme"
+msgstr "Gazbeton (Ytong): Hafif ve izolasyon sağlayan modern bir malzeme"
+
+#: apps/HomeApp/templates/HomeApp/architect4/services.html:280
+msgid "Briket: Ekonomik ve hızlı uygulanabilir bir malzeme"
+msgstr "Briket: Ekonomik ve hızlı uygulanabilir bir malzeme"
+
+#: apps/HomeApp/templates/HomeApp/architect4/services.html:283
+msgid "Duvar Örme Aşamaları"
+msgstr "Duvar Örme Aşamaları"
+
+#: apps/HomeApp/templates/HomeApp/architect4/services.html:285
+msgid "Duvarın temel çizgilerinin belirlenmesi"
+msgstr "Duvarın temel çizgilerinin belirlenmesi"
+
+#: apps/HomeApp/templates/HomeApp/architect4/services.html:286
+msgid "Harç karışımının hazırlanması"
+msgstr "Harç karışımının hazırlanması"
+
+#: apps/HomeApp/templates/HomeApp/architect4/services.html:287
+msgid "Tuğla veya briketlerin düzgün bir şekilde dizilmesi"
+msgstr "Tuğla veya briketlerin düzgün bir şekilde dizilmesi"
+
+#: apps/HomeApp/templates/HomeApp/architect4/services.html:288
+msgid "Su terazisi ile hizalama yapılması"
+msgstr "Su terazisi ile hizalama yapılması"
+
+#: apps/HomeApp/templates/HomeApp/architect4/services.html:291
+msgid "Derz Doldurma ve Yüzey Düzeltme"
+msgstr "Derz Doldurma ve Yüzey Düzeltme"
+
+#: apps/HomeApp/templates/HomeApp/architect4/services.html:293
+msgid "Harç boşluklarının doldurulması"
+msgstr "Harç boşluklarının doldurulması"
+
+#: apps/HomeApp/templates/HomeApp/architect4/services.html:294
+msgid "Duvar yüzeyinin düzgün hale getirilmesi"
+msgstr "Duvar yüzeyinin düzgün hale getirilmesi"
+
+#: apps/HomeApp/templates/HomeApp/architect4/services.html:323
+#: apps/HomeApp/templates/HomeApp/architect4/services.html:333
+msgid "Çatı İşleri"
+msgstr "Çatı İşleri"
+
+#: apps/HomeApp/templates/HomeApp/architect4/services.html:334
+msgid ""
+"Bir yapının üst kısmını oluşturan çatı işleri, binanın dayanıklılığı ve "
+"izolasyonu için kritik öneme sahiptir."
+msgstr ""
+"Bir yapının üst kısmını oluşturan çatı işleri, binanın dayanıklılığı ve "
+"izolasyonu için kritik öneme sahiptir."
+
+#: apps/HomeApp/templates/HomeApp/architect4/services.html:337
+msgid "Çatı Beton Dökme İşlemi"
+msgstr "Çatı Beton Dökme İşlemi"
+
+#: apps/HomeApp/templates/HomeApp/architect4/services.html:339
+msgid "Çatı kalıplarının kurulması"
+msgstr "Çatı kalıplarının kurulması"
+
+#: apps/HomeApp/templates/HomeApp/architect4/services.html:340
+msgid "Donatıların yerleştirilmesi"
+msgstr "Donatıların yerleştirilmesi"
+
+#: apps/HomeApp/templates/HomeApp/architect4/services.html:341
+msgid "Betonun dökülmesi ve düzleştirilmesi"
+msgstr "Betonun dökülmesi ve düzleştirilmesi"
+
+#: apps/HomeApp/templates/HomeApp/architect4/services.html:344
+msgid "Çatı Uygulamaları"
+msgstr "Çatı Uygulamaları"
+
+#: apps/HomeApp/templates/HomeApp/architect4/services.html:346
+msgid "Ahşap veya çelik çatı iskeletinin kurulması"
+msgstr "Ahşap veya çelik çatı iskeletinin kurulması"
+
+#: apps/HomeApp/templates/HomeApp/architect4/services.html:347
+msgid "İzolasyon ve su yalıtımı yapılması"
+msgstr "İzolasyon ve su yalıtımı yapılması"
+
+#: apps/HomeApp/templates/HomeApp/architect4/services.html:348
+msgid "Kiremit veya sac kaplama uygulaması"
+msgstr "Kiremit veya sac kaplama uygulaması"
+
+#: apps/HomeApp/templates/HomeApp/architect4/services.html:368
+msgid ""
+"Amir 77 İnşaat olarak, projelerinizi en yüksek standartlarda tamamlamak için "
+"uzman ekibimizle hizmetinizdeyiz."
+msgstr ""
+"Amir 77 İnşaat olarak, projelerinizi en yüksek standartlarda tamamlamak için "
+"uzman ekibimizle hizmetinizdeyiz."
 
 #: templates/account/email/account_already_exists_message.txt:4
 #, python-format
@@ -422,15 +1323,25 @@ msgid ""
 "\n"
 "%(password_reset_url)s"
 msgstr ""
+"Bu e-postayı alıyorsunuz çünkü siz veya başka biri şu e-posta adresiyle\n"
+"hesap açmaya çalıştı:\n"
+"\n"
+"%(email)s\n"
+"\n"
+"Ancak, bu e-posta adresiyle bir hesap zaten mevcut. Eğer bunu\n"
+"unuttuysanız, lütfen hesabınızı kurtarmak için şifremi unuttum\n"
+"prosedürünü kullanın:\n"
+"\n"
+"%(password_reset_url)s"
 
 #: templates/account/email/account_already_exists_subject.txt:3
 msgid "Account Already Exists"
-msgstr ""
+msgstr "Hesap Zaten Var"
 
 #: templates/account/email/base_message.txt:1
 #, python-format
 msgid "Hello from %(site_name)s!"
-msgstr ""
+msgstr "%(site_name)s'den merhaba!"
 
 #: templates/account/email/base_message.txt:5
 #, python-format
@@ -438,6 +1349,8 @@ msgid ""
 "Thank you for using %(site_name)s!\n"
 "%(site_domain)s"
 msgstr ""
+"%(site_name)s'i kullandığınız için teşekkür ederiz!\n"
+"%(site_domain)s"
 
 #: templates/account/email/email_confirmation_message.txt:5
 #, python-format
@@ -447,10 +1360,14 @@ msgid ""
 "\n"
 "To confirm this is correct, go to %(activate_url)s"
 msgstr ""
+"Bu e-postayı alıyorsunuz çünkü %(user_display)s kullanıcısı %(site_domain)s "
+"üzerinde hesap açmak için e-posta adresinizi verdi.\n"
+"\n"
+"Bunun doğru olduğunu onaylamak için, %(activate_url)s adresine gidin"
 
 #: templates/account/email/email_confirmation_subject.txt:3
 msgid "Please Confirm Your E-mail Address"
-msgstr ""
+msgstr "Lütfen E-posta Adresinizi Onaylayın"
 
 #: templates/account/email/password_reset_key_message.txt:4
 msgid ""
@@ -459,16 +1376,21 @@ msgid ""
 "It can be safely ignored if you did not request a password reset. Click the "
 "link below to reset your password."
 msgstr ""
+"Bu e-postayı alıyorsunuz çünkü siz veya başka biri kullanıcı hesabınız için "
+"şifre sıfırlama talebinde bulundu.\n"
+"Eğer şifre sıfırlama talebinde bulunmadıysanız bu e-postayı güvenle "
+"görmezden gelebilirsiniz. Şifrenizi sıfırlamak için aşağıdaki bağlantıya "
+"tıklayın."
 
 #: templates/account/email/password_reset_key_message.txt:9
 #, python-format
 msgid "In case you forgot, your username is %(username)s."
-msgstr ""
+msgstr "Unutmanız durumunda, kullanıcı adınız: %(username)s."
 
 #: templates/account/email/password_reset_key_subject.txt:3
 #: templates/account/email/unknown_account_subject.txt:3
 msgid "Password Reset E-mail"
-msgstr ""
+msgstr "Şifre Sıfırlama E-postası"
 
 #: templates/account/email/unknown_account_message.txt:4
 #, python-format
@@ -482,76 +1404,76 @@ msgid ""
 "\n"
 "If it was you, you can sign up for an account using the link below."
 msgstr ""
+"Bu e-postayı alıyorsunuz çünkü siz veya başka biri kullanıcı hesabınız\n"
+"için şifre talebinde bulundu. Ancak, veritabanımızda %(email)s e-posta\n"
+"adresine sahip bir kullanıcı kaydı bulamadık.\n"
+"\n"
+"Eğer şifre sıfırlama talebinde bulunmadıysanız bu e-postayı güvenle "
+"görmezden gelebilirsiniz.\n"
+"\n"
+"Eğer siz talep ettiyseniz, aşağıdaki bağlantıyı kullanarak hesap "
+"açabilirsiniz."
 
 #: templates/account/messages/cannot_delete_primary_email.txt:2
 #, python-format
 msgid "You cannot remove your primary e-mail address (%(email)s)."
-msgstr ""
+msgstr "Birincil e-posta adresinizi silemezsiniz (%(email)s)."
 
 #: templates/account/messages/email_confirmation_sent.txt:2
 #, python-format
 msgid "Confirmation e-mail sent to %(email)s."
-msgstr ""
+msgstr "Onay e-postası %(email)s adresine gönderildi."
 
 #: templates/account/messages/email_confirmed.txt:2
 #, python-format
 msgid "You have confirmed %(email)s."
-msgstr ""
+msgstr "%(email)s adresini onayladınız."
 
 #: templates/account/messages/email_deleted.txt:2
 #, python-format
 msgid "Removed e-mail address %(email)s."
-msgstr ""
+msgstr "%(email)s e-posta adresi silindi."
 
 #: templates/account/messages/logged_in.txt:4
 #, python-format
 msgid "Successfully signed in as %(name)s."
-msgstr ""
+msgstr "%(name)s olarak başarıyla giriş yapıldı."
 
 #: templates/account/messages/logged_out.txt:2
 msgid "You have signed out."
-msgstr ""
+msgstr "Çıkış yaptınız."
 
 #: templates/account/messages/password_changed.txt:2
 msgid "Password successfully changed."
-msgstr ""
+msgstr "Şifre başarıyla değiştirildi."
 
 #: templates/account/messages/password_set.txt:2
 msgid "Password successfully set."
-msgstr ""
+msgstr "Şifre başarıyla belirlendi."
 
 #: templates/account/messages/primary_email_set.txt:2
 msgid "Primary e-mail address set."
-msgstr ""
+msgstr "Birincil e-posta adresi belirlendi."
 
 #: templates/account/messages/unverified_primary_email.txt:2
 msgid "Your primary e-mail address must be verified."
-msgstr ""
+msgstr "Birincil e-posta adresiniz doğrulanmalıdır."
 
 #: templates/socialaccount/messages/account_connected.txt:2
 msgid "The social account has been connected."
-msgstr ""
+msgstr "Sosyal medya hesabı bağlandı."
 
 #: templates/socialaccount/messages/account_connected_other.txt:2
 msgid "The social account is already connected to a different account."
-msgstr ""
+msgstr "Bu sosyal medya hesabı zaten başka bir hesaba bağlı."
 
 #: templates/socialaccount/messages/account_disconnected.txt:2
 msgid "The social account has been disconnected."
-msgstr ""
+msgstr "Sosyal medya hesabı bağlantısı kesildi."
 
-#: apps/HomeApp/templates/HomeApp/architect4/components/header-topbar.html:14
-msgid "Home"
-msgstr "Ana Sayfa"
-
-#: apps/HomeApp/templates/HomeApp/architect4/components/header-topbar.html:16
-msgid "About us"
-msgstr "Hakkımızda"
-
-#: apps/HomeApp/templates/HomeApp/architect4/components/header-topbar.html:18
-msgid "Services"
-msgstr "Hizmetler"
-
-#: apps/HomeApp/templates/HomeApp/architect4/components/header-topbar.html:20
-msgid "Contact"
-msgstr "İletişim"
+#~ msgid ""
+#~ "Amacımız, projelerinizi en yüksek standartlarda tamamlayarak, sağlam, "
+#~ "dayanıklı ve estetik yapılar inşa etmektir."
+#~ msgstr ""
+#~ "Amacımız, projelerinizi en yüksek standartlarda tamamlayarak, sağlam, "
+#~ "dayanıklı ve estetik yapılar inşa etmektir."

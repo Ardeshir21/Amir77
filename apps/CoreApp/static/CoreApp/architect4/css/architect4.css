@@ -873,7 +873,7 @@
 				}
 				#Top_bar.is-sticky #logo img.logo-sticky {
 					display: inline;
-					max-height: 60px;
+					max-height: 50px;
 				}
 				#Top_bar.is-sticky .menu_wrapper {
 					clear: none

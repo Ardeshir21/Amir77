@@ -1,8 +1,9 @@
 {% extends 'CoreApp/architect4/architect4-layout.html' %}
 {% load static %}
+{% load i18n %}
 
 {% block page_title %}
-    <title>Contact Us - Amir 77 Insaat</title>
+    <title>{% trans "İletişim - Amir 77 İnşaat" %}</title>
 {% endblock %}
 
 {% block page_css %}
@@ -89,7 +90,7 @@ class="page-template-default page color-custom style-default button-stroke layou
 <div id="Subheader" style="padding:200px 0 140px">
     <div class="container">
         <div class="column one">
-            <h1 class="title">Contact Us</h1>
+            <h1 class="title">{% trans "İletişim" %}</h1>
         </div>
     </div>
 </div>
@@ -107,10 +108,10 @@ class="page-template-default page color-custom style-default button-stroke layou
                             <div class="mcb-wrap-inner">
                                 <div class="column mcb-column one column_column">
                                     <div class="column_attr clearfix align_center">
-                                        <h2>Get in Touch</h2>
+                                        <h2>{% trans "Bizimle İletişime Geçin" %}</h2>
                                         <hr class="no_line" style="margin: 0 auto 15px;">
                                         <p class="big">
-                                            We're here to help bring your architectural vision to life. Contact us to discuss your project or schedule a consultation.
+                                            {% trans "İnşaat projeleriniz için bizimle iletişime geçebilir ve detaylı bilgi alabilirsiniz." %}
                                         </p>
                                     </div>
                                 </div>
@@ -127,24 +128,30 @@ class="page-template-default page color-custom style-default button-stroke layou
                                 <!-- Contact Information -->
                                 <div class="column mcb-column one column_column">
                                     <div class="column_attr clearfix">
-                                        <h4>Contact Information</h4>
+                                        <h4>{% trans "İletişim Bilgileri" %}</h4>
                                         <hr class="no_line" style="margin: 0 auto 15px;">
                                         <div class="contact-details">
                                             <p>
                                                 <i data-feather="map-pin" class="contact-icon"></i>
-                                                <strong>Address:</strong><br>
-                                                Amir 77 Insaat<br>
-                                                Istanbul, Turkey
+                                                <strong>{% trans "Adres" %}:</strong><br>
+                                                Mustafa Kemal Paşamah. Giresun Cad.<br>
+                                                No: 3/015 Merkez/Yalova
                                             </p>
                                             <p>
                                                 <i data-feather="phone" class="contact-icon"></i>
-                                                <strong>Phone:</strong><br>
-                                                +90 (XXX) XXX-XXXX
+                                                <strong>{% trans "Telefon" %}:</strong><br>
+                                                0534 866 2290<br>
+                                                0538 559 2290 ({% trans "Muhasebe" %})
                                             </p>
                                             <p>
                                                 <i data-feather="mail" class="contact-icon"></i>
-                                                <strong>Email:</strong><br>
-                                                info@amir77insaat.com
+                                                <strong>{% trans "E-posta" %}:</strong><br>
+                                                amir77insaat@gmail.com
+                                            </p>
+                                            <p>
+                                                <i data-feather="info" class="contact-icon"></i>
+                                                <strong>{% trans "Vergi No" %}:</strong><br>
+                                                069 153 90 78
                                             </p>
                                         </div>
                                         
@@ -152,21 +159,21 @@ class="page-template-default page color-custom style-default button-stroke layou
                                         
                                         <h4>
                                             <i data-feather="clock" class="contact-icon"></i>
-                                            Business Hours
+                                            {% trans "Çalışma Saatleri" %}
                                         </h4>
                                         <hr class="no_line" style="margin: 0 auto 15px;">
                                         <div class="opening-hours">
                                             <p>
-                                                <strong>Monday - Friday:</strong><br>
-                                                9:00 AM - 6:00 PM
+                                                <strong>{% trans "Pazartesi - Cuma" %}:</strong><br>
+                                                08:00 - 18:00
                                             </p>
                                             <p>
-                                                <strong>Saturday:</strong><br>
-                                                10:00 AM - 4:00 PM
+                                                <strong>{% trans "Cumartesi" %}:</strong><br>
+                                                09:00 - 15:00
                                             </p>
                                             <p>
-                                                <strong>Sunday:</strong><br>
-                                                Closed
+                                                <strong>{% trans "Pazar" %}:</strong><br>
+                                                {% trans "Kapalı" %}
                                             </p>
                                         </div>
                                     </div>
@@ -179,71 +186,47 @@ class="page-template-default page color-custom style-default button-stroke layou
                             <div class="mcb-wrap-inner">
                                 <div class="column mcb-column one column_column">
                                     <div class="column_attr clearfix">
-                                        <h4>Send Us a Message</h4>
+                                        <h4>{% trans "Mesaj Gönderin" %}</h4>
                                         <hr class="no_line" style="margin: 0 auto 15px;">
                                         <div class="contact-form">
                                             <form id="contactform">
                                                 <div class="column one-second">
                                                     <div class="input-wrapper">
                                                         <i data-feather="user" class="form-icon"></i>
-                                                        <input type="text" name="name" id="name" placeholder="Your Name" required>
+                                                        <input type="text" name="name" id="name" placeholder="{% trans 'Adınız Soyadınız' %}" required>
                                                     </div>
                                                 </div>
                                                 <div class="column one-second">
                                                     <div class="input-wrapper">
                                                         <i data-feather="at-sign" class="form-icon"></i>
-                                                        <input type="email" name="email" id="email" placeholder="Your Email" required>
+                                                        <input type="email" name="email" id="email" placeholder="{% trans 'E-posta Adresiniz' %}" required>
+                                                    </div>
+                                                </div>
+                                                <div class="column one">
+                                                    <div class="input-wrapper">
+                                                        <i data-feather="phone" class="form-icon"></i>
+                                                        <input type="text" name="phone" id="phone" placeholder="{% trans 'Telefon Numaranız' %}" required>
+                                                    </div>
+                                                </div>
+                                                <div class="column one">
+                                                    <div class="input-wrapper">
+                                                        <i data-feather="map-pin" class="form-icon"></i>
+                                                        <input type="text" name="location" id="location" placeholder="{% trans 'Proje Konumu' %}">
                                                     </div>
                                                 </div>
                                                 <div class="column one">
                                                     <div class="input-wrapper">
                                                         <i data-feather="edit-3" class="form-icon"></i>
-                                                        <input type="text" name="subject" id="subject" placeholder="Subject">
-                                                    </div>
-                                                </div>
-                                                <div class="column one">
-                                                    <div class="input-wrapper">
-                                                        <i data-feather="message-square" class="form-icon"></i>
-                                                        <textarea name="message" id="message" placeholder="Your Message" rows="6" required></textarea>
+                                                        <textarea name="message" id="message" placeholder="{% trans 'Mesajınız' %}" required></textarea>
                                                     </div>
                                                 </div>
                                                 <div class="column one">
                                                     <button type="submit" class="button button_size_2 button_theme button_js">
                                                         <i data-feather="send" class="button-icon"></i>
-                                                        <span class="button_label">Send Message</span>
+                                                        <span class="button_label">{% trans "Mesaj Gönder" %}</span>
                                                     </button>
                                                 </div>
                                             </form>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Map Section -->
-                <div class="section mcb-section" style="padding-top:0px; padding-bottom:70px;">
-                    <div class="section_wrapper mcb-section-inner">
-                        <div class="wrap mcb-wrap one valign-top clearfix">
-                            <div class="mcb-wrap-inner">
-                                <div class="column mcb-column one column_column">
-                                    <div class="column_attr clearfix">
-                                        <h4>
-                                            <i data-feather="map" class="contact-icon"></i>
-                                            Our Location
-                                        </h4>
-                                        <hr class="no_line" style="margin: 0 auto 15px;">
-                                        <div class="map-container" style="height: 400px; background-color: #f5f5f5;">
-                                            <!-- Replace this div with actual map implementation -->
-                                            <iframe 
-                                                width="100%" 
-                                                height="100%" 
-                                                frameborder="0" 
-                                                style="border:0" 
-                                                src="https://www.google.com/maps/embed/v1/place?key=YOUR_API_KEY&q=Istanbul,Turkey" 
-                                                allowfullscreen>
-                                            </iframe>
                                         </div>
                                     </div>
                                 </div>

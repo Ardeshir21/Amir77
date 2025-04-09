@@ -1,8 +1,9 @@
 {% extends 'CoreApp/architect4/architect4-layout.html' %}
 {% load static %}
+{% load i18n %}
 
 {% block page_title %}
-    <title>About us - Amir 77 Insaat</title>
+    <title>{% trans "Hakkımızda - Amir 77 İnşaat" %}</title>
 {% endblock %}
 
 {% block page_css %}
@@ -20,7 +21,7 @@ class="page-template-default page color-custom style-default button-stroke layou
 <div id="Subheader" style="padding:200px 0 140px">
     <div class="container">
         <div class="column one">
-            <h1 class="title">About us</h1>
+            <h1 class="title">{% trans "Hakkımızda" %}</h1>
         </div>
     </div>
 </div>
@@ -36,7 +37,7 @@ class="page-template-default page color-custom style-default button-stroke layou
                         <div class="mcb-wrap-inner">
                             <div class="column mcb-column three-fourth column_column">
                                 <div class="column_attr clearfix">
-                                    <h2>Mauris rhoncus orci in imperdiet placerat. Vestibulum euismod nisl.</h2>
+                                    <h2>{% trans "15 Yıllık Deneyim, Sarsılmaz Güven" %}</h2>
                                 </div>
                             </div>
                             <div class="column mcb-column one column_divider">
@@ -59,8 +60,7 @@ class="page-template-default page color-custom style-default button-stroke layou
                             <div class="column mcb-column one column_column">
                                 <div class="column_attr clearfix">
                                     <p>
-                                        Curabitur sed iaculis dolor, non congue ligula. Maecenas imperdiet ante eget hendrerit posuere. Nunc urna libero, congue porta nibh a, semper feugiat sem. Sed auctor dui eleifend, scelerisque eros ut, pellentesque nibh. Nam lacinia suscipit accumsan.
-                                        Donec sodales, neque vitae rutrum convallis, nulla tortor pharetra odio, in varius ante ante sed nisi.
+                                        {% trans "Amir 77 İnşaat Ticaret Sanayi Limited Şirketi, 04.07.2021 yılında kurulmuş olup, 15 yılı aşkın sektör deneyimine sahiptir. İnşaat sektöründe uzman ekibimizle, beton dökme, kalıpçılık, demir donatı, duvar örme ve tavan işleri gibi birçok alanda hizmet sunmaktayız." %}
                                     </p>
                                 </div>
                             </div>
@@ -81,10 +81,10 @@ class="page-template-default page color-custom style-default button-stroke layou
                             <div class="column mcb-column one column_column">
                                 <div class="column_attr clearfix">
                                     <p>
-                                        Fusce ut velit laoreet, tempus arcu eu, molestie tortor. Nam vel justo cursus, faucibus lorem eget, egestas eros. Maecenas eleifend erat at justo fringilla imperdiet id ac magna.
+                                        {% trans "Amacımız, projelerinizi en iyi şekilde tamamlamak, kalite standartlarına uygun, dayanıklı ve estetik yapılar inşa etmektir." %}
                                     </p>
                                     <p>
-                                        Suspendisse vel facilisis odio, at ornare nibh. In malesuada, tortor eget sodales mollis, mauris lectus hendrerit purus.
+                                        {% trans "Güçlü referanslarımız ve yılların tecrübesi ile inşaat projelerinize en iyi çözümleri sunuyoruz." %}
                                     </p>
                                 </div>
                             </div>
@@ -110,10 +110,10 @@ class="page-template-default page color-custom style-default button-stroke layou
                         <div class="mcb-wrap-inner">
                             <div class="column mcb-column one column_column">
                                 <div class="column_attr clearfix">
-                                    <h2>Curabitur sed iaculis dolor, non congue ligula. Maecenas imperdiet ante eget hendrerit.</h2>
+                                    <h2>{% trans "Profesyonel Ekip, Kaliteli Hizmet" %}</h2>
                                     <hr class="no_line" style="margin: 0 auto 15px;">
                                     <p class="big">
-                                        Curabitur sed iaculis dolor, non congue ligula. Maecenas imperdiet ante eget hendrerit posuere. Nunc urna libero, congue porta nibh a, semper feugiat sem. Sed auctor dui eleifend, scelerisque eros ut, pellentesque nibh. Nam lacinia suscipit accumsan.
+                                        {% trans "İnşaat sektöründeki deneyimimiz ve uzman kadromuzla, her projeye özel çözümler üretiyoruz. Modern ekipmanlarımız ve kaliteli malzemelerimizle, müşterilerimizin beklentilerini en üst düzeyde karşılıyoruz." %}
                                     </p>
                                 </div>
                             </div>
@@ -134,9 +134,9 @@ class="page-template-default page color-custom style-default button-stroke layou
                                         </div>
                                     </div>
                                     <hr class="no_line" style="margin: 0 auto 20px;">
-                                    <h4>Industrial<br/> Design</h4>
+                                    <h4>{% trans "Kaliteli" %}<br/>{% trans "Hizmet" %}</h4>
                                     <p>
-                                        Mauris rhoncus orci in imperdiet placerat. Vestibulum euismod.
+                                        {% trans "Modern ekipmanlar ve uzman kadromuzla kaliteli hizmet sunuyoruz." %}
                                     </p>
                                 </div>
                             </div>
@@ -152,17 +152,16 @@ class="page-template-default page color-custom style-default button-stroke layou
                             </div>
                             <div class="column mcb-column one-third column_column">
                                 <div class="column_attr clearfix">
-                                    <h2>Fusce ut velit laoreet, tempus arcu eu.</h2>
+                                    <h2>{% trans "Güvenilir ve Profesyonel Çözümler" %}</h2>
                                 </div>
                             </div>
                             <div class="column mcb-column two-third column_column">
                                 <div class="column_attr clearfix">
                                     <p>
-                                        Vivamus in diam turpis. In condimentum maximus tristique. Maecenas non laoreet odio. Fusce lobortis porttitor purus, vel vestibulum libero pharetra vel. Pellentesque lorem augue, fermentum nec nibh et, fringilla sollicitudin orci. Integer pharetra magna
-                                        non ante blandit lobortis. Sed mollis consequat eleifend. Aliquam consectetur orci eget dictum tristique. Aenean et sodales est, ut vestibulum lorem.
+                                        {% trans "Beton dökme, kalıpçılık, demir donatı, duvar örme ve tavan işleri konularında uzmanlaşmış ekibimizle, inşaat projelerinize en uygun çözümleri sunuyoruz. Her projede kalite standartlarına uygun malzemeler kullanıyor, işçilik ve güvenlik konularında taviz vermiyoruz." %}
                                     </p>
                                     <p>
-                                        Ut ultricies imperdiet sodales. Aliquam fringilla aliquam ex sit amet elementum. Proin bibendum sollicitudin feugiat. Curabitur ut egestas justo, vitae molestie ante. Integer magna purus, commodo in diam nec, pretium auctor sapien.
+                                        {% trans "Müşteri memnuniyetini ön planda tutarak, projelerinizi zamanında ve bütçenize uygun şekilde tamamlıyoruz. Amir 77 İnşaat olarak, sektördeki güvenilir konumumuzu korumak için sürekli kendimizi geliştiriyor ve yenilikleri takip ediyoruz." %}
                                     </p>
                                 </div>
                             </div>
@@ -177,14 +176,14 @@ class="page-template-default page color-custom style-default button-stroke layou
                         <div class="mcb-wrap-inner">
                             <div class="column mcb-column one column_column">
                                 <div class="column_attr clearfix align_center">
-                                    <h2>Ready to Start Your Project?</h2>
+                                    <h2>{% trans "Projeniz İçin Hazır mısınız?" %}</h2>
                                     <hr class="no_line" style="margin: 0 auto 15px;">
                                     <p class="big">
-                                        Contact us today to discuss your project requirements and how we can help bring your vision to life.
+                                        {% trans "Projenizi bizimle paylaşın, size en uygun çözümleri sunalım." %}
                                     </p>
                                     <hr class="no_line" style="margin: 0 auto 15px;">
                                     <a class="button button_size_2 button_theme button_js" href="{% url 'HomeApp:contact' %}">
-                                        <span class="button_label">Get in Touch</span>
+                                        <span class="button_label">{% trans "İletişime Geçin" %}</span>
                                     </a>
                                 </div>
                             </div>

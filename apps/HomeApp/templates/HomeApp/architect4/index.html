@@ -1,9 +1,10 @@
 {% extends 'CoreApp/architect4/architect4-layout.html' %}
 {% load static %}
+{% load i18n %}
 
 
 {% block page_title %}
-    <title>Amir 77 Insaat</title>
+    <title>{% trans "Amir 77 İnşaat – Güvenilir ve Kaliteli İnşaat Hizmetleri" %}</title>
 {% endblock %}
 
 
@@ -27,14 +28,14 @@
                             data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 5;background-color:rgb(191,149,118);"></div>
                         <div class="tp-caption tp-resizeme rs-parallaxlevel-3" id="slide-1-layer-2" data-x="159" data-y="308" data-width="['auto']" data-height="['auto']" data-type="text" data-responsive_offset="on" data-frames='[{"delay":0,"speed":300,"frame":"0","from":"opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
                             data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 6; white-space: nowrap; font-size: 80px; line-height: 80px; font-weight: 600; color: #fff; letter-spacing: 0px;font-family:Barlow Condensed;">
-                            Nulla imperdiet
-                            <br/> sit amet magna
+                            {% trans "Güvenilir ve Kaliteli" %}
+                            <br/> {% trans "İnşaat Hizmetleri" %}
                         </div>
                         <div class="tp-caption tp-resizeme rs-parallaxlevel-3" id="slide-1-layer-3" data-x="163" data-y="502" data-width="['auto']" data-height="['auto']" data-type="text" data-responsive_offset="on" data-frames='[{"delay":0,"speed":300,"frame":"0","from":"opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
                             data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 7; white-space: nowrap; font-size: 17px; line-height: 27px; font-weight: 400; color: #fff; letter-spacing: 0px;font-family:Maitree;">
-                            Lorem ipsum dolor sit amet cursus ut, dolor. Sed ornare,
-                            <br/> erat id tortor vehicula neque vel wisi. Vivamus justo.
-                            <br/> Aenean ac erat. Suspendisse a auctor odio.
+                            {% trans "Beton dökme, kalıpçılık, demir donatı," %}
+                            <br/> {% trans "duvar örme ve tavan işleri konularında" %}
+                            <br/> {% trans "uzman ekibimizle hizmetinizdeyiz." %}
                         </div>
                     </li>
                 </ul>
@@ -59,7 +60,7 @@ class="home page-template-default page template-slider color-custom style-defaul
                         <div class="mcb-wrap-inner">
                             <div class="column mcb-column one column_column">
                                 <div class="column_attr clearfix" style>
-                                    <h2>Quality is not only our standard. It's also <span style="color: #2c605a;">an attitude</span> instilled in our company.</h2>
+                                    <h2>{% trans "Kalite sadece standardımız değil, şirketimize yerleşmiş bir" %} <span style="color: #2c605a;">{% trans "tutum" %}</span></h2>
                                 </div>
                             </div>
                         </div>
@@ -79,7 +80,7 @@ class="home page-template-default page template-slider color-custom style-defaul
                                     </div>
                                     <hr class="no_line" style="margin: 0 auto 10px;">
                                     <p class="big" style="color: #d1d3d3;">
-                                        Quisque sit amet, consectetuer vulputate aliquam tempor id.
+                                        {% trans "15 yılı aşkın sektör deneyimi ile güveninize layık olmaya devam ediyoruz." %}
                                     </p>
                                     <hr class="no_line" style="margin: 0 auto 10px;">
                                     <div class="image_frame image_item no_link scale-with-grid alignnone no_border">
@@ -88,9 +89,9 @@ class="home page-template-default page template-slider color-custom style-defaul
                                     </div>
                                     <div class="hover_color align_center" style="background-color:#a2724e;" ontouchstart="this.classList.toggle('hover');">
                                         <div class="hover_color_bg" style="background-color:#c79b7a;border-width:0;">
-                                            <a href="#" >
+                                            <a href="{% url 'HomeApp:about' %}" >
                                                 <div class="hover_color_wrapper" style="padding:15px 10px;">
-                                                    Read more
+                                                    {% trans "Daha Fazla" %}
                                                 </div>
                                             </a>
                                         </div>
@@ -118,35 +119,34 @@ class="home page-template-default page template-slider color-custom style-defaul
                             <div class="column mcb-column one column_column">
                                 <div class="column_attr clearfix" style>
                                     <p class="big">
-                                        Sed ultrices nisl velit, eu ornare est ullamcorper a. Nunc quis nibh magna. Proin risus erat, fringilla vel purus sit amet, mattis porta enim. Duis fermentum faucibus est, sed vehicula velit sodales vitae.
+                                        {% trans "Amir 77 İnşaat olarak, projelerinizi en iyi şekilde tamamlamak, kalite standartlarına uygun, dayanıklı ve estetik yapılar inşa etmek için çalışıyoruz." %}
                                     </p>
                                     <p>
-                                        Duis dignissim mi ut laoreet mollis. Nunc id tellus finibus, eleifend mi vel, maximus justo. Maecenas mi tortor, pellentesque a aliquam ut, fringilla eleifend lectus. Maecenas ultrices tellus sit amet sem placerat tempor. Maecenas eget arcu venenatis,
-                                        sagittis felis sit amet, dictum nisl. Orci varius natoque penatibus et.
+                                        {% trans "İnşaat sektöründe uzman ekibimizle, beton dökme, kalıpçılık, demir donatı, duvar örme ve tavan işleri gibi birçok alanda profesyonel hizmet sunmaktayız. Güçlü referanslarımız ve yılların tecrübesi ile inşaat projelerinize en iyi çözümleri sunuyoruz." %}
                                     </p>
                                 </div>
                             </div>
                             <div class="column mcb-column one-third column_column">
                                 <div class="column_attr clearfix" style>
-                                    <h1 class="themecolor">520</h1>
-                                    <h5>Architecture
-                                        <br/> awards
+                                    <h1 class="themecolor">15+</h1>
+                                    <h5>{% trans "Yıllık" %}
+                                        <br/>{% trans "Deneyim" %}
                                     </h5>
                                 </div>
                             </div>
                             <div class="column mcb-column one-third column_column">
                                 <div class="column_attr clearfix" style>
-                                    <h1 class="themecolor">36</h1>
-                                    <h5>Professional
-                                        <br/> designers
+                                    <h1 class="themecolor">100+</h1>
+                                    <h5>{% trans "Başarılı" %}
+                                        <br/>{% trans "Proje" %}
                                     </h5>
                                 </div>
                             </div>
                             <div class="column mcb-column one-third column_column">
                                 <div class="column_attr clearfix" style>
-                                    <h1 class="themecolor">14</h1>
-                                    <h5>Architecture
-                                        <br/> awards
+                                    <h1 class="themecolor">50+</h1>
+                                    <h5>{% trans "Mutlu" %}
+                                        <br/>{% trans "Müşteri" %}
                                     </h5>
                                 </div>
                             </div>
@@ -160,7 +160,7 @@ class="home page-template-default page template-slider color-custom style-defaul
                         <div class="mcb-wrap-inner">
                             <div class="column mcb-column one column_column">
                                 <div class="column_attr clearfix align_center" style>
-                                    <h2 style="color: #fff;">See our selected projects</h2>
+                                    <h2 style="color: #fff;">{% trans "Seçkin Projelerimiz" %}</h2>
                                 </div>
                             </div>
                             <div class="column mcb-column one column_divider">
@@ -366,14 +366,13 @@ class="home page-template-default page template-slider color-custom style-defaul
                     </div>
                 </div>
             </div>
-            <div class="section mcb-section" style="padding-top:130px; padding-bottom:90px; background-color:">
+            <div class="section mcb-section" style="padding-top:130px; padding-bottom:90px; background-color:#ffffff">
                 <div class="section_wrapper mcb-section-inner">
                     <div class="wrap mcb-wrap one valign-top clearfix">
                         <div class="mcb-wrap-inner">
                             <div class="column mcb-column one column_column">
-                                <div class="column_attr clearfix" style>
-                                    <h2>Quisque sit amet, consectetuer vulputate
-                                        <br/> aliquam tempor id, eleifend purus.</h2>
+                                <div class="column_attr clearfix align_center" style>
+                                    <h2>{% trans "Profesyonel İnşaat Hizmetlerimiz" %}</h2>
                                 </div>
                             </div>
                             <div class="column mcb-column one column_divider">
@@ -390,11 +389,11 @@ class="home page-template-default page template-slider color-custom style-defaul
                                         </div>
                                     </div>
                                     <hr class="no_line" style="margin: 0 auto 20px;">
-                                    <h4>Industrial
-                                        <br/> Design
+                                    <h4>{% trans "Beton ve Kalıp" %}
+                                        <br/>{% trans "İşleri" %}
                                     </h4>
                                     <p>
-                                        Mauris rhoncus orci in imperdiet placerat. Vestibulum euismod.
+                                        {% trans "Profesyonel ekibimizle beton döküm ve kalıp işlerini en yüksek kalite standartlarında gerçekleştiriyoruz. Modern teknikler ve güvenilir çözümler sunuyoruz." %}
                                     </p>
                                 </div>
                             </div>
@@ -409,11 +408,11 @@ class="home page-template-default page template-slider color-custom style-defaul
                                         </div>
                                     </div>
                                     <hr class="no_line" style="margin: 0 auto 20px;">
-                                    <h4>Environmental
-                                        <br/> Engineering
+                                    <h4>{% trans "Demir Donatı" %}
+                                        <br/>{% trans "Sistemleri" %}
                                     </h4>
                                     <p>
-                                        Mauris rhoncus orci in imperdiet placerat. Vestibulum euismod.
+                                        {% trans "Yapıların güvenliği için kritik öneme sahip demir donatı işlerini uzman kadromuzla titizlikle uyguluyoruz. Dayanıklı ve güvenli yapılar inşa ediyoruz." %}
                                     </p>
                                 </div>
                             </div>
@@ -428,11 +427,11 @@ class="home page-template-default page template-slider color-custom style-defaul
                                         </div>
                                     </div>
                                     <hr class="no_line" style="margin: 0 auto 20px;">
-                                    <h4>Design
-                                        <br/> Management
+                                    <h4>{% trans "Duvar ve Tavan" %}
+                                        <br/>{% trans "Uygulamaları" %}
                                     </h4>
                                     <p>
-                                        Mauris rhoncus orci in imperdiet placerat. Vestibulum euismod.
+                                        {% trans "Duvar örme ve tavan işlerinde deneyimli ekibimizle kusursuz sonuçlar elde ediyoruz. Modern teknikler ve kaliteli malzemeler kullanarak projelerinizi tamamlıyoruz." %}
                                     </p>
                                 </div>
                             </div>
@@ -445,58 +444,11 @@ class="home page-template-default page template-slider color-custom style-defaul
                     <div class="wrap mcb-wrap one valign-top clearfix">
                         <div class="mcb-wrap-inner">
                             <div class="column mcb-column one column_column">
-                                <div class="column_attr clearfix align_center" style>
-                                    <h2>Trust our clients</h2>
-                                </div>
-                            </div>
-                            <div class="column mcb-column one column_testimonials">
-                                <div class="testimonials_slider single-photo hide-photos">
-                                    <ul class="testimonials_slider_ul">
-                                        <li>
-                                            <div class="bq_wrapper">
-                                                <blockquote>
-                                                    Sed quam sed tellus sollicitudin lorem, at eros. Nullam a augue sit amet, consectetuer lacus. Cras enim nec velit. Donec ligula nunc, vitae lectus sit amet neque ut lorem. Donec non ante. Proin sodales.
-                                                </blockquote>
-                                            </div>
-                                            <div class="hr_dots">
-                                                <span></span><span></span><span></span>
-                                            </div>
-                                            <div class="author">
-                                                <h5>Jennifer Lee</h5><span class="company"></span>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div class="single-photo-img"><img class="scale-with-grid" src="{% static 'HomeApp/img/testimonials-placeholder.png' %}">
-                                            </div>
-                                            <div class="bq_wrapper">
-                                                <blockquote>
-                                                    Aenean ut leo. Sed neque. Phasellus a elit a laoreet diam. In venenatis suscipit. Suspendisse potenti. Morbi et enim. Phasellus adipiscing. Duis vel blandit ultrices et, felis. Pellentesque dapibus diam.
-                                                </blockquote>
-                                            </div>
-                                            <div class="hr_dots">
-                                                <span></span><span></span><span></span>
-                                            </div>
-                                            <div class="author">
-                                                <h5>Katarina Johnes</h5><span class="company"></span>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div class="single-photo-img"><img class="scale-with-grid" src="{% static 'HomeApp/img/testimonials-placeholder.png' %}">
-                                            </div>
-                                            <div class="bq_wrapper">
-                                                <blockquote>
-                                                    Lorem ipsum dolor sit amet turpis egestas. Mauris aliquet ac, accumsan imperdiet, neque ultrices condimentum velit. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-                                                </blockquote>
-                                            </div>
-                                            <div class="hr_dots">
-                                                <span></span><span></span><span></span>
-                                            </div>
-                                            <div class="author">
-                                                <h5>Tony Johnson</h5><span class="company"></span>
-                                            </div>
-                                        </li>
-                                    </ul>
-                                    <div class="slider_pager slider_pagination"></div>
+                                <div class="column_attr clearfix align_center" style="padding: 40px 10%;">
+                                    <h2 style="color: #2c605a; margin-bottom: 20px;">{% trans "İnşaat Sektöründe Güvenilir Çözüm Ortağınız" %}</h2>
+                                    <p style="font-size: 20px; line-height: 1.6; color: #333;">
+                                        {% trans "15 yıllık tecrübemiz, uzman kadromuz ve modern çözümlerimizle projelerinizi en yüksek kalite standartlarında hayata geçiriyoruz." %}
+                                    </p>
                                 </div>
                             </div>
                         </div>

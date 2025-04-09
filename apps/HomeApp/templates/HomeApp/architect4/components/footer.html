@@ -1,30 +1,40 @@
 {% load static %}
+{% load i18n %}
 
 <div class="widgets_wrapper" style="padding:70px 0;">
     <div class="container">
         <div class="column one-fourth">
             <aside class="widget_text widget widget_custom_html">
-                <h4>Address</h4>
+                <h4>{% translate "Address" %}</h4>
                 <div class="textwidget custom-html-widget">
                     <p>
-                        Amir 77 Insaat,
-                        <br/> Level 13, 2 Elizabeth St,
-                        <br/> Istanbul
-                        <br/> Turkey
+                        {% translate "Amir 77 İnşaat Ticaret Sanayi Limited Şirketi" %},
+                        <br/> {% translate "Mustafa Kemal Paşamah. Giresun Cad." %}
+                        <br/> {% translate "No: 3/015" %}
+                        <br/> {% translate "Merkez/Yalova" %}
+                    </p>
+                    <p>
+                        <strong>{% translate "Tax Number" %}:</strong> 069 153 90 78
                     </p>
                 </div>
             </aside>
         </div>
         <div class="column one-fourth">
             <aside class="widget_text widget widget_custom_html">
-                <h4>Social media</h4>
+                <h4>{% translate "Contact Information" %}</h4>
                 <div class="textwidget custom-html-widget">
                     <ul>
                         <li style="margin-bottom: 10px;">
-                            <i data-feather="instagram" style="width: 16px; height: 16px; margin-right: 10px; color: #c79b7a;"></i><a href="#">Instagram</a>
+                            <i data-feather="phone" style="width: 16px; height: 16px; margin-right: 10px; color: #c79b7a;"></i>
+                            <a href="tel:+905348662290">0534 866 2290</a>
                         </li>
                         <li style="margin-bottom: 10px;">
-                            <i data-feather="youtube" style="width: 16px; height: 16px; margin-right: 10px; color: #c79b7a;"></i><a href="#">YouTube</a>
+                            <i data-feather="file-text" style="width: 16px; height: 16px; margin-right: 10px; color: #c79b7a;"></i>
+                            <a href="tel:+905385592290">{% translate "Accounting" %}: 0538 559 2290</a>
+                        </li>
+                        <li style="margin-bottom: 10px;">
+                            <i data-feather="mail" style="width: 16px; height: 16px; margin-right: 10px; color: #c79b7a;"></i>
+                            <a href="mailto:amir77insaat@gmail.com">amir77insaat@gmail.com</a>
                         </li>
                     </ul>
                 </div>
@@ -32,17 +42,23 @@
         </div>
         <div class="column one-fourth">
             <aside class="widget_text widget widget_custom_html">
-                <h4>Links</h4>
+                <h4>{% translate "Our Services" %}</h4>
                 <div class="textwidget custom-html-widget">
                     <ul>
                         <li style="margin-bottom: 10px;">
-                            <i data-feather="chevron-right" style="width: 16px; height: 16px; margin-right: 10px; color: #c79b7a;"></i><a href="#">Lorem ipsum</a>
+                            <i data-feather="check" style="width: 16px; height: 16px; margin-right: 10px; color: #c79b7a;"></i>{% translate "Concrete Pouring" %}
                         </li>
                         <li style="margin-bottom: 10px;">
-                            <i data-feather="chevron-right" style="width: 16px; height: 16px; margin-right: 10px; color: #c79b7a;"></i><a href="#">Praesent pretium</a>
+                            <i data-feather="check" style="width: 16px; height: 16px; margin-right: 10px; color: #c79b7a;"></i>{% translate "Formwork" %}
                         </li>
                         <li style="margin-bottom: 10px;">
-                            <i data-feather="chevron-right" style="width: 16px; height: 16px; margin-right: 10px; color: #c79b7a;"></i><a href="#">Pellentesque</a>
+                            <i data-feather="check" style="width: 16px; height: 16px; margin-right: 10px; color: #c79b7a;"></i>{% translate "Iron Reinforcement" %}
+                        </li>
+                        <li style="margin-bottom: 10px;">
+                            <i data-feather="check" style="width: 16px; height: 16px; margin-right: 10px; color: #c79b7a;"></i>{% translate "Wall Construction" %}
+                        </li>
+                        <li style="margin-bottom: 10px;">
+                            <i data-feather="check" style="width: 16px; height: 16px; margin-right: 10px; color: #c79b7a;"></i>{% translate "Ceiling Works" %}
                         </li>
                     </ul>
                 </div>
@@ -52,15 +68,21 @@
             <aside class="widget_text widget widget_custom_html">
                 <div class="textwidget custom-html-widget">
                     <div class="image_frame image_item no_link scale-with-grid alignnone no_border" style="width: 170px;">
-                        <div class="image_wrapper"><img class="scale-with-grid" src="{% static 'HomeApp/img/logo.png' %}">
+                        <div class="image_wrapper">
+                            <img class="scale-with-grid" src="{% static 'HomeApp/img/logo.png' %}" alt="{% translate 'Amir 77 İnşaat Logo' %}" style="border-radius: 8px;">
                         </div>
                     </div>
                     <hr class="no_line" style="margin: 0 auto 20px;">
-                    <h4>+90 (0) 533 333 33 33</h4><a href="#"><span>amir77insaat@gmail.com</span></a>
+                    <div class="social-links">
+                        <h4>{% translate "Follow Us" %}</h4>
+                        <a href="https://instagram.com/amir77insaat" target="_blank" class="social-button">
+                            <i data-feather="instagram" style="width: 24px; height: 24px; color: #c79b7a;"></i>
+                        </a>
+                        <a href="https://wa.me/905348662290" target="_blank" class="social-button">
+                            <i data-feather="message-circle" style="width: 24px; height: 24px; color: #c79b7a;"></i>
+                        </a>
+                    </div>
                 </div>
-            </aside>
-            <aside class="widget_text widget widget_custom_html">
-                <div class="textwidget custom-html-widget"></div>
             </aside>
         </div>
     </div>
@@ -68,9 +90,11 @@
 <div class="footer_copy">
     <div class="container">
         <div class="column one">
-            <a id="back_to_top" class="button button_js" href style="display: flex; align-items: center; justify-content: center;"><i data-feather="chevron-up" style="width: 24px; height: 24px;"></i></a>
+            <a id="back_to_top" class="button button_js" href="#" style="display: flex; align-items: center; justify-content: center;">
+                <i data-feather="chevron-up" style="width: 24px; height: 24px;"></i>
+            </a>
             <div class="copyright">
-                Copyright © <a target="_blank" rel="nofollow" href="#">Amir 77 Insaat</a>
+                {% translate "Copyright" %} © {% now "Y" %} <a href="/">{% translate "Amir 77 İnşaat" %}</a> - {% translate "All Rights Reserved" %}
             </div>
         </div>
     </div>

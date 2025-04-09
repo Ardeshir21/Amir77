@@ -6,6 +6,9 @@ FROM python:3.12-bookworm
 # Set the working directory
 WORKDIR /app
 
+# Install gettext
+RUN apt-get update && apt-get install -y gettext && rm -rf /var/lib/apt/lists/*
+
 # Copy requirements.txt into the container
 COPY ./requirements.txt ./
 
