@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-04-09 05:59+0000\n"
+"POT-Creation-Date: 2025-04-10 00:02+0000\n"
 "PO-Revision-Date: 2024-03-24 09:00+0300\n"
 "Last-Translator: \n"
 "Language-Team: English\n"
@@ -295,8 +295,6 @@ msgid "Enter your email to receive reset instructions"
 msgstr "Enter your email to receive reset instructions"
 
 #: apps/AuthApp/templates/AuthApp/password_reset.html:61
-#, fuzzy
-#| msgid "Return to Login"
 msgid "Back to Login"
 msgstr "Return to Login"
 
@@ -412,22 +410,15 @@ msgstr ""
 "Please check your email and click on the verification link to complete your "
 "registration."
 
-# Contact page translations
-#: apps/HomeApp/templates/HomeApp/architect4/about.html:6
-#, fuzzy
-#| msgid "İletişim - Amir 77 İnşaat"
-msgid "Hakkımızda - Amir 77 İnşaat"
-msgstr "Contact - Amir 77 Construction"
-
-#: apps/HomeApp/templates/HomeApp/architect4/about.html:24
+#: apps/HomeApp/templates/HomeApp/architect4/about.html:20
 msgid "Hakkımızda"
 msgstr "About Us"
 
-#: apps/HomeApp/templates/HomeApp/architect4/about.html:40
+#: apps/HomeApp/templates/HomeApp/architect4/about.html:36
 msgid "15 Yıllık Deneyim, Sarsılmaz Güven"
 msgstr "15 Years of Experience, Reliable Trust"
 
-#: apps/HomeApp/templates/HomeApp/architect4/about.html:63
+#: apps/HomeApp/templates/HomeApp/architect4/about.html:59
 msgid ""
 "Amir 77 İnşaat Ticaret Sanayi Limited Şirketi, 04.07.2021 yılında kurulmuş "
 "olup, 15 yılı aşkın sektör deneyimine sahiptir. İnşaat sektöründe uzman "
@@ -439,7 +430,7 @@ msgstr ""
 "We provide services in various areas such as concrete pouring, formwork, "
 "rebar work, wall construction, and ceiling works with our expert team."
 
-#: apps/HomeApp/templates/HomeApp/architect4/about.html:84
+#: apps/HomeApp/templates/HomeApp/architect4/about.html:80
 msgid ""
 "Amacımız, projelerinizi en iyi şekilde tamamlamak, kalite standartlarına "
 "uygun, dayanıklı ve estetik yapılar inşa etmektir."
@@ -447,7 +438,7 @@ msgstr ""
 "Our goal is to complete your projects to the highest standards, ensuring "
 "solid, durable, and aesthetically pleasing structures."
 
-#: apps/HomeApp/templates/HomeApp/architect4/about.html:87
+#: apps/HomeApp/templates/HomeApp/architect4/about.html:83
 msgid ""
 "Güçlü referanslarımız ve yılların tecrübesi ile inşaat projelerinize en iyi "
 "çözümleri sunuyoruz."
@@ -455,11 +446,11 @@ msgstr ""
 "With our strong references and years of experience, we provide the best "
 "solutions for your construction projects."
 
-#: apps/HomeApp/templates/HomeApp/architect4/about.html:113
+#: apps/HomeApp/templates/HomeApp/architect4/about.html:109
 msgid "Profesyonel Ekip, Kaliteli Hizmet"
 msgstr "Professional Team, High-Quality Service"
 
-#: apps/HomeApp/templates/HomeApp/architect4/about.html:116
+#: apps/HomeApp/templates/HomeApp/architect4/about.html:112
 msgid ""
 "İnşaat sektöründeki deneyimimiz ve uzman kadromuzla, her projeye özel "
 "çözümler üretiyoruz. Modern ekipmanlarımız ve kaliteli malzemelerimizle, "
@@ -469,23 +460,23 @@ msgstr ""
 "customized solutions for each project. Our modern equipment and high-quality "
 "materials ensure that we meet your expectations at the highest level."
 
-#: apps/HomeApp/templates/HomeApp/architect4/about.html:137
+#: apps/HomeApp/templates/HomeApp/architect4/about.html:133
 msgid "Kaliteli"
 msgstr "Quality"
 
-#: apps/HomeApp/templates/HomeApp/architect4/about.html:137
+#: apps/HomeApp/templates/HomeApp/architect4/about.html:133
 msgid "Hizmet"
 msgstr "Service"
 
-#: apps/HomeApp/templates/HomeApp/architect4/about.html:139
+#: apps/HomeApp/templates/HomeApp/architect4/about.html:135
 msgid "Modern ekipmanlar ve uzman kadromuzla kaliteli hizmet sunuyoruz."
 msgstr "We provide quality service with our modern equipment and expert team."
 
-#: apps/HomeApp/templates/HomeApp/architect4/about.html:155
+#: apps/HomeApp/templates/HomeApp/architect4/about.html:151
 msgid "Güvenilir ve Profesyonel Çözümler"
 msgstr "Reliable and Professional Solutions"
 
-#: apps/HomeApp/templates/HomeApp/architect4/about.html:161
+#: apps/HomeApp/templates/HomeApp/architect4/about.html:157
 msgid ""
 "Beton dökme, kalıpçılık, demir donatı, duvar örme ve tavan işleri "
 "konularında uzmanlaşmış ekibimizle, inşaat projelerinize en uygun çözümleri "
@@ -496,7 +487,7 @@ msgstr ""
 "wall construction, and ceiling works, we use high-quality materials in each "
 "project, ensuring both quality and safety."
 
-#: apps/HomeApp/templates/HomeApp/architect4/about.html:164
+#: apps/HomeApp/templates/HomeApp/architect4/about.html:160
 msgid ""
 "Müşteri memnuniyetini ön planda tutarak, projelerinizi zamanında ve "
 "bütçenize uygun şekilde tamamlıyoruz. Amir 77 İnşaat olarak, sektördeki "
@@ -507,38 +498,33 @@ msgstr ""
 "within budget. As Amir 77 Construction, we continuously improve ourselves "
 "and keep up with the latest trends in the industry."
 
-#: apps/HomeApp/templates/HomeApp/architect4/about.html:179
-#: apps/HomeApp/templates/HomeApp/architect4/case-studies.html:225
-#: apps/HomeApp/templates/HomeApp/architect4/services.html:365
+#: apps/HomeApp/templates/HomeApp/architect4/about.html:175
+#: apps/HomeApp/templates/HomeApp/architect4/case-studies.html:221
+#: apps/HomeApp/templates/HomeApp/architect4/services.html:437
 msgid "Projeniz İçin Hazır mısınız?"
 msgstr "Ready to Start Your Project?"
 
-#: apps/HomeApp/templates/HomeApp/architect4/about.html:182
-#: apps/HomeApp/templates/HomeApp/architect4/case-studies.html:228
+#: apps/HomeApp/templates/HomeApp/architect4/about.html:178
+#: apps/HomeApp/templates/HomeApp/architect4/case-studies.html:224
 msgid "Projenizi bizimle paylaşın, size en uygun çözümleri sunalım."
 msgstr "Let's discuss how we can bring your vision to life."
 
 # Common translations
-#: apps/HomeApp/templates/HomeApp/architect4/about.html:186
-#: apps/HomeApp/templates/HomeApp/architect4/case-studies.html:232
-#: apps/HomeApp/templates/HomeApp/architect4/services.html:372
+#: apps/HomeApp/templates/HomeApp/architect4/about.html:182
+#: apps/HomeApp/templates/HomeApp/architect4/case-studies.html:228
+#: apps/HomeApp/templates/HomeApp/architect4/services.html:444
 msgid "İletişime Geçin"
 msgstr "Contact Us"
 
-# Case studies page translations
-#: apps/HomeApp/templates/HomeApp/architect4/case-studies.html:6
-msgid "Projelerimiz - Amir 77 İnşaat"
-msgstr "Our Projects - Amir 77 Construction"
-
-#: apps/HomeApp/templates/HomeApp/architect4/case-studies.html:54
+#: apps/HomeApp/templates/HomeApp/architect4/case-studies.html:50
 msgid "Projelerimiz"
 msgstr "Our Projects"
 
-#: apps/HomeApp/templates/HomeApp/architect4/case-studies.html:72
+#: apps/HomeApp/templates/HomeApp/architect4/case-studies.html:68
 msgid "Tamamlanan ve Devam Eden Projelerimiz"
 msgstr "Completed and Ongoing Projects"
 
-#: apps/HomeApp/templates/HomeApp/architect4/case-studies.html:75
+#: apps/HomeApp/templates/HomeApp/architect4/case-studies.html:71
 msgid ""
 "Kaliteli işçilik ve güvenilir hizmet anlayışımızla hayata geçirdiğimiz "
 "projelerimizi inceleyebilirsiniz."
@@ -546,15 +532,15 @@ msgstr ""
 "You can explore our completed projects with high-quality workmanship and "
 "reliable service approach."
 
-#: apps/HomeApp/templates/HomeApp/architect4/case-studies.html:92
+#: apps/HomeApp/templates/HomeApp/architect4/case-studies.html:88
 msgid "Konut Projesi"
 msgstr "Housing Project"
 
-#: apps/HomeApp/templates/HomeApp/architect4/case-studies.html:98
+#: apps/HomeApp/templates/HomeApp/architect4/case-studies.html:94
 msgid "Modern Konut Projesi"
 msgstr "Modern Housing Project"
 
-#: apps/HomeApp/templates/HomeApp/architect4/case-studies.html:100
+#: apps/HomeApp/templates/HomeApp/architect4/case-studies.html:96
 msgid ""
 "Diyarbakır'da tamamladığımız modern konut projesi, kaliteli malzeme ve "
 "işçilik ile inşa edilmiştir."
@@ -562,33 +548,33 @@ msgstr ""
 "Our modern housing project in Diyarbakır was built with quality materials "
 "and workmanship."
 
-#: apps/HomeApp/templates/HomeApp/architect4/case-studies.html:104
-#: apps/HomeApp/templates/HomeApp/architect4/case-studies.html:129
-#: apps/HomeApp/templates/HomeApp/architect4/case-studies.html:149
-#: apps/HomeApp/templates/HomeApp/architect4/case-studies.html:169
-#: apps/HomeApp/templates/HomeApp/architect4/case-studies.html:189
-#: apps/HomeApp/templates/HomeApp/architect4/case-studies.html:209
+#: apps/HomeApp/templates/HomeApp/architect4/case-studies.html:100
+#: apps/HomeApp/templates/HomeApp/architect4/case-studies.html:125
+#: apps/HomeApp/templates/HomeApp/architect4/case-studies.html:145
+#: apps/HomeApp/templates/HomeApp/architect4/case-studies.html:165
+#: apps/HomeApp/templates/HomeApp/architect4/case-studies.html:185
+#: apps/HomeApp/templates/HomeApp/architect4/case-studies.html:205
 msgid "Detaylar"
 msgstr "Details"
 
+#: apps/HomeApp/templates/HomeApp/architect4/case-studies.html:118
 #: apps/HomeApp/templates/HomeApp/architect4/case-studies.html:122
-#: apps/HomeApp/templates/HomeApp/architect4/case-studies.html:126
 msgid "Beton Dökme İşleri"
 msgstr "Concrete Pouring Works"
 
-#: apps/HomeApp/templates/HomeApp/architect4/case-studies.html:127
+#: apps/HomeApp/templates/HomeApp/architect4/case-studies.html:123
 msgid ""
 "Modern ekipmanlarla, dayanıklı ve kaliteli beton dökme hizmeti sunuyoruz."
 msgstr ""
 "We provide durable and quality concrete pouring service with modern "
 "equipment."
 
+#: apps/HomeApp/templates/HomeApp/architect4/case-studies.html:138
 #: apps/HomeApp/templates/HomeApp/architect4/case-studies.html:142
-#: apps/HomeApp/templates/HomeApp/architect4/case-studies.html:146
 msgid "Kalıpçılık İşleri"
 msgstr "Formwork Services"
 
-#: apps/HomeApp/templates/HomeApp/architect4/case-studies.html:147
+#: apps/HomeApp/templates/HomeApp/architect4/case-studies.html:143
 msgid ""
 "İnşaat projeleriniz için çelik, ahşap ve plastik kalıp sistemleri "
 "kullanıyoruz."
@@ -596,33 +582,33 @@ msgstr ""
 "We use steel, wooden, and plastic formwork systems for your construction "
 "projects."
 
+#: apps/HomeApp/templates/HomeApp/architect4/case-studies.html:158
 #: apps/HomeApp/templates/HomeApp/architect4/case-studies.html:162
-#: apps/HomeApp/templates/HomeApp/architect4/case-studies.html:166
-#: apps/HomeApp/templates/HomeApp/architect4/services.html:236
+#: apps/HomeApp/templates/HomeApp/architect4/services.html:308
 msgid "Demir Donatı İşleri"
 msgstr "Rebar Works"
 
-#: apps/HomeApp/templates/HomeApp/architect4/case-studies.html:167
+#: apps/HomeApp/templates/HomeApp/architect4/case-studies.html:163
 msgid ""
 "Yapılarınız için sağlam ve dayanıklı demir donatı uygulamaları yapıyoruz."
 msgstr "We perform strong and durable rebar applications for your structures."
 
+#: apps/HomeApp/templates/HomeApp/architect4/case-studies.html:178
 #: apps/HomeApp/templates/HomeApp/architect4/case-studies.html:182
-#: apps/HomeApp/templates/HomeApp/architect4/case-studies.html:186
 msgid "Duvar Örme İşleri"
 msgstr "Wall Construction Works"
 
-#: apps/HomeApp/templates/HomeApp/architect4/case-studies.html:187
+#: apps/HomeApp/templates/HomeApp/architect4/case-studies.html:183
 msgid "Kaliteli malzeme ve uzman ekibimizle sağlam duvar çözümleri sunuyoruz."
 msgstr ""
 "We provide solid wall solutions with quality materials and our expert team."
 
+#: apps/HomeApp/templates/HomeApp/architect4/case-studies.html:198
 #: apps/HomeApp/templates/HomeApp/architect4/case-studies.html:202
-#: apps/HomeApp/templates/HomeApp/architect4/case-studies.html:206
 msgid "Tavan İşleri"
 msgstr "Ceiling Works"
 
-#: apps/HomeApp/templates/HomeApp/architect4/case-studies.html:207
+#: apps/HomeApp/templates/HomeApp/architect4/case-studies.html:203
 msgid "Güvenli ve dayanıklı tavan sistemleri uyguluyoruz."
 msgstr "We implement safe and durable ceiling systems."
 
@@ -695,6 +681,7 @@ msgid "Copyright"
 msgstr "Copyright"
 
 #: apps/HomeApp/templates/HomeApp/architect4/components/footer.html:97
+#: apps/HomeApp/views.py:23
 msgid "Amir 77 İnşaat"
 msgstr "Amir 77 Construction"
 
@@ -718,20 +705,15 @@ msgstr "Services"
 msgid "Contact"
 msgstr "Contact"
 
-# Contact page translations
-#: apps/HomeApp/templates/HomeApp/architect4/contact.html:6
-msgid "İletişim - Amir 77 İnşaat"
-msgstr "Contact - Amir 77 Construction"
-
-#: apps/HomeApp/templates/HomeApp/architect4/contact.html:93
+#: apps/HomeApp/templates/HomeApp/architect4/contact.html:89
 msgid "İletişim"
 msgstr "Contact"
 
-#: apps/HomeApp/templates/HomeApp/architect4/contact.html:111
+#: apps/HomeApp/templates/HomeApp/architect4/contact.html:107
 msgid "Bizimle İletişime Geçin"
 msgstr "Contact Us"
 
-#: apps/HomeApp/templates/HomeApp/architect4/contact.html:114
+#: apps/HomeApp/templates/HomeApp/architect4/contact.html:110
 msgid ""
 "İnşaat projeleriniz için bizimle iletişime geçebilir ve detaylı bilgi "
 "alabilirsiniz."
@@ -739,122 +721,117 @@ msgstr ""
 "You can contact us for your construction projects and get detailed "
 "information."
 
-#: apps/HomeApp/templates/HomeApp/architect4/contact.html:131
+#: apps/HomeApp/templates/HomeApp/architect4/contact.html:127
 msgid "İletişim Bilgileri"
 msgstr "Contact Information"
 
-#: apps/HomeApp/templates/HomeApp/architect4/contact.html:136
+#: apps/HomeApp/templates/HomeApp/architect4/contact.html:132
 msgid "Adres"
 msgstr "Address"
 
-#: apps/HomeApp/templates/HomeApp/architect4/contact.html:142
+#: apps/HomeApp/templates/HomeApp/architect4/contact.html:138
 msgid "Telefon"
 msgstr "Phone"
 
-#: apps/HomeApp/templates/HomeApp/architect4/contact.html:144
+#: apps/HomeApp/templates/HomeApp/architect4/contact.html:140
 msgid "Muhasebe"
 msgstr "Accounting"
 
-#: apps/HomeApp/templates/HomeApp/architect4/contact.html:148
+#: apps/HomeApp/templates/HomeApp/architect4/contact.html:144
 msgid "E-posta"
 msgstr "Email"
 
-#: apps/HomeApp/templates/HomeApp/architect4/contact.html:153
+#: apps/HomeApp/templates/HomeApp/architect4/contact.html:149
 msgid "Vergi No"
 msgstr "Tax ID"
 
-#: apps/HomeApp/templates/HomeApp/architect4/contact.html:162
+#: apps/HomeApp/templates/HomeApp/architect4/contact.html:158
 msgid "Çalışma Saatleri"
 msgstr "Working Hours"
 
-#: apps/HomeApp/templates/HomeApp/architect4/contact.html:167
+#: apps/HomeApp/templates/HomeApp/architect4/contact.html:163
 msgid "Pazartesi - Cuma"
 msgstr "Monday - Friday"
 
-#: apps/HomeApp/templates/HomeApp/architect4/contact.html:171
+#: apps/HomeApp/templates/HomeApp/architect4/contact.html:167
 msgid "Cumartesi"
 msgstr "Saturday"
 
-#: apps/HomeApp/templates/HomeApp/architect4/contact.html:175
+#: apps/HomeApp/templates/HomeApp/architect4/contact.html:171
 msgid "Pazar"
 msgstr "Sunday"
 
-#: apps/HomeApp/templates/HomeApp/architect4/contact.html:176
+#: apps/HomeApp/templates/HomeApp/architect4/contact.html:172
 msgid "Kapalı"
 msgstr "Closed"
 
-#: apps/HomeApp/templates/HomeApp/architect4/contact.html:189
+#: apps/HomeApp/templates/HomeApp/architect4/contact.html:185
 msgid "Mesaj Gönderin"
 msgstr "Send Message"
 
-#: apps/HomeApp/templates/HomeApp/architect4/contact.html:196
+#: apps/HomeApp/templates/HomeApp/architect4/contact.html:192
 msgid "Adınız Soyadınız"
 msgstr "Your Full Name"
 
-#: apps/HomeApp/templates/HomeApp/architect4/contact.html:202
+#: apps/HomeApp/templates/HomeApp/architect4/contact.html:198
 msgid "E-posta Adresiniz"
 msgstr "Your Email Address"
 
-#: apps/HomeApp/templates/HomeApp/architect4/contact.html:208
+#: apps/HomeApp/templates/HomeApp/architect4/contact.html:204
 msgid "Telefon Numaranız"
 msgstr "Your Phone Number"
 
-#: apps/HomeApp/templates/HomeApp/architect4/contact.html:214
+#: apps/HomeApp/templates/HomeApp/architect4/contact.html:210
 msgid "Proje Konumu"
 msgstr "Project Location"
 
-#: apps/HomeApp/templates/HomeApp/architect4/contact.html:220
+#: apps/HomeApp/templates/HomeApp/architect4/contact.html:216
 msgid "Mesajınız"
 msgstr "Your Message"
 
-#: apps/HomeApp/templates/HomeApp/architect4/contact.html:226
+#: apps/HomeApp/templates/HomeApp/architect4/contact.html:222
 msgid "Mesaj Gönder"
 msgstr "Send Message"
 
-# Homepage translations
-#: apps/HomeApp/templates/HomeApp/architect4/index.html:7
-msgid "Amir 77 İnşaat – Güvenilir ve Kaliteli İnşaat Hizmetleri"
-msgstr "Amir 77 Construction – Reliable and Quality Construction Services"
-
-#: apps/HomeApp/templates/HomeApp/architect4/index.html:31
+#: apps/HomeApp/templates/HomeApp/architect4/index.html:26
 msgid "Güvenilir ve Kaliteli"
 msgstr "Reliable and Quality"
 
-#: apps/HomeApp/templates/HomeApp/architect4/index.html:32
+#: apps/HomeApp/templates/HomeApp/architect4/index.html:27
 msgid "İnşaat Hizmetleri"
 msgstr "Construction Services"
 
-#: apps/HomeApp/templates/HomeApp/architect4/index.html:36
+#: apps/HomeApp/templates/HomeApp/architect4/index.html:31
 msgid "Beton dökme, kalıpçılık, demir donatı,"
 msgstr "Concrete pouring, formwork, rebar work,"
 
-#: apps/HomeApp/templates/HomeApp/architect4/index.html:37
+#: apps/HomeApp/templates/HomeApp/architect4/index.html:32
 msgid "duvar örme ve tavan işleri konularında"
 msgstr "wall construction and ceiling works"
 
-#: apps/HomeApp/templates/HomeApp/architect4/index.html:38
+#: apps/HomeApp/templates/HomeApp/architect4/index.html:33
 msgid "uzman ekibimizle hizmetinizdeyiz."
 msgstr "we are at your service with our expert team."
 
-#: apps/HomeApp/templates/HomeApp/architect4/index.html:63
+#: apps/HomeApp/templates/HomeApp/architect4/index.html:58
 msgid "Kalite sadece standardımız değil, şirketimize yerleşmiş bir"
 msgstr "Quality is not just our standard, it's an established"
 
-#: apps/HomeApp/templates/HomeApp/architect4/index.html:63
+#: apps/HomeApp/templates/HomeApp/architect4/index.html:58
 msgid "tutum"
 msgstr "attitude"
 
-#: apps/HomeApp/templates/HomeApp/architect4/index.html:83
+#: apps/HomeApp/templates/HomeApp/architect4/index.html:78
 msgid ""
 "15 yılı aşkın sektör deneyimi ile güveninize layık olmaya devam ediyoruz."
 msgstr ""
 "With over 15 years of industry experience, we continue to earn your trust."
 
-#: apps/HomeApp/templates/HomeApp/architect4/index.html:94
+#: apps/HomeApp/templates/HomeApp/architect4/index.html:89
 msgid "Daha Fazla"
 msgstr "Learn More"
 
-#: apps/HomeApp/templates/HomeApp/architect4/index.html:122
+#: apps/HomeApp/templates/HomeApp/architect4/index.html:117
 msgid ""
 "Amir 77 İnşaat olarak, projelerinizi en iyi şekilde tamamlamak, kalite "
 "standartlarına uygun, dayanıklı ve estetik yapılar inşa etmek için "
@@ -864,7 +841,7 @@ msgstr ""
 "possible, building durable and aesthetic structures that meet quality "
 "standards."
 
-#: apps/HomeApp/templates/HomeApp/architect4/index.html:125
+#: apps/HomeApp/templates/HomeApp/architect4/index.html:120
 msgid ""
 "İnşaat sektöründe uzman ekibimizle, beton dökme, kalıpçılık, demir donatı, "
 "duvar örme ve tavan işleri gibi birçok alanda profesyonel hizmet "
@@ -876,47 +853,47 @@ msgstr ""
 "wall construction, and ceiling works. With our strong references and years "
 "of experience, we provide the best solutions for your construction projects."
 
-#: apps/HomeApp/templates/HomeApp/architect4/index.html:132
+#: apps/HomeApp/templates/HomeApp/architect4/index.html:127
 msgid "Yıllık"
 msgstr "Years of"
 
-#: apps/HomeApp/templates/HomeApp/architect4/index.html:133
+#: apps/HomeApp/templates/HomeApp/architect4/index.html:128
 msgid "Deneyim"
 msgstr "Experience"
 
-#: apps/HomeApp/templates/HomeApp/architect4/index.html:140
+#: apps/HomeApp/templates/HomeApp/architect4/index.html:135
 msgid "Başarılı"
 msgstr "Successful"
 
-#: apps/HomeApp/templates/HomeApp/architect4/index.html:141
+#: apps/HomeApp/templates/HomeApp/architect4/index.html:136
 msgid "Proje"
 msgstr "Projects"
 
-#: apps/HomeApp/templates/HomeApp/architect4/index.html:148
+#: apps/HomeApp/templates/HomeApp/architect4/index.html:143
 msgid "Mutlu"
 msgstr "Happy"
 
-#: apps/HomeApp/templates/HomeApp/architect4/index.html:149
+#: apps/HomeApp/templates/HomeApp/architect4/index.html:144
 msgid "Müşteri"
 msgstr "Clients"
 
-#: apps/HomeApp/templates/HomeApp/architect4/index.html:163
+#: apps/HomeApp/templates/HomeApp/architect4/index.html:158
 msgid "Seçkin Projelerimiz"
 msgstr "Our Featured Projects"
 
-#: apps/HomeApp/templates/HomeApp/architect4/index.html:375
+#: apps/HomeApp/templates/HomeApp/architect4/index.html:370
 msgid "Profesyonel İnşaat Hizmetlerimiz"
 msgstr "Our Professional Construction Services"
 
-#: apps/HomeApp/templates/HomeApp/architect4/index.html:392
+#: apps/HomeApp/templates/HomeApp/architect4/index.html:387
 msgid "Beton ve Kalıp"
 msgstr "Concrete and"
 
-#: apps/HomeApp/templates/HomeApp/architect4/index.html:393
+#: apps/HomeApp/templates/HomeApp/architect4/index.html:388
 msgid "İşleri"
 msgstr "Formwork"
 
-#: apps/HomeApp/templates/HomeApp/architect4/index.html:396
+#: apps/HomeApp/templates/HomeApp/architect4/index.html:391
 msgid ""
 "Profesyonel ekibimizle beton döküm ve kalıp işlerini en yüksek kalite "
 "standartlarında gerçekleştiriyoruz. Modern teknikler ve güvenilir çözümler "
@@ -925,16 +902,16 @@ msgstr ""
 "We carry out concrete pouring and formwork with our professional team at the "
 "highest quality standards. We offer modern techniques and reliable solutions."
 
-#: apps/HomeApp/templates/HomeApp/architect4/index.html:411
-#: apps/HomeApp/templates/HomeApp/architect4/services.html:226
+#: apps/HomeApp/templates/HomeApp/architect4/index.html:406
+#: apps/HomeApp/templates/HomeApp/architect4/services.html:298
 msgid "Demir Donatı"
 msgstr "Steel"
 
-#: apps/HomeApp/templates/HomeApp/architect4/index.html:412
+#: apps/HomeApp/templates/HomeApp/architect4/index.html:407
 msgid "Sistemleri"
 msgstr "Reinforcement"
 
-#: apps/HomeApp/templates/HomeApp/architect4/index.html:415
+#: apps/HomeApp/templates/HomeApp/architect4/index.html:410
 msgid ""
 "Yapıların güvenliği için kritik öneme sahip demir donatı işlerini uzman "
 "kadromuzla titizlikle uyguluyoruz. Dayanıklı ve güvenli yapılar inşa "
@@ -944,15 +921,15 @@ msgstr ""
 "the safety of structures, with our expert team. We build durable and secure "
 "structures."
 
-#: apps/HomeApp/templates/HomeApp/architect4/index.html:430
+#: apps/HomeApp/templates/HomeApp/architect4/index.html:425
 msgid "Duvar ve Tavan"
 msgstr "Wall and"
 
-#: apps/HomeApp/templates/HomeApp/architect4/index.html:431
+#: apps/HomeApp/templates/HomeApp/architect4/index.html:426
 msgid "Uygulamaları"
 msgstr "Ceiling Works"
 
-#: apps/HomeApp/templates/HomeApp/architect4/index.html:434
+#: apps/HomeApp/templates/HomeApp/architect4/index.html:429
 msgid ""
 "Duvar örme ve tavan işlerinde deneyimli ekibimizle kusursuz sonuçlar elde "
 "ediyoruz. Modern teknikler ve kaliteli malzemeler kullanarak projelerinizi "
@@ -962,11 +939,11 @@ msgstr ""
 "experienced team. We complete your projects using modern techniques and "
 "quality materials."
 
-#: apps/HomeApp/templates/HomeApp/architect4/index.html:448
+#: apps/HomeApp/templates/HomeApp/architect4/index.html:443
 msgid "İnşaat Sektöründe Güvenilir Çözüm Ortağınız"
 msgstr "Your Reliable Partner in the Construction Industry"
 
-#: apps/HomeApp/templates/HomeApp/architect4/index.html:450
+#: apps/HomeApp/templates/HomeApp/architect4/index.html:445
 msgid ""
 "15 yıllık tecrübemiz, uzman kadromuz ve modern çözümlerimizle projelerinizi "
 "en yüksek kalite standartlarında hayata geçiriyoruz."
@@ -974,20 +951,15 @@ msgstr ""
 "With our 15 years of experience, expert team, and modern solutions, we bring "
 "your projects to life at the highest quality standards."
 
-# Services page translations
-#: apps/HomeApp/templates/HomeApp/architect4/services.html:6
-msgid "Hizmetlerimiz - Amir 77 İnşaat"
-msgstr "Our Services - Amir 77 Construction"
-
-#: apps/HomeApp/templates/HomeApp/architect4/services.html:88
+#: apps/HomeApp/templates/HomeApp/architect4/services.html:160
 msgid "Hizmetlerimiz"
 msgstr "Our Services"
 
-#: apps/HomeApp/templates/HomeApp/architect4/services.html:106
+#: apps/HomeApp/templates/HomeApp/architect4/services.html:178
 msgid "İnşaat Süreçleri ve Hizmetlerimiz"
 msgstr "Construction Processes and Our Services"
 
-#: apps/HomeApp/templates/HomeApp/architect4/services.html:109
+#: apps/HomeApp/templates/HomeApp/architect4/services.html:181
 msgid ""
 "Şirketimiz, inşaat projelerinde beton dökme, kalıpçılık, demir donatı "
 "işleri, duvar örme ve çatı uygulamaları gibi temel yapı işlerini en kaliteli "
@@ -997,12 +969,12 @@ msgstr ""
 "formwork, rebar work, wall construction, and roofing applications in "
 "construction projects with the highest quality and safety standards."
 
-#: apps/HomeApp/templates/HomeApp/architect4/services.html:126
-#: apps/HomeApp/templates/HomeApp/architect4/services.html:136
+#: apps/HomeApp/templates/HomeApp/architect4/services.html:198
+#: apps/HomeApp/templates/HomeApp/architect4/services.html:208
 msgid "Beton Dökme"
 msgstr "Concrete Pouring"
 
-#: apps/HomeApp/templates/HomeApp/architect4/services.html:137
+#: apps/HomeApp/templates/HomeApp/architect4/services.html:209
 msgid ""
 "Beton, bir yapının temelini oluşturan en önemli unsurlardan biridir. "
 "Kaliteli beton dökümü, yapıların sağlam ve dayanıklı olmasını sağlar."
@@ -1010,61 +982,61 @@ msgstr ""
 "Concrete is one of the most important elements forming the foundation of a "
 "structure. Quality concrete pouring ensures buildings are solid and durable."
 
-#: apps/HomeApp/templates/HomeApp/architect4/services.html:140
+#: apps/HomeApp/templates/HomeApp/architect4/services.html:212
 msgid "Zemin Hazırlığı"
 msgstr "Ground Preparation"
 
-#: apps/HomeApp/templates/HomeApp/architect4/services.html:142
+#: apps/HomeApp/templates/HomeApp/architect4/services.html:214
 msgid "İnşaat sahasının temizlenmesi ve düzeltilmesi"
 msgstr "Cleaning and leveling of the construction site"
 
-#: apps/HomeApp/templates/HomeApp/architect4/services.html:143
+#: apps/HomeApp/templates/HomeApp/architect4/services.html:215
 msgid "Temel kazısının yapılması"
 msgstr "Foundation excavation"
 
-#: apps/HomeApp/templates/HomeApp/architect4/services.html:144
+#: apps/HomeApp/templates/HomeApp/architect4/services.html:216
 msgid "Zemin sıkıştırma ve drenaj işlemlerinin uygulanması"
 msgstr "Application of ground compaction and drainage processes"
 
-#: apps/HomeApp/templates/HomeApp/architect4/services.html:147
+#: apps/HomeApp/templates/HomeApp/architect4/services.html:219
 msgid "Kalıp ve Demir Donatı Hazırlığı"
 msgstr "Formwork and Rebar Preparation"
 
-#: apps/HomeApp/templates/HomeApp/architect4/services.html:149
+#: apps/HomeApp/templates/HomeApp/architect4/services.html:221
 msgid "Kalıp sistemlerinin yerleştirilmesi"
 msgstr "Installation of formwork systems"
 
-#: apps/HomeApp/templates/HomeApp/architect4/services.html:150
+#: apps/HomeApp/templates/HomeApp/architect4/services.html:222
 msgid "Demir donatıların yerleştirilmesi ve bağlanması"
 msgstr "Placement and binding of rebar"
 
-#: apps/HomeApp/templates/HomeApp/architect4/services.html:151
+#: apps/HomeApp/templates/HomeApp/architect4/services.html:223
 msgid "Beton dökümü için kalıp kontrolü yapılması"
 msgstr "Formwork inspection for concrete pouring"
 
-#: apps/HomeApp/templates/HomeApp/architect4/services.html:154
+#: apps/HomeApp/templates/HomeApp/architect4/services.html:226
 msgid "Beton Dökümü"
 msgstr "Concrete Pouring"
 
-#: apps/HomeApp/templates/HomeApp/architect4/services.html:156
+#: apps/HomeApp/templates/HomeApp/architect4/services.html:228
 msgid "Kaliteli betonun şantiyeye getirilmesi"
 msgstr "Delivery of quality concrete to the construction site"
 
-#: apps/HomeApp/templates/HomeApp/architect4/services.html:157
+#: apps/HomeApp/templates/HomeApp/architect4/services.html:229
 msgid "Betonun vibratör ile sıkıştırılması ve homojen dağılımı sağlanması"
 msgstr ""
 "Compaction of concrete with vibrator and ensuring homogeneous distribution"
 
-#: apps/HomeApp/templates/HomeApp/architect4/services.html:158
+#: apps/HomeApp/templates/HomeApp/architect4/services.html:230
 msgid "Beton yüzeyinin düzeltilmesi ve kürlenmeye bırakılması"
 msgstr "Smoothing the concrete surface and leaving it for curing"
 
-#: apps/HomeApp/templates/HomeApp/architect4/services.html:175
-#: apps/HomeApp/templates/HomeApp/architect4/services.html:209
+#: apps/HomeApp/templates/HomeApp/architect4/services.html:247
+#: apps/HomeApp/templates/HomeApp/architect4/services.html:281
 msgid "Kalıpçılık"
 msgstr "Formwork"
 
-#: apps/HomeApp/templates/HomeApp/architect4/services.html:176
+#: apps/HomeApp/templates/HomeApp/architect4/services.html:248
 msgid ""
 "Kalıp sistemleri, betonarme yapıların şekillendirilmesi için kullanılan "
 "geçici yapı elemanlarıdır."
@@ -1072,59 +1044,59 @@ msgstr ""
 "Formwork systems are temporary structural elements used to shape reinforced "
 "concrete structures."
 
-#: apps/HomeApp/templates/HomeApp/architect4/services.html:179
+#: apps/HomeApp/templates/HomeApp/architect4/services.html:251
 msgid "Kalıp Çeşitleri"
 msgstr "Types of Formwork"
 
-#: apps/HomeApp/templates/HomeApp/architect4/services.html:181
+#: apps/HomeApp/templates/HomeApp/architect4/services.html:253
 msgid "Ahşap Kalıp: Küçük projelerde kullanılır, uygun maliyetlidir."
 msgstr "Wooden Formwork: Used in small projects, cost-effective."
 
-#: apps/HomeApp/templates/HomeApp/architect4/services.html:182
+#: apps/HomeApp/templates/HomeApp/architect4/services.html:254
 msgid ""
 "Çelik Kalıp: Büyük ve dayanıklı yapılar için uygundur, tekrar kullanılabilir."
 msgstr "Steel Formwork: Suitable for large and durable structures, reusable."
 
-#: apps/HomeApp/templates/HomeApp/architect4/services.html:183
+#: apps/HomeApp/templates/HomeApp/architect4/services.html:255
 msgid ""
 "Plastik Kalıp: Hafif ve kolay taşınabilir, küçük yapı projeleri için "
 "idealdir."
 msgstr ""
 "Plastic Formwork: Light and portable, ideal for small construction projects."
 
-#: apps/HomeApp/templates/HomeApp/architect4/services.html:186
+#: apps/HomeApp/templates/HomeApp/architect4/services.html:258
 msgid "Kalıp Yerleştirme Süreci"
 msgstr "Formwork Installation Process"
 
-#: apps/HomeApp/templates/HomeApp/architect4/services.html:188
+#: apps/HomeApp/templates/HomeApp/architect4/services.html:260
 msgid "Kalıpların ölçülendirilmesi ve kesilmesi"
 msgstr "Measuring and cutting of formwork"
 
-#: apps/HomeApp/templates/HomeApp/architect4/services.html:189
+#: apps/HomeApp/templates/HomeApp/architect4/services.html:261
 msgid "Kalıpların taşıyıcı elemanlarla desteklenmesi"
 msgstr "Supporting formwork with load-bearing elements"
 
-#: apps/HomeApp/templates/HomeApp/architect4/services.html:190
+#: apps/HomeApp/templates/HomeApp/architect4/services.html:262
 msgid "Kalıp bağlantılarının güvenliğinin sağlanması"
 msgstr "Ensuring security of formwork connections"
 
-#: apps/HomeApp/templates/HomeApp/architect4/services.html:193
+#: apps/HomeApp/templates/HomeApp/architect4/services.html:265
 msgid "Kalıp Sökme Süreci"
 msgstr "Formwork Removal Process"
 
-#: apps/HomeApp/templates/HomeApp/architect4/services.html:195
+#: apps/HomeApp/templates/HomeApp/architect4/services.html:267
 msgid "Perde ve kolonlar 12-24 saat sonra sökülür"
 msgstr "Walls and columns are removed after 12-24 hours"
 
-#: apps/HomeApp/templates/HomeApp/architect4/services.html:196
+#: apps/HomeApp/templates/HomeApp/architect4/services.html:268
 msgid "Tabliyeler 7-10 gün sonra sökülür"
 msgstr "Slabs are removed after 7-10 days"
 
-#: apps/HomeApp/templates/HomeApp/architect4/services.html:197
+#: apps/HomeApp/templates/HomeApp/architect4/services.html:269
 msgid "Kalıpların hasar almadan depolanması ve yeniden kullanılması"
 msgstr "Storage and reuse of formwork without damage"
 
-#: apps/HomeApp/templates/HomeApp/architect4/services.html:237
+#: apps/HomeApp/templates/HomeApp/architect4/services.html:309
 msgid ""
 "Demir donatı, betonarme yapıların dayanıklılığını artırmak için kullanılan "
 "çelik çubuklardır. Doğru yerleştirme ile yapıların sağlamlığı artırılır."
@@ -1132,48 +1104,48 @@ msgstr ""
 "Rebar are steel bars used to increase the durability of reinforced concrete "
 "structures. Proper placement enhances the strength of structures."
 
-#: apps/HomeApp/templates/HomeApp/architect4/services.html:240
+#: apps/HomeApp/templates/HomeApp/architect4/services.html:312
 msgid "Demir Kesme ve Bükme"
 msgstr "Rebar Cutting and Bending"
 
-#: apps/HomeApp/templates/HomeApp/architect4/services.html:242
+#: apps/HomeApp/templates/HomeApp/architect4/services.html:314
 msgid "Proje ölçülerine göre demir çubukların kesilmesi"
 msgstr "Cutting steel bars according to project dimensions"
 
-#: apps/HomeApp/templates/HomeApp/architect4/services.html:243
+#: apps/HomeApp/templates/HomeApp/architect4/services.html:315
 msgid "Demirlerin uygun açılarda bükülmesi"
 msgstr "Bending steel at appropriate angles"
 
-#: apps/HomeApp/templates/HomeApp/architect4/services.html:246
+#: apps/HomeApp/templates/HomeApp/architect4/services.html:318
 msgid "Donatı Yerleştirme"
 msgstr "Rebar Placement"
 
-#: apps/HomeApp/templates/HomeApp/architect4/services.html:248
+#: apps/HomeApp/templates/HomeApp/architect4/services.html:320
 msgid "Kesilen ve bükülen demirlerin plana uygun olarak yerleştirilmesi"
 msgstr "Placement of cut and bent steel according to plan"
 
-#: apps/HomeApp/templates/HomeApp/architect4/services.html:249
+#: apps/HomeApp/templates/HomeApp/architect4/services.html:321
 msgid "Çelik tellerle bağlama işlemi yapılması"
 msgstr "Binding with steel wires"
 
-#: apps/HomeApp/templates/HomeApp/architect4/services.html:252
+#: apps/HomeApp/templates/HomeApp/architect4/services.html:324
 msgid "Kontrol ve Güçlendirme"
 msgstr "Inspection and Reinforcement"
 
-#: apps/HomeApp/templates/HomeApp/architect4/services.html:254
+#: apps/HomeApp/templates/HomeApp/architect4/services.html:326
 msgid "Donatı düzeninin kontrol edilmesi"
 msgstr "Checking the rebar arrangement"
 
-#: apps/HomeApp/templates/HomeApp/architect4/services.html:255
+#: apps/HomeApp/templates/HomeApp/architect4/services.html:327
 msgid "Beton dökümünden önce son güvenlik kontrollerinin yapılması"
 msgstr "Final safety checks before concrete pouring"
 
-#: apps/HomeApp/templates/HomeApp/architect4/services.html:272
-#: apps/HomeApp/templates/HomeApp/architect4/services.html:306
+#: apps/HomeApp/templates/HomeApp/architect4/services.html:344
+#: apps/HomeApp/templates/HomeApp/architect4/services.html:378
 msgid "Duvar Örme"
 msgstr "Wall Construction"
 
-#: apps/HomeApp/templates/HomeApp/architect4/services.html:273
+#: apps/HomeApp/templates/HomeApp/architect4/services.html:345
 msgid ""
 "Duvar örme işlemi, yapıların iç ve dış bölmelerini oluşturan önemli bir "
 "aşamadır."
@@ -1181,62 +1153,62 @@ msgstr ""
 "Wall construction is an important phase that forms the interior and exterior "
 "partitions of structures."
 
-#: apps/HomeApp/templates/HomeApp/architect4/services.html:276
+#: apps/HomeApp/templates/HomeApp/architect4/services.html:348
 msgid "Malzeme Seçimi"
 msgstr "Material Selection"
 
-#: apps/HomeApp/templates/HomeApp/architect4/services.html:278
+#: apps/HomeApp/templates/HomeApp/architect4/services.html:350
 msgid "Tuğla: Geleneksel ve dayanıklı bir malzeme"
 msgstr "Brick: A traditional and durable material"
 
-#: apps/HomeApp/templates/HomeApp/architect4/services.html:279
+#: apps/HomeApp/templates/HomeApp/architect4/services.html:351
 msgid "Gazbeton (Ytong): Hafif ve izolasyon sağlayan modern bir malzeme"
 msgstr ""
 "Autoclaved Aerated Concrete (AAC): A modern material providing lightweight "
 "and insulation"
 
-#: apps/HomeApp/templates/HomeApp/architect4/services.html:280
+#: apps/HomeApp/templates/HomeApp/architect4/services.html:352
 msgid "Briket: Ekonomik ve hızlı uygulanabilir bir malzeme"
 msgstr "Concrete Block: An economical and quickly applicable material"
 
-#: apps/HomeApp/templates/HomeApp/architect4/services.html:283
+#: apps/HomeApp/templates/HomeApp/architect4/services.html:355
 msgid "Duvar Örme Aşamaları"
 msgstr "Wall Construction Phases"
 
-#: apps/HomeApp/templates/HomeApp/architect4/services.html:285
+#: apps/HomeApp/templates/HomeApp/architect4/services.html:357
 msgid "Duvarın temel çizgilerinin belirlenmesi"
 msgstr "Determining the basic lines of the wall"
 
-#: apps/HomeApp/templates/HomeApp/architect4/services.html:286
+#: apps/HomeApp/templates/HomeApp/architect4/services.html:358
 msgid "Harç karışımının hazırlanması"
 msgstr "Preparation of mortar mixture"
 
-#: apps/HomeApp/templates/HomeApp/architect4/services.html:287
+#: apps/HomeApp/templates/HomeApp/architect4/services.html:359
 msgid "Tuğla veya briketlerin düzgün bir şekilde dizilmesi"
 msgstr "Proper alignment of bricks or blocks"
 
-#: apps/HomeApp/templates/HomeApp/architect4/services.html:288
+#: apps/HomeApp/templates/HomeApp/architect4/services.html:360
 msgid "Su terazisi ile hizalama yapılması"
 msgstr "Leveling with spirit level"
 
-#: apps/HomeApp/templates/HomeApp/architect4/services.html:291
+#: apps/HomeApp/templates/HomeApp/architect4/services.html:363
 msgid "Derz Doldurma ve Yüzey Düzeltme"
 msgstr "Joint Filling and Surface Smoothing"
 
-#: apps/HomeApp/templates/HomeApp/architect4/services.html:293
+#: apps/HomeApp/templates/HomeApp/architect4/services.html:365
 msgid "Harç boşluklarının doldurulması"
 msgstr "Filling mortar gaps"
 
-#: apps/HomeApp/templates/HomeApp/architect4/services.html:294
+#: apps/HomeApp/templates/HomeApp/architect4/services.html:366
 msgid "Duvar yüzeyinin düzgün hale getirilmesi"
 msgstr "Smoothing the wall surface"
 
-#: apps/HomeApp/templates/HomeApp/architect4/services.html:323
-#: apps/HomeApp/templates/HomeApp/architect4/services.html:333
+#: apps/HomeApp/templates/HomeApp/architect4/services.html:395
+#: apps/HomeApp/templates/HomeApp/architect4/services.html:405
 msgid "Çatı İşleri"
 msgstr "Roofing Work"
 
-#: apps/HomeApp/templates/HomeApp/architect4/services.html:334
+#: apps/HomeApp/templates/HomeApp/architect4/services.html:406
 msgid ""
 "Bir yapının üst kısmını oluşturan çatı işleri, binanın dayanıklılığı ve "
 "izolasyonu için kritik öneme sahiptir."
@@ -1244,45 +1216,140 @@ msgstr ""
 "Roofing work, which forms the upper part of a structure, is critical for the "
 "durability and insulation of the building."
 
-#: apps/HomeApp/templates/HomeApp/architect4/services.html:337
+#: apps/HomeApp/templates/HomeApp/architect4/services.html:409
 msgid "Çatı Beton Dökme İşlemi"
 msgstr "Roof Concrete Pouring Process"
 
-#: apps/HomeApp/templates/HomeApp/architect4/services.html:339
+#: apps/HomeApp/templates/HomeApp/architect4/services.html:411
 msgid "Çatı kalıplarının kurulması"
 msgstr "Installation of roof formwork"
 
-#: apps/HomeApp/templates/HomeApp/architect4/services.html:340
+#: apps/HomeApp/templates/HomeApp/architect4/services.html:412
 msgid "Donatıların yerleştirilmesi"
 msgstr "Placement of reinforcement"
 
-#: apps/HomeApp/templates/HomeApp/architect4/services.html:341
+#: apps/HomeApp/templates/HomeApp/architect4/services.html:413
 msgid "Betonun dökülmesi ve düzleştirilmesi"
 msgstr "Pouring and leveling of concrete"
 
-#: apps/HomeApp/templates/HomeApp/architect4/services.html:344
+#: apps/HomeApp/templates/HomeApp/architect4/services.html:416
 msgid "Çatı Uygulamaları"
 msgstr "Roofing Applications"
 
-#: apps/HomeApp/templates/HomeApp/architect4/services.html:346
+#: apps/HomeApp/templates/HomeApp/architect4/services.html:418
 msgid "Ahşap veya çelik çatı iskeletinin kurulması"
 msgstr "Installation of wooden or steel roof frame"
 
-#: apps/HomeApp/templates/HomeApp/architect4/services.html:347
+#: apps/HomeApp/templates/HomeApp/architect4/services.html:419
 msgid "İzolasyon ve su yalıtımı yapılması"
 msgstr "Installation of insulation and waterproofing"
 
-#: apps/HomeApp/templates/HomeApp/architect4/services.html:348
+#: apps/HomeApp/templates/HomeApp/architect4/services.html:420
 msgid "Kiremit veya sac kaplama uygulaması"
 msgstr "Tile or sheet metal covering application"
 
-#: apps/HomeApp/templates/HomeApp/architect4/services.html:368
+#: apps/HomeApp/templates/HomeApp/architect4/services.html:440
 msgid ""
 "Amir 77 İnşaat olarak, projelerinizi en yüksek standartlarda tamamlamak için "
 "uzman ekibimizle hizmetinizdeyiz."
 msgstr ""
 "As Amir 77 Construction, we are at your service with our expert team to "
 "complete your projects to the highest standards."
+
+# Homepage translations
+#: apps/HomeApp/views.py:45
+msgid "Amir 77 İnşaat – Güvenilir ve Kaliteli İnşaat Hizmetleri"
+msgstr "Amir 77 Construction – Reliable and Quality Construction Services"
+
+#: apps/HomeApp/views.py:46
+msgid ""
+"Beton dökme, kalıpçılık, demir donatı, duvar örme ve tavan işleri "
+"konularında uzman ekibimizle hizmetinizdeyiz. Güçlü referanslarımız ve "
+"yılların tecrübesi ile inşaat projelerinize en iyi çözümleri sunuyoruz."
+msgstr ""
+"With our expert team in the construction industry, we provide professional "
+"services in various areas such as concrete pouring, formwork, rebar work, "
+"wall construction, and ceiling works. With our strong references and years "
+"of experience, we provide the best solutions for your construction projects."
+
+#: apps/HomeApp/views.py:47
+msgid ""
+"inşaat, beton dökme, kalıpçılık, demir donatı, duvar örme, tavan işleri, "
+"Yalova inşaat"
+msgstr "Concrete pouring, formwork, rebar work,"
+
+#: apps/HomeApp/views.py:63
+msgid "Hakkımızda | Amir 77 İnşaat"
+msgstr "Contact - Amir 77 Construction"
+
+#: apps/HomeApp/views.py:64
+msgid ""
+"2021'den beri 15 yılı aşkın sektör deneyimimizle beton dökme, kalıpçılık, "
+"demir donatı, duvar örme ve tavan işleri alanlarında profesyonel hizmet "
+"sunuyoruz."
+msgstr ""
+"Amir 77 Construction Trade Industry Limited Company was established on July "
+"4, 2021, and has over 15 years of experience in the construction industry. "
+"We provide services in various areas such as concrete pouring, formwork, "
+"rebar work, wall construction, and ceiling works with our expert team."
+
+#: apps/HomeApp/views.py:65
+msgid "Amir 77 İnşaat, inşaat şirketi, yapı hizmetleri, Yalova müteahhit, inşaat deneyimi"
+msgstr "Amir 77 Construction, construction company, building services, Yalova contractor, construction experience"
+
+#: apps/HomeApp/views.py:70
+msgid "Projelerimiz | Amir 77 İnşaat"
+msgstr "Our Projects - Amir 77 Construction"
+
+#: apps/HomeApp/views.py:71
+msgid "Diyarbakır ve çevresinde tamamladığımız ve devam eden inşaat projelerimiz. Beton dökme, kalıpçılık ve demir donatı işlerinde uzman çözümler."
+msgstr "Our completed and ongoing construction projects in Diyarbakır and surrounding areas. Expert solutions in concrete pouring, formwork, and rebar works."
+
+#: apps/HomeApp/views.py:72
+msgid "inşaat projeleri, tamamlanan projeler, devam eden projeler, Diyarbakır inşaat, yapı projeleri"
+msgstr "construction projects, completed projects, ongoing projects, Diyarbakır construction, building projects"
+
+#: apps/HomeApp/views.py:77
+msgid "Hizmetlerimiz | Amir 77 İnşaat"
+msgstr "Our Services - Amir 77 Construction"
+
+#: apps/HomeApp/views.py:78
+msgid ""
+"Beton dökme, kalıpçılık, demir donatı işleri, duvar örme ve çatı "
+"uygulamaları dahil olmak üzere tüm yapı işleriniz için profesyonel inşaat "
+"hizmetleri sunuyoruz."
+msgstr ""
+"Our company performs basic construction works such as concrete pouring, "
+"formwork, rebar work, wall construction, and roofing applications in "
+"construction projects with the highest quality and safety standards."
+
+#: apps/HomeApp/views.py:79
+msgid "beton dökme, kalıp işleri, demir donatı, duvar örme, çatı işleri, inşaat hizmetleri"
+msgstr "concrete pouring, formwork, rebar work, wall construction, roofing works, construction services"
+
+#: apps/HomeApp/views.py:84
+msgid "İletişim | Amir 77 İnşaat"
+msgstr "Contact - Amir 77 Construction"
+
+#: apps/HomeApp/views.py:85
+msgid "Amir 77 İnşaat Ticaret Sanayi Limited Şirketi ile iletişime geçin. Yalova'da profesyonel inşaat ve yapı hizmetleri için bize ulaşın."
+msgstr "Contact Amir 77 Construction Trade Industry Limited Company. Reach us for professional construction and building services in Yalova."
+
+#: apps/HomeApp/views.py:86
+msgid "Amir 77 İnşaat iletişim, Yalova inşaat firması, inşaat teklifi, yapı hizmetleri iletişim"
+msgstr "Amir 77 Construction contact, Yalova construction company, construction quote, building services contact"
+
+#: apps/HomeApp/views.py:91
+msgid "Örnek Projeler | Amir 77 İnşaat"
+msgstr "Our Projects - Amir 77 Construction"
+
+#: apps/HomeApp/views.py:92
+msgid "İnşaat projelerimizden örnekler ve detaylı süreç analizleri. Beton dökme, kalıpçılık, demir donatı ve duvar örme işlerindeki uzmanlığımızı keşfedin."
+msgstr "Examples from our construction projects and detailed process analyses. Discover our expertise in concrete pouring, formwork, rebar work, and wall construction."
+
+#: apps/HomeApp/views.py:93
+msgid "inşaat örnekleri, proje detayları, yapı süreçleri, inşaat çözümleri, başarı hikayeleri"
+msgstr "construction examples, project details, building processes, construction solutions, success stories"
 
 #: templates/account/email/account_already_exists_message.txt:4
 #, python-format
@@ -1317,7 +1384,7 @@ msgstr ""
 
 #: templates/account/email/account_already_exists_subject.txt:3
 msgid "Account Already Exists"
-msgstr ""
+msgstr "Account Already Exists"
 
 #: templates/account/email/base_message.txt:1
 #, python-format
@@ -1348,7 +1415,7 @@ msgstr ""
 
 #: templates/account/email/email_confirmation_subject.txt:3
 msgid "Please Confirm Your E-mail Address"
-msgstr ""
+msgstr "Please Confirm Your E-mail Address"
 
 #: templates/account/email/password_reset_key_message.txt:4
 msgid ""
@@ -1370,7 +1437,7 @@ msgstr "In case you forgot, your username is %(username)s."
 #: templates/account/email/password_reset_key_subject.txt:3
 #: templates/account/email/unknown_account_subject.txt:3
 msgid "Password Reset E-mail"
-msgstr ""
+msgstr "Password Reset E-mail"
 
 #: templates/account/email/unknown_account_message.txt:4
 #, python-format
