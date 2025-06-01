@@ -11,41 +11,101 @@
             margin-bottom: 20px;
         }
         
+        .service-section {
+            display: flex;
+            align-items: center;
+            gap: 40px;
+            margin: 30px 0;
+        }
+
+        .service-section.reverse {
+            flex-direction: row-reverse;
+        }
+
+        .service-image {
+            flex: 0 0 45%;
+            position: relative;
+            overflow: hidden;
+            border-radius: 15px;
+            box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+        }
+
+        .service-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.6s ease;
+        }
+
+        .service-image:hover img {
+            transform: scale(1.05);
+        }
+
+        .service-content {
+            flex: 0 0 55%;
+        }
+
         .service-card {
-            padding: 35px;
+            padding: 25px;
             background: #fff;
             border: none;
             border-radius: 10px;
             box-shadow: 0 10px 30px rgba(0,0,0,0.05);
             transition: all 0.4s ease;
             height: 100%;
-            margin-top: 20px;
+            margin-top: 15px;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .service-card:before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 4px;
+            height: 100%;
+            background: #2c605a;
+            opacity: 0.7;
         }
         
         .service-card:hover {
             box-shadow: 0 15px 40px rgba(0,0,0,0.1);
-            transform: translateY(-8px);
+            transform: translateY(-5px);
         }
         
         .service-card h4 {
-            margin-bottom: 20px;
+            margin-bottom: 15px;
             color: #2c605a;
             font-weight: 600;
-            font-size: 1.25rem;
+            font-size: 1.15rem;
+            padding-left: 15px;
         }
         
         .service-card ul {
             list-style: none;
-            padding-left: 0;
-            margin-bottom: 25px;
+            padding-left: 15px;
+            margin-bottom: 15px;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 10px;
         }
         
         .service-card ul li {
-            padding: 10px 0;
+            padding: 8px 0;
             border-bottom: 1px solid rgba(0,0,0,0.05);
             transition: all 0.3s ease;
             position: relative;
-            padding-left: 25px;
+            padding-left: 20px;
+            font-size: 0.95rem;
+        }
+        
+        .service-card ul li:before {
+            content: '→';
+            position: absolute;
+            left: 0;
+            color: #2c605a;
+            opacity: 0.7;
         }
         
         .service-card ul li:last-child {
@@ -53,14 +113,38 @@
         }
         
         .service-card ul li:hover {
-            padding-left: 30px;
+            padding-left: 25px;
             color: #2c605a;
+        }
+
+        .section-title {
+            position: relative;
+            margin-bottom: 40px;
+            padding-bottom: 15px;
+            color: #2c605a;
+        }
+
+        .section-title:after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 60px;
+            height: 3px;
+            background: #2c605a;
+        }
+
+        .section-description {
+            font-size: 1.1rem;
+            color: #666;
+            margin-bottom: 25px;
+            line-height: 1.6;
         }
         
         .mcb-section {
             position: relative;
             overflow: hidden;
-            padding: 90px 0 !important;
+            padding: 60px 0 !important;
         }
         
         .mcb-section:before {
@@ -79,6 +163,7 @@
             overflow: hidden;
             box-shadow: 0 15px 40px rgba(0,0,0,0.1);
             transition: all 0.4s ease;
+            margin-bottom: 20px;
         }
         
         .mcb-section .image_wrapper:hover {
@@ -126,21 +211,43 @@
         }
         
         /* Responsive adjustments */
+        @media (max-width: 992px) {
+            .service-section {
+                flex-direction: column !important;
+                gap: 20px;
+            }
+
+            .service-image,
+            .service-content {
+                flex: 0 0 100%;
+            }
+
+            .service-card ul {
+                grid-template-columns: 1fr;
+            }
+        }
+
         @media (max-width: 768px) {
             .mcb-section {
-                padding: 60px 0 !important;
-            }
-            
-            .column_attr h3 {
-                font-size: 1.8rem;
+                padding: 40px 0 !important;
             }
             
             .service-card {
-                margin-top: 30px;
+                padding: 20px;
+                margin-top: 20px;
             }
             
             .wrap.mcb-wrap {
-                padding: 0 15px !important;
+                padding: 0 10px !important;
+            }
+
+            .section-title {
+                font-size: 1.8rem;
+                margin-bottom: 25px;
+            }
+
+            .section-description {
+                font-size: 1rem;
             }
         }
     </style>
@@ -190,47 +297,35 @@ class="page-template-default page color-custom style-default button-stroke layou
                 <!-- Beton Dökme Section -->
                 <div class="section mcb-section" style="padding-top:0px; padding-bottom:70px;">
                     <div class="section_wrapper mcb-section-inner">
-                        <div class="wrap mcb-wrap one-second valign-top clearfix" style="padding:20px;">
-                            <div class="mcb-wrap-inner">
-                                <div class="column mcb-column one column_image">
-                                    <div class="image_frame image_item no_link scale-with-grid aligncenter no_border">
-                                        <div class="image_wrapper">
-                                            <img class="scale-with-grid" src="{% static 'HomeApp/img/home_architect4_pic22.jpg' %}" alt="{% trans 'Beton Dökme' %}">
-                                        </div>
-                                    </div>
-                                </div>
+                        <div class="service-section">
+                            <div class="service-image">
+                                <img class="scale-with-grid" src="{% static 'HomeApp/img/services-pic1.jpg' %}" alt="{% trans 'Beton Dökme' %}">
                             </div>
-                        </div>
-                        <div class="wrap mcb-wrap one-second valign-top clearfix" style="padding:20px;">
-                            <div class="mcb-wrap-inner">
-                                <div class="column mcb-column one column_column">
-                                    <div class="column_attr clearfix">
-                                        <h3>1. {% trans "Beton Dökme" %}</h3>
-                                        <p class="big">{% trans "Beton, bir yapının temelini oluşturan en önemli unsurlardan biridir. Kaliteli beton dökümü, yapıların sağlam ve dayanıklı olmasını sağlar." %}</p>
-                                        
-                                        <div class="service-card">
-                                            <h4>1.1. {% trans "Zemin Hazırlığı" %}</h4>
-                                            <ul>
-                                                <li>{% trans "İnşaat sahasının temizlenmesi ve düzeltilmesi" %}</li>
-                                                <li>{% trans "Temel kazısının yapılması" %}</li>
-                                                <li>{% trans "Zemin sıkıştırma ve drenaj işlemlerinin uygulanması" %}</li>
-                                            </ul>
-                                            
-                                            <h4>1.2. {% trans "Kalıp ve Demir Donatı Hazırlığı" %}</h4>
-                                            <ul>
-                                                <li>{% trans "Kalıp sistemlerinin yerleştirilmesi" %}</li>
-                                                <li>{% trans "Demir donatıların yerleştirilmesi ve bağlanması" %}</li>
-                                                <li>{% trans "Beton dökümü için kalıp kontrolü yapılması" %}</li>
-                                            </ul>
-                                            
-                                            <h4>1.3. {% trans "Beton Dökümü" %}</h4>
-                                            <ul>
-                                                <li>{% trans "Kaliteli betonun şantiyeye getirilmesi" %}</li>
-                                                <li>{% trans "Betonun vibratör ile sıkıştırılması ve homojen dağılımı sağlanması" %}</li>
-                                                <li>{% trans "Beton yüzeyinin düzeltilmesi ve kürlenmeye bırakılması" %}</li>
-                                            </ul>
-                                        </div>
-                                    </div>
+                            <div class="service-content">
+                                <h3 class="section-title">1. {% trans "Beton Dökme" %}</h3>
+                                <p class="section-description">{% trans "Beton, bir yapının temelini oluşturan en önemli unsurlardan biridir. Kaliteli beton dökümü, yapıların sağlam ve dayanıklı olmasını sağlar." %}</p>
+                                
+                                <div class="service-card">
+                                    <h4>1.1. {% trans "Zemin Hazırlığı" %}</h4>
+                                    <ul>
+                                        <li>{% trans "İnşaat sahasının temizlenmesi ve düzeltilmesi" %}</li>
+                                        <li>{% trans "Temel kazısının yapılması" %}</li>
+                                        <li>{% trans "Zemin sıkıştırma ve drenaj işlemlerinin uygulanması" %}</li>
+                                    </ul>
+                                    
+                                    <h4>1.2. {% trans "Kalıp ve Demir Donatı Hazırlığı" %}</h4>
+                                    <ul>
+                                        <li>{% trans "Kalıp sistemlerinin yerleştirilmesi" %}</li>
+                                        <li>{% trans "Demir donatıların yerleştirilmesi ve bağlanması" %}</li>
+                                        <li>{% trans "Beton dökümü için kalıp kontrolü yapılması" %}</li>
+                                    </ul>
+                                    
+                                    <h4>1.3. {% trans "Beton Dökümü" %}</h4>
+                                    <ul>
+                                        <li>{% trans "Kaliteli betonun şantiyeye getirilmesi" %}</li>
+                                        <li>{% trans "Betonun vibratör ile sıkıştırılması ve homojen dağılımı sağlanması" %}</li>
+                                        <li>{% trans "Beton yüzeyinin düzeltilmesi ve kürlenmeye bırakılması" %}</li>
+                                    </ul>
                                 </div>
                             </div>
                         </div>
@@ -240,47 +335,35 @@ class="page-template-default page color-custom style-default button-stroke layou
                 <!-- Kalıpçılık Section -->
                 <div class="section mcb-section" style="padding-top:0px; padding-bottom:70px; background-color:#f5f5f5;">
                     <div class="section_wrapper mcb-section-inner">
-                        <div class="wrap mcb-wrap one-second valign-top clearfix" style="padding:0 5% 0 0">
-                            <div class="mcb-wrap-inner">
-                                <div class="column mcb-column one column_column">
-                                    <div class="column_attr clearfix">
-                                        <h3>2. {% trans "Kalıpçılık" %}</h3>
-                                        <p class="big">{% trans "Kalıp sistemleri, betonarme yapıların şekillendirilmesi için kullanılan geçici yapı elemanlarıdır." %}</p>
-                                        
-                                        <div class="service-card">
-                                            <h4>2.1. {% trans "Kalıp Çeşitleri" %}</h4>
-                                            <ul>
-                                                <li>{% trans "Ahşap Kalıp: Küçük projelerde kullanılır, uygun maliyetlidir." %}</li>
-                                                <li>{% trans "Çelik Kalıp: Büyük ve dayanıklı yapılar için uygundur, tekrar kullanılabilir." %}</li>
-                                                <li>{% trans "Plastik Kalıp: Hafif ve kolay taşınabilir, küçük yapı projeleri için idealdir." %}</li>
-                                            </ul>
-                                            
-                                            <h4>2.2. {% trans "Kalıp Yerleştirme Süreci" %}</h4>
-                                            <ul>
-                                                <li>{% trans "Kalıpların ölçülendirilmesi ve kesilmesi" %}</li>
-                                                <li>{% trans "Kalıpların taşıyıcı elemanlarla desteklenmesi" %}</li>
-                                                <li>{% trans "Kalıp bağlantılarının güvenliğinin sağlanması" %}</li>
-                                            </ul>
-                                            
-                                            <h4>2.3. {% trans "Kalıp Sökme Süreci" %}</h4>
-                                            <ul>
-                                                <li>{% trans "Perde ve kolonlar 12-24 saat sonra sökülür" %}</li>
-                                                <li>{% trans "Tabliyeler 7-10 gün sonra sökülür" %}</li>
-                                                <li>{% trans "Kalıpların hasar almadan depolanması ve yeniden kullanılması" %}</li>
-                                        </ul>
-                                        </div>
-                                    </div>
-                                </div>
+                        <div class="service-section reverse">
+                            <div class="service-image">
+                                <img class="scale-with-grid" src="{% static 'HomeApp/img/services-pic2.jpg' %}" alt="{% trans 'Kalıpçılık' %}">
                             </div>
-                        </div>
-                        <div class="wrap mcb-wrap one-second valign-top clearfix">
-                            <div class="mcb-wrap-inner">
-                                <div class="column mcb-column one column_image">
-                                    <div class="image_frame image_item no_link scale-with-grid aligncenter no_border">
-                                        <div class="image_wrapper">
-                                            <img class="scale-with-grid" src="{% static 'HomeApp/img/home_architect4_pic23.jpg' %}" alt="{% trans 'Kalıpçılık' %}">
-                                        </div>
-                                    </div>
+                            <div class="service-content">
+                                <h3 class="section-title">2. {% trans "Kalıpçılık" %}</h3>
+                                <p class="section-description">{% trans "Kalıp sistemleri, betonarme yapıların şekillendirilmesi için kullanılan geçici yapı elemanlarıdır." %}</p>
+                                
+                                <div class="service-card">
+                                    <h4>2.1. {% trans "Kalıp Çeşitleri" %}</h4>
+                                    <ul>
+                                        <li>{% trans "Ahşap Kalıp: Küçük projelerde kullanılır, uygun maliyetlidir." %}</li>
+                                        <li>{% trans "Çelik Kalıp: Büyük ve dayanıklı yapılar için uygundur, tekrar kullanılabilir." %}</li>
+                                        <li>{% trans "Plastik Kalıp: Hafif ve kolay taşınabilir, küçük yapı projeleri için idealdir." %}</li>
+                                    </ul>
+                                    
+                                    <h4>2.2. {% trans "Kalıp Yerleştirme Süreci" %}</h4>
+                                    <ul>
+                                        <li>{% trans "Kalıpların ölçülendirilmesi ve kesilmesi" %}</li>
+                                        <li>{% trans "Kalıpların taşıyıcı elemanlarla desteklenmesi" %}</li>
+                                        <li>{% trans "Kalıp bağlantılarının güvenliğinin sağlanması" %}</li>
+                                    </ul>
+                                    
+                                    <h4>2.3. {% trans "Kalıp Sökme Süreci" %}</h4>
+                                    <ul>
+                                        <li>{% trans "Perde ve kolonlar 12-24 saat sonra sökülür" %}</li>
+                                        <li>{% trans "Tabliyeler 7-10 gün sonra sökülür" %}</li>
+                                        <li>{% trans "Kalıpların hasar almadan depolanması ve yeniden kullanılması" %}</li>
+                                    </ul>
                                 </div>
                             </div>
                         </div>
@@ -290,44 +373,32 @@ class="page-template-default page color-custom style-default button-stroke layou
                 <!-- Demir Donatı Section -->
                 <div class="section mcb-section" style="padding-top:0px; padding-bottom:70px;">
                     <div class="section_wrapper mcb-section-inner">
-                        <div class="wrap mcb-wrap one-second valign-top clearfix">
-                            <div class="mcb-wrap-inner">
-                                <div class="column mcb-column one column_image">
-                                    <div class="image_frame image_item no_link scale-with-grid aligncenter no_border">
-                                        <div class="image_wrapper">
-                                            <img class="scale-with-grid" src="{% static 'HomeApp/img/home_architect4_pic24.jpg' %}" alt="{% trans 'Demir Donatı' %}">
-                                        </div>
-                                    </div>
-                                </div>
+                        <div class="service-section">
+                            <div class="service-image">
+                                <img class="scale-with-grid" src="{% static 'HomeApp/img/services-pic3.jpg' %}" alt="{% trans 'Demir Donatı' %}">
                             </div>
-                        </div>
-                        <div class="wrap mcb-wrap one-second valign-top clearfix" style="padding:0 0 0 5%">
-                            <div class="mcb-wrap-inner">
-                                <div class="column mcb-column one column_column">
-                                    <div class="column_attr clearfix">
-                                        <h3>3. {% trans "Demir Donatı İşleri" %}</h3>
-                                        <p class="big">{% trans "Demir donatı, betonarme yapıların dayanıklılığını artırmak için kullanılan çelik çubuklardır. Doğru yerleştirme ile yapıların sağlamlığı artırılır." %}</p>
-                                        
-                                        <div class="service-card">
-                                            <h4>3.1. {% trans "Demir Kesme ve Bükme" %}</h4>
-                                            <ul>
-                                                <li>{% trans "Proje ölçülerine göre demir çubukların kesilmesi" %}</li>
-                                                <li>{% trans "Demirlerin uygun açılarda bükülmesi" %}</li>
-                                            </ul>
-                                            
-                                            <h4>3.2. {% trans "Donatı Yerleştirme" %}</h4>
-                                            <ul>
-                                                <li>{% trans "Kesilen ve bükülen demirlerin plana uygun olarak yerleştirilmesi" %}</li>
-                                                <li>{% trans "Çelik tellerle bağlama işlemi yapılması" %}</li>
-                                            </ul>
-                                            
-                                            <h4>3.3. {% trans "Kontrol ve Güçlendirme" %}</h4>
-                                            <ul>
-                                                <li>{% trans "Donatı düzeninin kontrol edilmesi" %}</li>
-                                                <li>{% trans "Beton dökümünden önce son güvenlik kontrollerinin yapılması" %}</li>
-                                        </ul>
-                                        </div>
-                                    </div>
+                            <div class="service-content">
+                                <h3 class="section-title">3. {% trans "Demir Donatı İşleri" %}</h3>
+                                <p class="section-description">{% trans "Demir donatı, betonarme yapıların dayanıklılığını artırmak için kullanılan çelik çubuklardır. Doğru yerleştirme ile yapıların sağlamlığı artırılır." %}</p>
+                                
+                                <div class="service-card">
+                                    <h4>3.1. {% trans "Demir Kesme ve Bükme" %}</h4>
+                                    <ul>
+                                        <li>{% trans "Proje ölçülerine göre demir çubukların kesilmesi" %}</li>
+                                        <li>{% trans "Demirlerin uygun açılarda bükülmesi" %}</li>
+                                    </ul>
+                                    
+                                    <h4>3.2. {% trans "Donatı Yerleştirme" %}</h4>
+                                    <ul>
+                                        <li>{% trans "Kesilen ve bükülen demirlerin plana uygun olarak yerleştirilmesi" %}</li>
+                                        <li>{% trans "Çelik tellerle bağlama işlemi yapılması" %}</li>
+                                    </ul>
+                                    
+                                    <h4>3.3. {% trans "Kontrol ve Güçlendirme" %}</h4>
+                                    <ul>
+                                        <li>{% trans "Donatı düzeninin kontrol edilmesi" %}</li>
+                                        <li>{% trans "Beton dökümünden önce son güvenlik kontrollerinin yapılması" %}</li>
+                                    </ul>
                                 </div>
                             </div>
                         </div>
@@ -337,47 +408,35 @@ class="page-template-default page color-custom style-default button-stroke layou
                 <!-- Duvar Örme Section -->
                 <div class="section mcb-section" style="padding-top:0px; padding-bottom:70px; background-color:#f5f5f5;">
                     <div class="section_wrapper mcb-section-inner">
-                        <div class="wrap mcb-wrap one-second valign-top clearfix" style="padding:0 5% 0 0">
-                            <div class="mcb-wrap-inner">
-                                <div class="column mcb-column one column_column">
-                                    <div class="column_attr clearfix">
-                                        <h3>4. {% trans "Duvar Örme" %}</h3>
-                                        <p class="big">{% trans "Duvar örme işlemi, yapıların iç ve dış bölmelerini oluşturan önemli bir aşamadır." %}</p>
-                                        
-                                        <div class="service-card">
-                                            <h4>4.1. {% trans "Malzeme Seçimi" %}</h4>
-                                            <ul>
-                                                <li>{% trans "Tuğla: Geleneksel ve dayanıklı bir malzeme" %}</li>
-                                                <li>{% trans "Gazbeton (Ytong): Hafif ve izolasyon sağlayan modern bir malzeme" %}</li>
-                                                <li>{% trans "Briket: Ekonomik ve hızlı uygulanabilir bir malzeme" %}</li>
-                                            </ul>
-                                            
-                                            <h4>4.2. {% trans "Duvar Örme Aşamaları" %}</h4>
-                                            <ul>
-                                                <li>{% trans "Duvarın temel çizgilerinin belirlenmesi" %}</li>
-                                                <li>{% trans "Harç karışımının hazırlanması" %}</li>
-                                                <li>{% trans "Tuğla veya briketlerin düzgün bir şekilde dizilmesi" %}</li>
-                                                <li>{% trans "Su terazisi ile hizalama yapılması" %}</li>
-                                            </ul>
-                                            
-                                            <h4>4.3. {% trans "Derz Doldurma ve Yüzey Düzeltme" %}</h4>
-                                            <ul>
-                                                <li>{% trans "Harç boşluklarının doldurulması" %}</li>
-                                                <li>{% trans "Duvar yüzeyinin düzgün hale getirilmesi" %}</li>
-                                        </ul>
-                                        </div>
-                                    </div>
-                                </div>
+                        <div class="service-section reverse">
+                            <div class="service-image">
+                                <img class="scale-with-grid" src="{% static 'HomeApp/img/services-pic4.jpg' %}" alt="{% trans 'Duvar Örme' %}">
                             </div>
-                        </div>
-                        <div class="wrap mcb-wrap one-second valign-top clearfix">
-                            <div class="mcb-wrap-inner">
-                                <div class="column mcb-column one column_image">
-                                    <div class="image_frame image_item no_link scale-with-grid aligncenter no_border">
-                                        <div class="image_wrapper">
-                                            <img class="scale-with-grid" src="{% static 'HomeApp/img/home_architect4_pic25.jpg' %}" alt="{% trans 'Duvar Örme' %}">
-                                        </div>
-                                    </div>
+                            <div class="service-content">
+                                <h3 class="section-title">4. {% trans "Duvar Örme" %}</h3>
+                                <p class="section-description">{% trans "Duvar örme işlemi, yapıların iç ve dış bölmelerini oluşturan önemli bir aşamadır." %}</p>
+                                
+                                <div class="service-card">
+                                    <h4>4.1. {% trans "Malzeme Seçimi" %}</h4>
+                                    <ul>
+                                        <li>{% trans "Tuğla: Geleneksel ve dayanıklı bir malzeme" %}</li>
+                                        <li>{% trans "Gazbeton (Ytong): Hafif ve izolasyon sağlayan modern bir malzeme" %}</li>
+                                        <li>{% trans "Briket: Ekonomik ve hızlı uygulanabilir bir malzeme" %}</li>
+                                    </ul>
+                                    
+                                    <h4>4.2. {% trans "Duvar Örme Aşamaları" %}</h4>
+                                    <ul>
+                                        <li>{% trans "Duvarın temel çizgilerinin belirlenmesi" %}</li>
+                                        <li>{% trans "Harç karışımının hazırlanması" %}</li>
+                                        <li>{% trans "Tuğla veya briketlerin düzgün bir şekilde dizilmesi" %}</li>
+                                        <li>{% trans "Su terazisi ile hizalama yapılması" %}</li>
+                                    </ul>
+                                    
+                                    <h4>4.3. {% trans "Derz Doldurma ve Yüzey Düzeltme" %}</h4>
+                                    <ul>
+                                        <li>{% trans "Harç boşluklarının doldurulması" %}</li>
+                                        <li>{% trans "Duvar yüzeyinin düzgün hale getirilmesi" %}</li>
+                                    </ul>
                                 </div>
                             </div>
                         </div>
@@ -387,40 +446,28 @@ class="page-template-default page color-custom style-default button-stroke layou
                 <!-- Çatı İşleri Section -->
                 <div class="section mcb-section" style="padding-top:0px; padding-bottom:70px;">
                     <div class="section_wrapper mcb-section-inner">
-                        <div class="wrap mcb-wrap one-second valign-top clearfix">
-                            <div class="mcb-wrap-inner">
-                                <div class="column mcb-column one column_image">
-                                    <div class="image_frame image_item no_link scale-with-grid aligncenter no_border">
-                                        <div class="image_wrapper">
-                                            <img class="scale-with-grid" src="{% static 'HomeApp/img/home_architect4_pic26.jpg' %}" alt="{% trans 'Çatı İşleri' %}">
-                                        </div>
-                                    </div>
-                                </div>
+                        <div class="service-section">
+                            <div class="service-image">
+                                <img class="scale-with-grid" src="{% static 'HomeApp/img/services-pic5.jpg' %}" alt="{% trans 'Çatı İşleri' %}">
                             </div>
-                        </div>
-                        <div class="wrap mcb-wrap one-second valign-top clearfix" style="padding:0 0 0 5%">
-                            <div class="mcb-wrap-inner">
-                                <div class="column mcb-column one column_column">
-                                    <div class="column_attr clearfix">
-                                        <h3>5. {% trans "Çatı İşleri" %}</h3>
-                                        <p class="big">{% trans "Bir yapının üst kısmını oluşturan çatı işleri, binanın dayanıklılığı ve izolasyonu için kritik öneme sahiptir." %}</p>
-                                        
-                                        <div class="service-card">
-                                            <h4>5.1. {% trans "Çatı Beton Dökme İşlemi" %}</h4>
-                                            <ul>
-                                                <li>{% trans "Çatı kalıplarının kurulması" %}</li>
-                                                <li>{% trans "Donatıların yerleştirilmesi" %}</li>
-                                                <li>{% trans "Betonun dökülmesi ve düzleştirilmesi" %}</li>
-                                            </ul>
-                                            
-                                            <h4>5.2. {% trans "Çatı Uygulamaları" %}</h4>
-                                            <ul>
-                                                <li>{% trans "Ahşap veya çelik çatı iskeletinin kurulması" %}</li>
-                                                <li>{% trans "İzolasyon ve su yalıtımı yapılması" %}</li>
-                                                <li>{% trans "Kiremit veya sac kaplama uygulaması" %}</li>
-                                            </ul>
-                                        </div>
-                                    </div>
+                            <div class="service-content">
+                                <h3 class="section-title">5. {% trans "Çatı İşleri" %}</h3>
+                                <p class="section-description">{% trans "Bir yapının üst kısmını oluşturan çatı işleri, binanın dayanıklılığı ve izolasyonu için kritik öneme sahiptir." %}</p>
+                                
+                                <div class="service-card">
+                                    <h4>5.1. {% trans "Çatı Beton Dökme İşlemi" %}</h4>
+                                    <ul>
+                                        <li>{% trans "Çatı kalıplarının kurulması" %}</li>
+                                        <li>{% trans "Donatıların yerleştirilmesi" %}</li>
+                                        <li>{% trans "Betonun dökülmesi ve düzleştirilmesi" %}</li>
+                                    </ul>
+                                    
+                                    <h4>5.2. {% trans "Çatı Uygulamaları" %}</h4>
+                                    <ul>
+                                        <li>{% trans "Ahşap veya çelik çatı iskeletinin kurulması" %}</li>
+                                        <li>{% trans "İzolasyon ve su yalıtımı yapılması" %}</li>
+                                        <li>{% trans "Kiremit veya sac kaplama uygulaması" %}</li>
+                                    </ul>
                                 </div>
                             </div>
                         </div>

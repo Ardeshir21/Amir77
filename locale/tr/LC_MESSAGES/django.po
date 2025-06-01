@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-04-10 00:02+0000\n"
+"POT-Creation-Date: 2025-06-01 03:03+0000\n"
 "PO-Revision-Date: 2024-03-24 09:00+0300\n"
 "Last-Translator: \n"
 "Language-Team: Turkish\n"
@@ -422,15 +422,15 @@ msgstr "15 Yıllık Deneyim, Sarsılmaz Güven"
 
 #: apps/HomeApp/templates/HomeApp/architect4/about.html:59
 msgid ""
-"Amir 77 İnşaat Ticaret Sanayi Limited Şirketi, 04.07.2021 yılında kurulmuş "
-"olup, 15 yılı aşkın sektör deneyimine sahiptir. İnşaat sektöründe uzman "
-"ekibimizle, beton dökme, kalıpçılık, demir donatı, duvar örme ve tavan "
-"işleri gibi birçok alanda hizmet sunmaktayız."
+"Amir 77 İnşaat Ticaret Sanayi Limited Şirketi, 4 Temmuz 2021 tarihinde "
+"kurulmuştur. Şirketimiz yeni kurulmuş olsa da, ekibimiz inşaat sektöründe 15 "
+"yılı aşkın deneyime sahiptir. Uzman kadromuzla beton dökme, kalıp, demir "
+"bağlama, duvar örme ve tavan işleri gibi birçok alanda hizmet sunmaktayız."
 msgstr ""
 "Amir 77 İnşaat Ticaret Sanayi Limited Şirketi, 4 Temmuz 2021 tarihinde "
-"kurulmuş olup, inşaat sektöründe 15 yılı aşkın deneyime sahiptir. Uzman "
-"ekibimizle beton dökme, kalıp, demir, duvar örme ve tavan işleri gibi birçok "
-"alanda hizmet sunmaktayız."
+"kurulmuştur. Şirketimiz yeni kurulmuş olsa da, ekibimiz inşaat sektöründe 15 "
+"yılı aşkın deneyime sahiptir. Uzman kadromuzla beton dökme, kalıp, demir "
+"bağlama, duvar örme ve tavan işleri gibi birçok alanda hizmet sunmaktayız."
 
 #: apps/HomeApp/templates/HomeApp/architect4/about.html:80
 msgid ""
@@ -505,7 +505,7 @@ msgstr ""
 
 #: apps/HomeApp/templates/HomeApp/architect4/about.html:175
 #: apps/HomeApp/templates/HomeApp/architect4/case-studies.html:221
-#: apps/HomeApp/templates/HomeApp/architect4/services.html:437
+#: apps/HomeApp/templates/HomeApp/architect4/services.html:484
 msgid "Projeniz İçin Hazır mısınız?"
 msgstr "Projeniz İçin Hazır mısınız?"
 
@@ -517,7 +517,7 @@ msgstr "Projenizi bizimle paylaşın, size en uygun çözümleri sunalım."
 # Common translations
 #: apps/HomeApp/templates/HomeApp/architect4/about.html:182
 #: apps/HomeApp/templates/HomeApp/architect4/case-studies.html:228
-#: apps/HomeApp/templates/HomeApp/architect4/services.html:444
+#: apps/HomeApp/templates/HomeApp/architect4/services.html:491
 msgid "İletişime Geçin"
 msgstr "İletişime Geçin"
 
@@ -588,7 +588,7 @@ msgstr ""
 
 #: apps/HomeApp/templates/HomeApp/architect4/case-studies.html:158
 #: apps/HomeApp/templates/HomeApp/architect4/case-studies.html:162
-#: apps/HomeApp/templates/HomeApp/architect4/services.html:308
+#: apps/HomeApp/templates/HomeApp/architect4/services.html:381
 msgid "Demir Donatı İşleri"
 msgstr "Demir Donatı İşleri"
 
@@ -908,7 +908,7 @@ msgstr ""
 "sunuyoruz."
 
 #: apps/HomeApp/templates/HomeApp/architect4/index.html:406
-#: apps/HomeApp/templates/HomeApp/architect4/services.html:298
+#: apps/HomeApp/templates/HomeApp/architect4/services.html:378
 msgid "Demir Donatı"
 msgstr "Demir Donatı"
 
@@ -956,15 +956,15 @@ msgstr ""
 "15 yıllık tecrübemiz, uzman kadromuz ve modern çözümlerimizle projelerinizi "
 "en yüksek kalite standartlarında hayata geçiriyoruz."
 
-#: apps/HomeApp/templates/HomeApp/architect4/services.html:160
+#: apps/HomeApp/templates/HomeApp/architect4/services.html:267
 msgid "Hizmetlerimiz"
 msgstr "Hizmetlerimiz"
 
-#: apps/HomeApp/templates/HomeApp/architect4/services.html:178
+#: apps/HomeApp/templates/HomeApp/architect4/services.html:285
 msgid "İnşaat Süreçleri ve Hizmetlerimiz"
 msgstr "İnşaat Süreçleri ve Hizmetlerimiz"
 
-#: apps/HomeApp/templates/HomeApp/architect4/services.html:181
+#: apps/HomeApp/templates/HomeApp/architect4/services.html:288
 msgid ""
 "Şirketimiz, inşaat projelerinde beton dökme, kalıpçılık, demir donatı "
 "işleri, duvar örme ve çatı uygulamaları gibi temel yapı işlerini en kaliteli "
@@ -974,12 +974,12 @@ msgstr ""
 "işleri, duvar örme ve çatı uygulamaları gibi temel yapı işlerini en kaliteli "
 "ve güvenli şekilde gerçekleştirmektedir."
 
-#: apps/HomeApp/templates/HomeApp/architect4/services.html:198
-#: apps/HomeApp/templates/HomeApp/architect4/services.html:208
+#: apps/HomeApp/templates/HomeApp/architect4/services.html:302
+#: apps/HomeApp/templates/HomeApp/architect4/services.html:305
 msgid "Beton Dökme"
 msgstr "Beton Dökme"
 
-#: apps/HomeApp/templates/HomeApp/architect4/services.html:209
+#: apps/HomeApp/templates/HomeApp/architect4/services.html:306
 msgid ""
 "Beton, bir yapının temelini oluşturan en önemli unsurlardan biridir. "
 "Kaliteli beton dökümü, yapıların sağlam ve dayanıklı olmasını sağlar."
@@ -987,60 +987,60 @@ msgstr ""
 "Beton, bir yapının temelini oluşturan en önemli unsurlardan biridir. "
 "Kaliteli beton dökümü, yapıların sağlam ve dayanıklı olmasını sağlar."
 
-#: apps/HomeApp/templates/HomeApp/architect4/services.html:212
+#: apps/HomeApp/templates/HomeApp/architect4/services.html:309
 msgid "Zemin Hazırlığı"
 msgstr "Zemin Hazırlığı"
 
-#: apps/HomeApp/templates/HomeApp/architect4/services.html:214
+#: apps/HomeApp/templates/HomeApp/architect4/services.html:311
 msgid "İnşaat sahasının temizlenmesi ve düzeltilmesi"
 msgstr "İnşaat sahasının temizlenmesi ve düzeltilmesi"
 
-#: apps/HomeApp/templates/HomeApp/architect4/services.html:215
+#: apps/HomeApp/templates/HomeApp/architect4/services.html:312
 msgid "Temel kazısının yapılması"
 msgstr "Temel kazısının yapılması"
 
-#: apps/HomeApp/templates/HomeApp/architect4/services.html:216
+#: apps/HomeApp/templates/HomeApp/architect4/services.html:313
 msgid "Zemin sıkıştırma ve drenaj işlemlerinin uygulanması"
 msgstr "Zemin sıkıştırma ve drenaj işlemlerinin uygulanması"
 
-#: apps/HomeApp/templates/HomeApp/architect4/services.html:219
+#: apps/HomeApp/templates/HomeApp/architect4/services.html:316
 msgid "Kalıp ve Demir Donatı Hazırlığı"
 msgstr "Kalıp ve Demir Donatı Hazırlığı"
 
-#: apps/HomeApp/templates/HomeApp/architect4/services.html:221
+#: apps/HomeApp/templates/HomeApp/architect4/services.html:318
 msgid "Kalıp sistemlerinin yerleştirilmesi"
 msgstr "Kalıp sistemlerinin yerleştirilmesi"
 
-#: apps/HomeApp/templates/HomeApp/architect4/services.html:222
+#: apps/HomeApp/templates/HomeApp/architect4/services.html:319
 msgid "Demir donatıların yerleştirilmesi ve bağlanması"
 msgstr "Demir donatıların yerleştirilmesi ve bağlanması"
 
-#: apps/HomeApp/templates/HomeApp/architect4/services.html:223
+#: apps/HomeApp/templates/HomeApp/architect4/services.html:320
 msgid "Beton dökümü için kalıp kontrolü yapılması"
 msgstr "Beton dökümü için kalıp kontrolü yapılması"
 
-#: apps/HomeApp/templates/HomeApp/architect4/services.html:226
+#: apps/HomeApp/templates/HomeApp/architect4/services.html:323
 msgid "Beton Dökümü"
 msgstr "Beton Dökümü"
 
-#: apps/HomeApp/templates/HomeApp/architect4/services.html:228
+#: apps/HomeApp/templates/HomeApp/architect4/services.html:325
 msgid "Kaliteli betonun şantiyeye getirilmesi"
 msgstr "Kaliteli betonun şantiyeye getirilmesi"
 
-#: apps/HomeApp/templates/HomeApp/architect4/services.html:229
+#: apps/HomeApp/templates/HomeApp/architect4/services.html:326
 msgid "Betonun vibratör ile sıkıştırılması ve homojen dağılımı sağlanması"
 msgstr "Betonun vibratör ile sıkıştırılması ve homojen dağılımı sağlanması"
 
-#: apps/HomeApp/templates/HomeApp/architect4/services.html:230
+#: apps/HomeApp/templates/HomeApp/architect4/services.html:327
 msgid "Beton yüzeyinin düzeltilmesi ve kürlenmeye bırakılması"
 msgstr "Beton yüzeyinin düzeltilmesi ve kürlenmeye bırakılması"
 
-#: apps/HomeApp/templates/HomeApp/architect4/services.html:247
-#: apps/HomeApp/templates/HomeApp/architect4/services.html:281
+#: apps/HomeApp/templates/HomeApp/architect4/services.html:340
+#: apps/HomeApp/templates/HomeApp/architect4/services.html:343
 msgid "Kalıpçılık"
 msgstr "Kalıpçılık"
 
-#: apps/HomeApp/templates/HomeApp/architect4/services.html:248
+#: apps/HomeApp/templates/HomeApp/architect4/services.html:344
 msgid ""
 "Kalıp sistemleri, betonarme yapıların şekillendirilmesi için kullanılan "
 "geçici yapı elemanlarıdır."
@@ -1048,21 +1048,21 @@ msgstr ""
 "Kalıp sistemleri, betonarme yapıların şekillendirilmesi için kullanılan "
 "geçici yapı elemanlarıdır."
 
-#: apps/HomeApp/templates/HomeApp/architect4/services.html:251
+#: apps/HomeApp/templates/HomeApp/architect4/services.html:347
 msgid "Kalıp Çeşitleri"
 msgstr "Kalıp Çeşitleri"
 
-#: apps/HomeApp/templates/HomeApp/architect4/services.html:253
+#: apps/HomeApp/templates/HomeApp/architect4/services.html:349
 msgid "Ahşap Kalıp: Küçük projelerde kullanılır, uygun maliyetlidir."
 msgstr "Ahşap Kalıp: Küçük projelerde kullanılır, uygun maliyetlidir."
 
-#: apps/HomeApp/templates/HomeApp/architect4/services.html:254
+#: apps/HomeApp/templates/HomeApp/architect4/services.html:350
 msgid ""
 "Çelik Kalıp: Büyük ve dayanıklı yapılar için uygundur, tekrar kullanılabilir."
 msgstr ""
 "Çelik Kalıp: Büyük ve dayanıklı yapılar için uygundur, tekrar kullanılabilir."
 
-#: apps/HomeApp/templates/HomeApp/architect4/services.html:255
+#: apps/HomeApp/templates/HomeApp/architect4/services.html:351
 msgid ""
 "Plastik Kalıp: Hafif ve kolay taşınabilir, küçük yapı projeleri için "
 "idealdir."
@@ -1070,39 +1070,39 @@ msgstr ""
 "Plastik Kalıp: Hafif ve kolay taşınabilir, küçük yapı projeleri için "
 "idealdir."
 
-#: apps/HomeApp/templates/HomeApp/architect4/services.html:258
+#: apps/HomeApp/templates/HomeApp/architect4/services.html:354
 msgid "Kalıp Yerleştirme Süreci"
 msgstr "Kalıp Yerleştirme Süreci"
 
-#: apps/HomeApp/templates/HomeApp/architect4/services.html:260
+#: apps/HomeApp/templates/HomeApp/architect4/services.html:356
 msgid "Kalıpların ölçülendirilmesi ve kesilmesi"
 msgstr "Kalıpların ölçülendirilmesi ve kesilmesi"
 
-#: apps/HomeApp/templates/HomeApp/architect4/services.html:261
+#: apps/HomeApp/templates/HomeApp/architect4/services.html:357
 msgid "Kalıpların taşıyıcı elemanlarla desteklenmesi"
 msgstr "Kalıpların taşıyıcı elemanlarla desteklenmesi"
 
-#: apps/HomeApp/templates/HomeApp/architect4/services.html:262
+#: apps/HomeApp/templates/HomeApp/architect4/services.html:358
 msgid "Kalıp bağlantılarının güvenliğinin sağlanması"
 msgstr "Kalıp bağlantılarının güvenliğinin sağlanması"
 
-#: apps/HomeApp/templates/HomeApp/architect4/services.html:265
+#: apps/HomeApp/templates/HomeApp/architect4/services.html:361
 msgid "Kalıp Sökme Süreci"
 msgstr "Kalıp Sökme Süreci"
 
-#: apps/HomeApp/templates/HomeApp/architect4/services.html:267
+#: apps/HomeApp/templates/HomeApp/architect4/services.html:363
 msgid "Perde ve kolonlar 12-24 saat sonra sökülür"
 msgstr "Perde ve kolonlar 12-24 saat sonra sökülür"
 
-#: apps/HomeApp/templates/HomeApp/architect4/services.html:268
+#: apps/HomeApp/templates/HomeApp/architect4/services.html:364
 msgid "Tabliyeler 7-10 gün sonra sökülür"
 msgstr "Tabliyeler 7-10 gün sonra sökülür"
 
-#: apps/HomeApp/templates/HomeApp/architect4/services.html:269
+#: apps/HomeApp/templates/HomeApp/architect4/services.html:365
 msgid "Kalıpların hasar almadan depolanması ve yeniden kullanılması"
 msgstr "Kalıpların hasar almadan depolanması ve yeniden kullanılması"
 
-#: apps/HomeApp/templates/HomeApp/architect4/services.html:309
+#: apps/HomeApp/templates/HomeApp/architect4/services.html:382
 msgid ""
 "Demir donatı, betonarme yapıların dayanıklılığını artırmak için kullanılan "
 "çelik çubuklardır. Doğru yerleştirme ile yapıların sağlamlığı artırılır."
@@ -1110,48 +1110,48 @@ msgstr ""
 "Demir donatı, betonarme yapıların dayanıklılığını artırmak için kullanılan "
 "çelik çubuklardır. Doğru yerleştirme ile yapıların sağlamlığı artırılır."
 
-#: apps/HomeApp/templates/HomeApp/architect4/services.html:312
+#: apps/HomeApp/templates/HomeApp/architect4/services.html:385
 msgid "Demir Kesme ve Bükme"
 msgstr "Demir Kesme ve Bükme"
 
-#: apps/HomeApp/templates/HomeApp/architect4/services.html:314
+#: apps/HomeApp/templates/HomeApp/architect4/services.html:387
 msgid "Proje ölçülerine göre demir çubukların kesilmesi"
 msgstr "Proje ölçülerine göre demir çubukların kesilmesi"
 
-#: apps/HomeApp/templates/HomeApp/architect4/services.html:315
+#: apps/HomeApp/templates/HomeApp/architect4/services.html:388
 msgid "Demirlerin uygun açılarda bükülmesi"
 msgstr "Demirlerin uygun açılarda bükülmesi"
 
-#: apps/HomeApp/templates/HomeApp/architect4/services.html:318
+#: apps/HomeApp/templates/HomeApp/architect4/services.html:391
 msgid "Donatı Yerleştirme"
 msgstr "Donatı Yerleştirme"
 
-#: apps/HomeApp/templates/HomeApp/architect4/services.html:320
+#: apps/HomeApp/templates/HomeApp/architect4/services.html:393
 msgid "Kesilen ve bükülen demirlerin plana uygun olarak yerleştirilmesi"
 msgstr "Kesilen ve bükülen demirlerin plana uygun olarak yerleştirilmesi"
 
-#: apps/HomeApp/templates/HomeApp/architect4/services.html:321
+#: apps/HomeApp/templates/HomeApp/architect4/services.html:394
 msgid "Çelik tellerle bağlama işlemi yapılması"
 msgstr "Çelik tellerle bağlama işlemi yapılması"
 
-#: apps/HomeApp/templates/HomeApp/architect4/services.html:324
+#: apps/HomeApp/templates/HomeApp/architect4/services.html:397
 msgid "Kontrol ve Güçlendirme"
 msgstr "Kontrol ve Güçlendirme"
 
-#: apps/HomeApp/templates/HomeApp/architect4/services.html:326
+#: apps/HomeApp/templates/HomeApp/architect4/services.html:399
 msgid "Donatı düzeninin kontrol edilmesi"
 msgstr "Donatı düzeninin kontrol edilmesi"
 
-#: apps/HomeApp/templates/HomeApp/architect4/services.html:327
+#: apps/HomeApp/templates/HomeApp/architect4/services.html:400
 msgid "Beton dökümünden önce son güvenlik kontrollerinin yapılması"
 msgstr "Beton dökümünden önce son güvenlik kontrollerinin yapılması"
 
-#: apps/HomeApp/templates/HomeApp/architect4/services.html:344
-#: apps/HomeApp/templates/HomeApp/architect4/services.html:378
+#: apps/HomeApp/templates/HomeApp/architect4/services.html:413
+#: apps/HomeApp/templates/HomeApp/architect4/services.html:416
 msgid "Duvar Örme"
 msgstr "Duvar Örme"
 
-#: apps/HomeApp/templates/HomeApp/architect4/services.html:345
+#: apps/HomeApp/templates/HomeApp/architect4/services.html:417
 msgid ""
 "Duvar örme işlemi, yapıların iç ve dış bölmelerini oluşturan önemli bir "
 "aşamadır."
@@ -1159,60 +1159,60 @@ msgstr ""
 "Duvar örme işlemi, yapıların iç ve dış bölmelerini oluşturan önemli bir "
 "aşamadır."
 
-#: apps/HomeApp/templates/HomeApp/architect4/services.html:348
+#: apps/HomeApp/templates/HomeApp/architect4/services.html:420
 msgid "Malzeme Seçimi"
 msgstr "Malzeme Seçimi"
 
-#: apps/HomeApp/templates/HomeApp/architect4/services.html:350
+#: apps/HomeApp/templates/HomeApp/architect4/services.html:422
 msgid "Tuğla: Geleneksel ve dayanıklı bir malzeme"
 msgstr "Tuğla: Geleneksel ve dayanıklı bir malzeme"
 
-#: apps/HomeApp/templates/HomeApp/architect4/services.html:351
+#: apps/HomeApp/templates/HomeApp/architect4/services.html:423
 msgid "Gazbeton (Ytong): Hafif ve izolasyon sağlayan modern bir malzeme"
 msgstr "Gazbeton (Ytong): Hafif ve izolasyon sağlayan modern bir malzeme"
 
-#: apps/HomeApp/templates/HomeApp/architect4/services.html:352
+#: apps/HomeApp/templates/HomeApp/architect4/services.html:424
 msgid "Briket: Ekonomik ve hızlı uygulanabilir bir malzeme"
 msgstr "Briket: Ekonomik ve hızlı uygulanabilir bir malzeme"
 
-#: apps/HomeApp/templates/HomeApp/architect4/services.html:355
+#: apps/HomeApp/templates/HomeApp/architect4/services.html:427
 msgid "Duvar Örme Aşamaları"
 msgstr "Duvar Örme Aşamaları"
 
-#: apps/HomeApp/templates/HomeApp/architect4/services.html:357
+#: apps/HomeApp/templates/HomeApp/architect4/services.html:429
 msgid "Duvarın temel çizgilerinin belirlenmesi"
 msgstr "Duvarın temel çizgilerinin belirlenmesi"
 
-#: apps/HomeApp/templates/HomeApp/architect4/services.html:358
+#: apps/HomeApp/templates/HomeApp/architect4/services.html:430
 msgid "Harç karışımının hazırlanması"
 msgstr "Harç karışımının hazırlanması"
 
-#: apps/HomeApp/templates/HomeApp/architect4/services.html:359
+#: apps/HomeApp/templates/HomeApp/architect4/services.html:431
 msgid "Tuğla veya briketlerin düzgün bir şekilde dizilmesi"
 msgstr "Tuğla veya briketlerin düzgün bir şekilde dizilmesi"
 
-#: apps/HomeApp/templates/HomeApp/architect4/services.html:360
+#: apps/HomeApp/templates/HomeApp/architect4/services.html:432
 msgid "Su terazisi ile hizalama yapılması"
 msgstr "Su terazisi ile hizalama yapılması"
 
-#: apps/HomeApp/templates/HomeApp/architect4/services.html:363
+#: apps/HomeApp/templates/HomeApp/architect4/services.html:435
 msgid "Derz Doldurma ve Yüzey Düzeltme"
 msgstr "Derz Doldurma ve Yüzey Düzeltme"
 
-#: apps/HomeApp/templates/HomeApp/architect4/services.html:365
+#: apps/HomeApp/templates/HomeApp/architect4/services.html:437
 msgid "Harç boşluklarının doldurulması"
 msgstr "Harç boşluklarının doldurulması"
 
-#: apps/HomeApp/templates/HomeApp/architect4/services.html:366
+#: apps/HomeApp/templates/HomeApp/architect4/services.html:438
 msgid "Duvar yüzeyinin düzgün hale getirilmesi"
 msgstr "Duvar yüzeyinin düzgün hale getirilmesi"
 
-#: apps/HomeApp/templates/HomeApp/architect4/services.html:395
-#: apps/HomeApp/templates/HomeApp/architect4/services.html:405
+#: apps/HomeApp/templates/HomeApp/architect4/services.html:451
+#: apps/HomeApp/templates/HomeApp/architect4/services.html:454
 msgid "Çatı İşleri"
 msgstr "Çatı İşleri"
 
-#: apps/HomeApp/templates/HomeApp/architect4/services.html:406
+#: apps/HomeApp/templates/HomeApp/architect4/services.html:455
 msgid ""
 "Bir yapının üst kısmını oluşturan çatı işleri, binanın dayanıklılığı ve "
 "izolasyonu için kritik öneme sahiptir."
@@ -1220,39 +1220,39 @@ msgstr ""
 "Bir yapının üst kısmını oluşturan çatı işleri, binanın dayanıklılığı ve "
 "izolasyonu için kritik öneme sahiptir."
 
-#: apps/HomeApp/templates/HomeApp/architect4/services.html:409
+#: apps/HomeApp/templates/HomeApp/architect4/services.html:458
 msgid "Çatı Beton Dökme İşlemi"
 msgstr "Çatı Beton Dökme İşlemi"
 
-#: apps/HomeApp/templates/HomeApp/architect4/services.html:411
+#: apps/HomeApp/templates/HomeApp/architect4/services.html:460
 msgid "Çatı kalıplarının kurulması"
 msgstr "Çatı kalıplarının kurulması"
 
-#: apps/HomeApp/templates/HomeApp/architect4/services.html:412
+#: apps/HomeApp/templates/HomeApp/architect4/services.html:461
 msgid "Donatıların yerleştirilmesi"
 msgstr "Donatıların yerleştirilmesi"
 
-#: apps/HomeApp/templates/HomeApp/architect4/services.html:413
+#: apps/HomeApp/templates/HomeApp/architect4/services.html:462
 msgid "Betonun dökülmesi ve düzleştirilmesi"
 msgstr "Betonun dökülmesi ve düzleştirilmesi"
 
-#: apps/HomeApp/templates/HomeApp/architect4/services.html:416
+#: apps/HomeApp/templates/HomeApp/architect4/services.html:465
 msgid "Çatı Uygulamaları"
 msgstr "Çatı Uygulamaları"
 
-#: apps/HomeApp/templates/HomeApp/architect4/services.html:418
+#: apps/HomeApp/templates/HomeApp/architect4/services.html:467
 msgid "Ahşap veya çelik çatı iskeletinin kurulması"
 msgstr "Ahşap veya çelik çatı iskeletinin kurulması"
 
-#: apps/HomeApp/templates/HomeApp/architect4/services.html:419
+#: apps/HomeApp/templates/HomeApp/architect4/services.html:468
 msgid "İzolasyon ve su yalıtımı yapılması"
 msgstr "İzolasyon ve su yalıtımı yapılması"
 
-#: apps/HomeApp/templates/HomeApp/architect4/services.html:420
+#: apps/HomeApp/templates/HomeApp/architect4/services.html:469
 msgid "Kiremit veya sac kaplama uygulaması"
 msgstr "Kiremit veya sac kaplama uygulaması"
 
-#: apps/HomeApp/templates/HomeApp/architect4/services.html:440
+#: apps/HomeApp/templates/HomeApp/architect4/services.html:487
 msgid ""
 "Amir 77 İnşaat olarak, projelerinizi en yüksek standartlarda tamamlamak için "
 "uzman ekibimizle hizmetinizdeyiz."
@@ -1297,9 +1297,27 @@ msgstr ""
 "ekibimizle beton dökme, kalıp, demir, duvar örme ve tavan işleri gibi birçok "
 "alanda hizmet sunmaktayız."
 
+#: apps/HomeApp/views.py:65
+msgid ""
+"Amir 77 İnşaat, inşaat şirketi, yapı hizmetleri, Yalova müteahhit, inşaat "
+"deneyimi"
+msgstr ""
+
 #: apps/HomeApp/views.py:70
 msgid "Projelerimiz | Amir 77 İnşaat"
 msgstr "Projelerimiz - Amir 77 İnşaat"
+
+#: apps/HomeApp/views.py:71
+msgid ""
+"Diyarbakır ve çevresinde tamamladığımız ve devam eden inşaat projelerimiz. "
+"Beton dökme, kalıpçılık ve demir donatı işlerinde uzman çözümler."
+msgstr ""
+
+#: apps/HomeApp/views.py:72
+msgid ""
+"inşaat projeleri, tamamlanan projeler, devam eden projeler, Diyarbakır "
+"inşaat, yapı projeleri"
+msgstr ""
 
 #: apps/HomeApp/views.py:77
 msgid "Hizmetlerimiz | Amir 77 İnşaat"
@@ -1315,9 +1333,31 @@ msgstr ""
 "işleri, duvar örme ve çatı uygulamaları gibi temel yapı işlerini en kaliteli "
 "ve güvenli şekilde gerçekleştirmektedir."
 
+#: apps/HomeApp/views.py:79
+#, fuzzy
+#| msgid ""
+#| "inşaat, beton dökme, kalıpçılık, demir donatı, duvar örme, tavan işleri, "
+#| "Yalova inşaat"
+msgid ""
+"beton dökme, kalıp işleri, demir donatı, duvar örme, çatı işleri, inşaat "
+"hizmetleri"
+msgstr "Beton dökme, kalıpçılık, demir donatı,"
+
 #: apps/HomeApp/views.py:84
 msgid "İletişim | Amir 77 İnşaat"
 msgstr "İletişim - Amir 77 İnşaat"
+
+#: apps/HomeApp/views.py:85
+msgid ""
+"Amir 77 İnşaat Ticaret Sanayi Limited Şirketi ile iletişime geçin. Yalova'da "
+"profesyonel inşaat ve yapı hizmetleri için bize ulaşın."
+msgstr ""
+
+#: apps/HomeApp/views.py:86
+msgid ""
+"Amir 77 İnşaat iletişim, Yalova inşaat firması, inşaat teklifi, yapı "
+"hizmetleri iletişim"
+msgstr ""
 
 #: apps/HomeApp/views.py:91
 msgid "Örnek Projeler | Amir 77 İnşaat"
