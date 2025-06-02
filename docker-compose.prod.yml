@@ -20,13 +20,13 @@ services:
   nginx:
     build:
       context: .  # Use the current directory as the build context
-      dockerfile: ./docker/nginx/prod.Dockerfile  # Specify the custom Dockerfile for Nginx
+      dockerfile: ./docker/nginx/prod_ssl.Dockerfile  # Specify the custom Dockerfile for Nginx
     restart: always
     volumes:
       - static_volume:/app/static # Bind mount the current directory to the container for development
       - media_volume:/app/media 
-      # - /etc/letsencrypt/live/amir77-insaat.com/fullchain.pem:/etc/nginx/ssl/fullchain.pem
-      # - /etc/letsencrypt/live/amir77-insaat.com/privkey.pem:/etc/nginx/ssl/privkey.pem
+      - /etc/letsencrypt/live/amir77-insaat.com/fullchain.pem:/etc/nginx/ssl/fullchain.pem
+      - /etc/letsencrypt/live/amir77-insaat.com/privkey.pem:/etc/nginx/ssl/privkey.pem
     env_file:
       - .env
     ports:
